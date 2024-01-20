@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-bounce.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":"ture","async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="当我链接移动硬盘传输数据时，无线鼠标飘了，智能家居掉线了，一直困扰我许久，后来查阅资料发现这都是USB3.0对2.4G频段WiFi和蓝牙的干扰导致的。具体原理有点复杂先不写了，直接上解决方法先。（方法已测试，实践出真知） 123456789【解决方法】1.使用USB2.0；2.使用带屏蔽的USB3.0延长线；3.将USB3.0HUB或者外设，与2.4G接收器不要放太近，不要把2.4G接收器插在US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="如何解决USB3.0对2.4G频段WiFi和蓝牙的干扰">
+<meta property="og:url" content="http://example.com/2023/12/02/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3USB3-0%E5%AF%B92-4G%E9%A2%91%E6%AE%B5WiFi%E5%92%8C%E8%93%9D%E7%89%99%E7%9A%84%E5%B9%B2%E6%89%B0/index.html">
+<meta property="og:site_name" content="Wander Space">
+<meta property="og:description" content="当我链接移动硬盘传输数据时，无线鼠标飘了，智能家居掉线了，一直困扰我许久，后来查阅资料发现这都是USB3.0对2.4G频段WiFi和蓝牙的干扰导致的。具体原理有点复杂先不写了，直接上解决方法先。（方法已测试，实践出真知） 123456789【解决方法】1.使用USB2.0；2.使用带屏蔽的USB3.0延长线；3.将USB3.0HUB或者外设，与2.4G接收器不要放太近，不要把2.4G接收器插在US">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-12-02T14:34:12.000Z">
+<meta property="article:modified_time" content="2023-12-10T18:20:30.575Z">
+<meta property="article:author" content="BrandonYan">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/2023/12/02/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3USB3-0%E5%AF%B92-4G%E9%A2%91%E6%AE%B5WiFi%E5%92%8C%E8%93%9D%E7%89%99%E7%9A%84%E5%B9%B2%E6%89%B0/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>如何解决USB3.0对2.4G频段WiFi和蓝牙的干扰 | Wander Space</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Wander Space</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/12/02/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3USB3-0%E5%AF%B92-4G%E9%A2%91%E6%AE%B5WiFi%E5%92%8C%E8%93%9D%E7%89%99%E7%9A%84%E5%B9%B2%E6%89%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="BrandonYan">
+      <meta itemprop="description" content="漫步于太空，安静，自由。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Wander Space">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          如何解决USB3.0对2.4G频段WiFi和蓝牙的干扰
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2023-12-02 22:34:12" itemprop="dateCreated datePublished" datetime="2023-12-02T22:34:12+08:00">2023-12-02</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-12-11 02:20:30" itemprop="dateModified" datetime="2023-12-11T02:20:30+08:00">2023-12-11</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>当我链接移动硬盘传输数据时，无线鼠标飘了，智能家居掉线了，一直困扰我许久，后来查阅资料发现这都是USB3.0对2.4G频段WiFi和蓝牙的干扰导致的。具体原理有点复杂先不写了，直接上解决方法先。（方法已测试，实践出真知）</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">【解决方法】</span><br><span class="line">1.使用USB2.0；</span><br><span class="line">2.使用带屏蔽的USB3.0延长线；</span><br><span class="line">3.将USB3.0HUB或者外设，与2.4G接收器不要放太近，不要把2.4G接收器插在USB3.0HUB上；</span><br><span class="line">4.使用带屏蔽的USB 3.1以及以上HUB；</span><br><span class="line">WIFI尽量使用5G频段，或者上WIFI6；</span><br><span class="line">总之对于USB3.0的线缆和外设一定要有屏蔽。</span><br><span class="line"></span><br><span class="line"> —— 来自装备前线 文章 https://www.zfrontier.com/app/flow/WpJLWb1pM1WQ </span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">【测试结果】</span><br><span class="line">本来用硬盘盒+机械硬盘作为影音库，并用硬盘盒原装线连接AX86U路由器后的USB3.0接口，数据传输时会对2.4GWiFi和蓝牙造成严重干扰，导致我家里2.4GWiFi协议的电动窗帘和小厨宝不断掉线。购买了绿联带屏蔽层的USB延长线2米，插在USB3.0接口和硬盘盒原装线之间，并且硬盘盒仍然放在路由器旁边，电动窗帘和小厨宝再也没有掉线过，完美解决测试成功。</span><br></pre></td></tr></table></figure>
+
+
+
+<p>参考文档：</p>
+<p><a target="_blank" rel="noopener" href="https://www.zhihu.com/tardis/zm/art/362814362?source_id=1003">https://www.zhihu.com/tardis/zm/art/362814362?source_id=1003</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.zfrontier.com/app/flow/WpJLWb1pM1WQ">https://www.zfrontier.com/app/flow/WpJLWb1pM1WQ</a></p>
+<p><a target="_blank" rel="noopener" href="http://xzb.xunlei.com/xzbbbs-prime/14.html">http://xzb.xunlei.com/xzbbbs-prime/14.html</a></p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2023/12/02/%E3%80%8A%E7%8C%8E%E5%A4%A9%E4%BD%BF%E9%AD%94%E5%A5%B32%E3%80%8B%E7%AE%80%E8%AF%84/" rel="prev" title="《猎天使魔女2》简评">
+      <i class="fa fa-chevron-left"></i> 《猎天使魔女2》简评
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2023/12/03/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3kodi%E5%88%AE%E5%89%8A%E5%99%A8%E6%97%A0%E6%B3%95%E6%B7%BB%E5%8A%A0%E5%89%A7%E9%9B%86%E5%88%86%E7%BA%A7/" rel="next" title="如何解决kodi刮削器无法添加剧集分级">
+      如何解决kodi刮削器无法添加剧集分级 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">BrandonYan</p>
+  <div class="site-description" itemprop="description">漫步于太空，安静，自由。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">27</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 2023-08-29 03:05 – 
+  <span itemprop="copyrightYear">2024</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">BrandonYan</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+  <script defer src="/lib/three/three.min.js"></script>
+    <script defer src="/lib/three/three-waves.min.js"></script>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
