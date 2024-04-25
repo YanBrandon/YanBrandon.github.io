@@ -1,0 +1,1187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hexo如何添加搜索功能？</title>
+      <link href="/2024/04/25/Hexo%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD%EF%BC%9F/"/>
+      <url>/2024/04/25/Hexo%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD%EF%BC%9F/</url>
+      
+        <content type="html"><![CDATA[<p>要在 Hexo 博客中添加搜索功能，你可以使用一些 Hexo 插件或者集成第三方搜索服务。以下是两种常见的方法：</p><ol><li><strong>Hexo 插件</strong>:<code>hexo-generator-search</code></li></ol><p>   使用这个插件，你可以在你的 Hexo 博客中生成一个搜索索引，然后在博客中添加一个搜索框，让用户通过输入关键字来搜索博客文章。</p><p>   安装步骤：</p><ul><li><p>安装插件：在你的 Hexo 项目目录下运行 <code>npm install hexo-generator-search --save</code> 来安装插件。</p></li><li><p>配置插件：在 Hexo 配置文件 </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">_config.yml</span><br></pre></td></tr></table></figure><p> 中添加以下配置：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">yamlCopy codesearch:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: all</span><br></pre></td></tr></table></figure></li><li><p>生成搜索索引：运行 <code>hexo generate</code> 命令来生成搜索索引。</p></li><li><p>在博客中添加搜索框：根据你的需求，在你的博客主题中添加一个搜索框，并链接到搜索结果页面。</p></li></ul><ol start="2"><li><p><strong>集成第三方搜索服务</strong></p><p>另一种方法是集成第三方搜索服务，如 Google Custom Search、Algolia、Elasticsearch 等。你可以将你的博客文章内容上传到这些搜索服务，并使用它们的搜索 API 在博客中添加搜索功能。这种方法通常需要一些额外的配置和开发工作，但可以提供更加强大和灵活的搜索功能。</p></li></ol>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《权利的游戏》全季资源（原盘）</title>
+      <link href="/2024/03/20/%E3%80%8A%E6%9D%83%E5%88%A9%E7%9A%84%E6%B8%B8%E6%88%8F%E3%80%8B%E5%85%A8%E5%AD%A3%E8%B5%84%E6%BA%90%EF%BC%88%E5%8E%9F%E7%9B%98%EF%BC%89/"/>
+      <url>/2024/03/20/%E3%80%8A%E6%9D%83%E5%88%A9%E7%9A%84%E6%B8%B8%E6%88%8F%E3%80%8B%E5%85%A8%E5%AD%A3%E8%B5%84%E6%BA%90%EF%BC%88%E5%8E%9F%E7%9B%98%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<ul><li><h1 id="第1季："><a href="#第1季：" class="headerlink" title="第1季："></a><strong>第1季：</strong></h1></li></ul><p>①Game.of.Thrones.S01.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT【295.9GB】<br><a href="magnet:?xt=urn:btih:MBNY6HAAGJUCYSBGZL3I3M33GYIZTMW6">magnet:?xt&#x3D;urn:btih:MBNY6HAAGJUCYSBGZL3I3M33GYIZTMW6</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p><p>②Game.of.Thrones.S01.2160p.BluRay.HEVC.TrueHD.7.1.Atmos-HDBEE【330.9GB】<br><a href="magnet:?xt=urn:btih:Z6UN4Q2GUURZC4QXQKE34FKMXPX3MKR4">magnet:?xt&#x3D;urn:btih:Z6UN4Q2GUURZC4QXQKE34FKMXPX3MKR4</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p><ul><li><h1 id="第2季"><a href="#第2季" class="headerlink" title="第2季"></a>第2季</h1></li></ul><p>①Game.of.Thrones.S02.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT 【290.88 GB】<br><a href="magnet:?xt=urn:btih:40a105b5d8a60f0312f273fdd8198c4f5098e74c">magnet:?xt&#x3D;urn:btih:40a105b5d8a60f0312f273fdd8198c4f5098e74c</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p><p>②Game.of.Thrones.S02.2160p.BluRay.HEVC.TrueHD.7.1.Atmos-FULLSiZE 【330.56 GB】<br><a href="magnet:?xt=urn:btih:7300c4e95343e9978b62f0a89e00ce82380ea582">magnet:?xt&#x3D;urn:btih:7300c4e95343e9978b62f0a89e00ce82380ea582</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p><ul><li><h1 id="第3季"><a href="#第3季" class="headerlink" title="第3季"></a>第3季</h1></li></ul><p>①Game.of.Thrones.S03.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT 【290.75 GB】<br><a href="magnet:?xt=urn:btih:ae00026eb7306d7c1243578477817ff781abac4d">magnet:?xt&#x3D;urn:btih:ae00026eb7306d7c1243578477817ff781abac4d</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p><p>②Game.of.Thrones.S03.2160p.BluRay.HEVC.TrueHD.7.1.Atmos-FULLSiZE 【329.42 GB】<br><a href="magnet:?xt=urn:btih:2542cf2bd4b03fd06e235060b2360afa8a00fe85">magnet:?xt&#x3D;urn:btih:2542cf2bd4b03fd06e235060b2360afa8a00fe85</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p><ul><li><h1 id="第4季"><a href="#第4季" class="headerlink" title="第4季"></a>第4季</h1></li></ul><p>①Game.of.Thrones.S04.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT 【289.66 GB】<br><a href="magnet:?xt=urn:btih:af7cd28f1a921aece459a7fc678a67251d003913">magnet:?xt&#x3D;urn:btih:af7cd28f1a921aece459a7fc678a67251d003913</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p><p>②Game.of.Thrones.S04.2160p.BluRay.HEVC.TrueHD.7.1.Atmos-FULLSiZE 【327.50 GB】<br><a href="magnet:?xt=urn:btih:3d26817690300ee2d717b9ee29a823eaa60cbbc0">magnet:?xt&#x3D;urn:btih:3d26817690300ee2d717b9ee29a823eaa60cbbc0</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p><ul><li><h1 id="第5季"><a href="#第5季" class="headerlink" title="第5季"></a>第5季</h1></li></ul><p>①Game.of.Thrones.S05.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT 【282.39 GB】<br><a href="magnet:?xt=urn:btih:ad0ed5d54d655ff90311f2714d8cc0c331f007d3">magnet:?xt&#x3D;urn:btih:ad0ed5d54d655ff90311f2714d8cc0c331f007d3</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p><p>②Game.of.Thrones.S05.2160p.BluRay.HEVC.TrueHD.7.1.Atmos-FULLSiZE 【318.89 GB】<br><a href="magnet:?xt=urn:btih:bc1589a9e93c873a4e53275e06dd1d3b7db30e5a">magnet:?xt&#x3D;urn:btih:bc1589a9e93c873a4e53275e06dd1d3b7db30e5a</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p><ul><li><h1 id="第6季"><a href="#第6季" class="headerlink" title="第6季"></a>第6季</h1></li></ul><p>①Game.of.Thrones.S06.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT 【279.53 GB】<br><a href="magnet:?xt=urn:btih:5af67f6d969aaf66c0ef44842dc225f55b6abae7">magnet:?xt&#x3D;urn:btih:5af67f6d969aaf66c0ef44842dc225f55b6abae7</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p><p>②Game.of.Thrones.S06.2160p.BluRay.HEVC.TrueHD.7.1.Atmos-FULLSiZE 【315.19 GB】<br><a href="magnet:?xt=urn:btih:1bffaeb221bed5099f621bf97727ac223441b2e8">magnet:?xt&#x3D;urn:btih:1bffaeb221bed5099f621bf97727ac223441b2e8</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p><ul><li><h1 id="第7季"><a href="#第7季" class="headerlink" title="第7季"></a>第7季</h1></li></ul><p>①Game.of.Thrones.S07.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT 【214.89 GB】<br><a href="magnet:?xt=urn:btih:032a537acde467fb255e676df03d8e726ce0858d">magnet:?xt&#x3D;urn:btih:032a537acde467fb255e676df03d8e726ce0858d</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p><p>②Game.of.Thrones.S07.2160p.BluRay.HEVC.TrueHD.7.1.Atmos-FULLSiZE 【236.70 GB】<br><a href="magnet:?xt=urn:btih:85336db1508a6b4fb6064783965958e6261be1ce">magnet:?xt&#x3D;urn:btih:85336db1508a6b4fb6064783965958e6261be1ce</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p><ul><li><h1 id="第8季"><a href="#第8季" class="headerlink" title="第8季"></a>第8季</h1></li></ul><p>①Game.of.Thrones.S08.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT【225.8GB 】<br><a href="magnet:?xt=urn:btih:L2H7RN7Z2KA4J2FMND7RFTGKRYVVZDKX">magnet:?xt&#x3D;urn:btih:L2H7RN7Z2KA4J2FMND7RFTGKRYVVZDKX</a><br>复制磁力链接到迅雷、115、utorrent、Bitcomet等进行下载</p><p>②Game.of.Thrones.S08.2160p.BluRay.HEVC.TrueHD.7.1.Atmos-MIXED【259.9GB】<br><a href="magnet:?xt=urn:btih:XAQ24D7XVXZ6IMBXFXGVG7PA5M5OH73G">magnet:?xt&#x3D;urn:btih:XAQ24D7XVXZ6IMBXFXGVG7PA5M5OH73G</a><br>复制磁力链接到迅雷、115、utorrent、Bitcomet等进行下载</p><blockquote><p>转载自：<a href="https://javaclass.top/2022/03/08/%E7%BE%8E%E5%89%A7-%E6%9D%83%E5%88%A9%E7%9A%84%E6%B8%B8%E6%88%8F-1-8-%E5%AD%A3/">https://javaclass.top/2022/03/08/%E7%BE%8E%E5%89%A7-%E6%9D%83%E5%88%A9%E7%9A%84%E6%B8%B8%E6%88%8F-1-8-%E5%AD%A3/</a></p></blockquote>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>VR折腾日记</title>
+      <link href="/2024/03/14/VR%E6%8A%98%E8%85%BE%E6%97%A5%E8%AE%B0/"/>
+      <url>/2024/03/14/VR%E6%8A%98%E8%85%BE%E6%97%A5%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="一、基本信息"><a href="#一、基本信息" class="headerlink" title="一、基本信息"></a>一、基本信息</h1><p>设备：Quest 2</p><p>单眼分辨率为1920×1832</p><p>PC配置：</p><p>i5-12400 六核</p><p>微星 B660 迫击炮 <code>MAG B660M MORTAR WIFI DDR4(MS-7D42)(英特尔 B660 芯片组)</code></p><p>64GB DDR4 3600MHz</p><p>NVIDIA GeForce RTX 2060(12GB）</p><p>2T固态（铠侠）</p><p>​</p><h1 id="二、专业术语"><a href="#二、专业术语" class="headerlink" title="二、专业术语"></a>二、专业术语</h1><ul><li><p>ASW：即Asynchronous SpaceWarp，是一种补帧技术，可以将帧率锁定在45帧并补帧到90帧。（OculusDebugTool中可以调整，待测试）</p></li><li><p>桶形失真：桶形失真是一种常见的光学失真现象，VR设备通常会使用球面或非球面透镜来放大图像并将其投影到用户眼睛前方的显示屏上。然而，由于透镜和屏幕之间的几何形状不同，导致了在图像边缘处出现了失真。这种失真表现为图像中心处的放大程度较大，而图像边缘处的放大程度较小，从而导致了桶形状的变形效果。</p></li></ul><h1 id="三、串流"><a href="#三、串流" class="headerlink" title="三、串流"></a>三、串流</h1><p>有三种无线串流方式：</p><p>virtual desktop（VD）、airlink 、 steam link</p><p>（VD比较稳定）</p><h2 id="VD测试"><a href="#VD测试" class="headerlink" title="VD测试"></a>VD测试</h2><p>连接稳定性比airlink好，而且可以看到帧率延迟等数据，适合调试使用。</p><p>最佳画质设置：</p><p>编码选择H264+ ，码率拉满400Mbps。</p><p>vd画质选择Ultra档位，（使用满quest的分辨率。）</p><p>steam vr渲染分辨率选择：3072*3216（使用满quest的分辨率。）</p><p><code>为什么满分辨率是3k左右：因为透镜原因quest2你直接设置成quest原生的物理分辨率是无法做到点对点的，涉及到一个桶装失真的概念 类似一个弧形屏幕你拍平他可视面积就大了，而你如果以一个弧形屏幕正视那个比例分辨率去渲染一个平面帧，贴合到弧形上是不够的，所以需要更大的平面，1.425倍来修正这样才能完全发挥物理分辨率</code></p><blockquote><p>参考视频：<a href="https://www.bilibili.com/video/BV1ke411U7YR/?spm_id_from=333.337.search-card.all.click&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1ke411U7YR/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p></blockquote><h2 id="airlink测试"><a href="#airlink测试" class="headerlink" title="airlink测试"></a>airlink测试</h2><p>H264，400Mbps，总体清晰，稍微卡顿</p><p>H264 ，200Mbps，模糊</p><p>H264,500Mbps，总体清晰</p><p>H265,400Mbps，bug，画面撕裂卡顿</p><p>H265,300Mbps，Bug，画面撕裂卡顿 </p><p>H265,200Mbps，总体清晰，稍微卡顿</p><blockquote><p><a href="https://www.bilibili.com/video/BV1ke411U7YR/?spm_id_from=333.337.search-card.all.click&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1ke411U7YR/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p></blockquote><h1 id="四、问题与解决方法"><a href="#四、问题与解决方法" class="headerlink" title="四、问题与解决方法"></a>四、问题与解决方法</h1><ul><li><p>能进商店，但是下载不了软件和游戏。<code>打开全局模式 （跟udp没有关系）     </code></p></li><li><p>进入stamvr游戏后手柄丢失，不能控制。  <code>连个游戏手柄，或者用鼠标键盘等。</code></p></li><li><p>串流卡顿、模糊。<code>使用VD更稳定</code></p></li><li><p>VD可以搜索到PC，但是连接不上.<code>切换下两个设备的科学上网的模式，属于网络问题。</code></p></li><li><p>VD串流到电脑桌面后，电脑桌面分辨率改变了。<code>关闭VD设置界面的使用最优分辨率（SETTINGS——use optimal resolution）</code></p></li></ul><hr><h1 id="五、游戏测试"><a href="#五、游戏测试" class="headerlink" title="五、游戏测试"></a>五、游戏测试</h1><h2 id="ACC神力科莎竞速"><a href="#ACC神力科莎竞速" class="headerlink" title="ACC神力科莎竞速"></a>ACC神力科莎竞速</h2><p>显卡占用极高，非常吃性能，画质差，而且VR帧数限制在45帧不知道为什么？</p><h2 id="欧卡"><a href="#欧卡" class="headerlink" title="欧卡"></a>欧卡</h2><p>需要在steam中开启VR模式</p><p>具体操作：<a href="https://www.bilibili.com/video/BV1Xu4y1b7Nh/?spm_id_from=333.337.search-card.all.click&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1Xu4y1b7Nh/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p><p>测试：</p><p>ultra，3k渲染分辨率</p><p>​游戏全低特效预设：90帧</p><p>​游戏高特效预设：30帧</p><p>BUG：</p><ul><li>卡在等待中，或者只有声音没有VR画面。<code>按F11重置视角即可</code></li><li>vr中检测不到排挡。</li></ul><h2 id="尘埃拉力赛2-0"><a href="#尘埃拉力赛2-0" class="headerlink" title="尘埃拉力赛2.0"></a>尘埃拉力赛2.0</h2><p>显卡CPU占用都不够高，显卡占用50%左右，可能是优化不行。画面树木等东西会闪烁</p><p>游戏画质设置中等，vd ultra档,H264+,400Mbps,帧率大概是70-90帧之间，好晕一局都跑不下来。  </p><h2 id="刀剑与魔法（Blade-and-Sorcery"><a href="#刀剑与魔法（Blade-and-Sorcery" class="headerlink" title="刀剑与魔法（Blade and Sorcery"></a>刀剑与魔法（Blade and Sorcery</h2><blockquote><p>Blade and Sorcery Graphics Comparison - Quest 2 vs PC VR </p><p><a href="https://www.bilibili.com/video/BV1Eq4y1r7oC/?spm_id_from=333.337.search-card.all.click&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1Eq4y1r7oC/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p><p>看完对比还是买steam版本吧,steam版本材质光影都好很多</p></blockquote><h2 id="节奏光剑"><a href="#节奏光剑" class="headerlink" title="节奏光剑"></a>节奏光剑</h2><p>一体机版：随时能玩没有延迟（因为是音游）</p><p>Steam版：画质更好，mod更丰富</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ChatGPT</title>
+      <link href="/2024/03/11/ChatGPT/"/>
+      <url>/2024/03/11/ChatGPT/</url>
+      
+        <content type="html"><![CDATA[<h1 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h1><p>ChatGPT  官方网站：<a href="https://openai.com/chatgpt">https://openai.com/chatgpt</a></p><p>GPT Token：GPT官方卖给企业和公司的单次使用票</p><p>Chat GPT镜像网站：使用GPT Token制作的网站，功能一样，个人数据会被镜像网站截留，正版有数据加密。</p><h1 id="前置准备："><a href="#前置准备：" class="headerlink" title="前置准备："></a>前置准备：</h1><p>​魔法上网：<code>不可以用gfwlist模式，用白名单或者全局模式</code>。</p><p>​外国手机号:<code>现在不用了,没有绑定手机号的，可以使用全部免费功能，但不包括API</code></p><p>​外国邮箱:<code>gmai、outlook</code></p><p>​</p><h1 id="注册流程"><a href="#注册流程" class="headerlink" title="注册流程"></a>注册流程</h1><p>现在简化了，不需要外国手机号了，我用gmail邮箱就可以直接注册。</p><h1 id="GPT3-5"><a href="#GPT3-5" class="headerlink" title="GPT3.5"></a>GPT3.5</h1><p>文字对话AI</p><p>模型信息截止到2022年1月</p><h1 id="GPT-4"><a href="#GPT-4" class="headerlink" title="GPT 4"></a>GPT 4</h1><p><code>需要付费升级,个人版本每月20美元</code></p><p>文字对话AI</p><p>更新的信息</p><p>语言理解能力更强</p><p>可以使用DALL·E模型<code>文字生成图片</code></p><h1 id="BUG"><a href="#BUG" class="headerlink" title="BUG"></a>BUG</h1><p>无法发送文字了</p><p>解决方案：</p><p>​1、语言切回英文</p><p>​2、F12——Application——cookies——clear chatgpt网址的cookies</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> AI </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> AI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>漳州市芗城区结婚领证攻略</title>
+      <link href="/2024/03/08/%E6%BC%B3%E5%B7%9E%E5%B8%82%E8%8A%97%E5%9F%8E%E5%8C%BA%E7%BB%93%E5%A9%9A%E9%A2%86%E8%AF%81%E6%94%BB%E7%95%A5/"/>
+      <url>/2024/03/08/%E6%BC%B3%E5%B7%9E%E5%B8%82%E8%8A%97%E5%9F%8E%E5%8C%BA%E7%BB%93%E5%A9%9A%E9%A2%86%E8%AF%81%E6%94%BB%E7%95%A5/</url>
+      
+        <content type="html"><![CDATA[<p>机构：芗城区婚姻登记服务中心</p><p>地址：始兴北路15号9（古城内）</p><p>工作时间：周一到周五 8:00-12:00，夏14:30-17:30;冬15:00-18:00</p><p>咨询电话：0596-2072396</p><p>1 :不需要预约❌<br>2 :不需要复印件啥都不用❌<br>3 :不需要婚检❌<br>4:不需要在户口所在地办，可以跨区办理，哪里方便就在哪里办❌<br>重点：<br>1️⃣：带好双方户口本+身份证‼️（核对：身份证地址和户口本第一页地址要一样，户口本本人那页一定要盖章)<br>2️⃣：三张2寸的证件照‼️（可以提前拍好带过去）</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《对马岛之魂》游戏简评</title>
+      <link href="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/"/>
+      <url>/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>致敬制作组：SuckerPunch工作室，感谢你们带来如此优秀的作品。</p></blockquote><p>一款极为优秀的罐头游戏，因为是罐头，支线比较没有意思，所以我只通了主线。风景壮丽的开放世界，爽快的战斗系统，优秀的主线剧情和人物刻画，以元立体的方式，将日本的武士文化以游戏的方式展现。</p><p>剧情简介：蒙古人入侵日本时期，主角境井仁的舅舅志村作为对马岛的领导者发起了自卫反击战 ，然而几乎全军覆没，志村舅舅也被汗王所俘虏。仁被女盗贼结奈所救，于是便找寻弓箭手石川师傅、政子夫人等盟友，踏上了救回舅舅，解放对马岛的道路。仁自小便接受武士训练，看见元朝人轻易击败其他武士后，仁的世界也顿时瓦解。他面临着一生中最艰难的抉择：究竟是要坚守自幼学习的武士传统与信念，继续打一场没有胜算的战争，抑或是要偏离武士的正道，不择手段地保护对马岛和岛上人民。在收复对马岛的征途中，仁必须寻求旧识的指引和支持，同时亦要结交新的盟友。他必须打破传统，以前所未见的战斗方式，不惜一切保护幸存的家园和人民。</p><p>优点：画面精良，风景壮丽，很有意境，以风为指引元素十分新颖，是业界的一大创新！剧情对人物性格的刻画很精细，甚至反派也刻画得很不错。战斗系统非常丰富，对峙、暗杀、架势切换、弓箭、战鬼武器、骑马冲撞都很有意思。武士精神体现的很完美，讲故事那个水墨转场真的做得很棒！（可以试着用AE做看看）</p><p>缺点：仁的表情比较僵硬，战斗打击感不算好，剧情比较浅薄，属于看了开头就知道结尾的故事。支线比较无聊且拖拉，没有玩下去的欲望。绯句文化的加入不能理解，有点无聊拖沓的感觉。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">战火时代，武士的荣誉真是愚蠢。</span><br><span class="line">汗王真努力，专门研究日本的语言，习俗等一切，努力拉拢志村和仁，太励志了，怎么就输了呢。（但历史上是赢了）</span><br><span class="line">为什么要砍亲爱的隆的头！！！妈的!</span><br><span class="line">继旺达与巨像后又失去了一直爱马诶~</span><br><span class="line">美国人做的日本武士游戏还挺有意思。</span><br></pre></td></tr></table></figure><p>最后欣赏下我忍不住截的图吧！</p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE01.jpg" alt="对马岛之魂截图01"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE02.jpg" alt="对马岛之魂截图02"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE03.jpg" alt="对马岛之魂截图03"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE04.jpg" alt="对马岛之魂截图04"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE05.jpg" alt="对马岛之魂截图05"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE06.jpg" alt="对马岛之魂截图06"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE07.jpg" alt="对马岛之魂截图07"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE08.jpg" alt="对马岛之魂截图08"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE09.jpg" alt="对马岛之魂截图09"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE10.jpg" alt="对马岛之魂截图10"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE11.jpg" alt="对马岛之魂截图11"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE12.jpg" alt="对马岛之魂截图12"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE13.jpg" alt="对马岛之魂截图13"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE14.jpg" alt="对马岛之魂截图14"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE15.jpg" alt="对马岛之魂截图15"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE16.jpg" alt="对马岛之魂截图16"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE17.jpg" alt="对马岛之魂截图17"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE18.jpg" alt="对马岛之魂截图18"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE19.jpg" alt="对马岛之魂截图19"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE20.jpg" alt="对马岛之魂截图20"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE21.jpg" alt="对马岛之魂截图21"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE22.jpg" alt="对马岛之魂截图22"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE23.jpg" alt="对马岛之魂截图23"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE24.jpg" alt="对马岛之魂截图24"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE25.jpg" alt="对马岛之魂截图25"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE26.jpg" alt="对马岛之魂截图26"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE27.jpg" alt="对马岛之魂截图27"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE28.jpg" alt="对马岛之魂截图28"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE29.jpg" alt="对马岛之魂截图29"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE30.jpg" alt="对马岛之魂截图30"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE31.jpg" alt="对马岛之魂截图31"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE32.jpg" alt="对马岛之魂截图32"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE33.jpg" alt="对马岛之魂截图33"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE34.jpg" alt="对马岛之魂截图34"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE35.jpg" alt="对马岛之魂截图35"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE36.jpg" alt="对马岛之魂截图36"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE37.jpg" alt="对马岛之魂截图37"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE38.jpg" alt="对马岛之魂截图38"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE39.jpg" alt="对马岛之魂截图39"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE40.jpg" alt="对马岛之魂截图40"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE41.jpg" alt="对马岛之魂截图41"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE42.jpg" alt="对马岛之魂截图42"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE43.jpg" alt="对马岛之魂截图43"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE44.jpg" alt="对马岛之魂截图44"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE45.jpg" alt="对马岛之魂截图45"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE46.jpg" alt="对马岛之魂截图46"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE47.jpg" alt="对马岛之魂截图47"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE48.jpg" alt="对马岛之魂截图48"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE49.jpg" alt="对马岛之魂截图49"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE50.jpg" alt="对马岛之魂截图50"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE51.jpg" alt="对马岛之魂截图51"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE52.jpg" alt="对马岛之魂截图52"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE53.jpg" alt="对马岛之魂截图53"></p><p><img src="/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E6%88%AA%E5%9B%BE54.jpg" alt="对马岛之魂截图54"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Game </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Game </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>人体传感器如何更好的在卫生间使用？</title>
+      <link href="/2024/03/02/%E4%BA%BA%E4%BD%93%E4%BC%A0%E6%84%9F%E5%99%A8%E5%A6%82%E4%BD%95%E6%9B%B4%E5%A5%BD%E7%9A%84%E5%9C%A8%E5%8D%AB%E7%94%9F%E9%97%B4%E4%BD%BF%E7%94%A8%EF%BC%9F/"/>
+      <url>/2024/03/02/%E4%BA%BA%E4%BD%93%E4%BC%A0%E6%84%9F%E5%99%A8%E5%A6%82%E4%BD%95%E6%9B%B4%E5%A5%BD%E7%9A%84%E5%9C%A8%E5%8D%AB%E7%94%9F%E9%97%B4%E4%BD%BF%E7%94%A8%EF%BC%9F/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>昨儿老婆觉得我把灯的开关放在厕所和卫生间门口不合理，她总是忘记开灯走进去，还要再走出来才能开灯，一点都不方便。于是我激情下单2个小米传感器2S，实现人来亮灯，人走关灯，这下够方便了吧。</p></blockquote><h1 id="出现问题："><a href="#出现问题：" class="headerlink" title="出现问题："></a>出现问题：</h1><p>厨房使用没有问题，<strong>卫生间使用出现如下问题</strong>：</p><ol><li>人体传感器是通过红外探测，<strong>无法穿透玻璃</strong>，因此如果放在干区，则淋雨隔断内部无法检测到人体，<strong>洗澡中途会自动关灯</strong>。</li><li>人体传感器<strong>无法探测微小移动</strong>，因此在<strong>马桶蹲坑的时候有很大几率会自动关灯</strong>。<code>虽然有**人在传感器**即人体存在传感器，可以探测微小移动，但小米没有官方配件只有第三方配件，价格比**人体传感器**贵一倍多，而且需要接入电源，家里已经装修好，没有预留，现在要改造比较麻烦且不美观。）</code></li></ol><h1 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h1><ol><li>经过多次移动测试<code>记得用临时胶布贴在各个位置测试，原装粘胶粘性强，粘上后非常难拿下来</code>,最终敲定放在淋浴玻璃隔断的上方再靠近干区的墙面位置斜向下45°，由于玻璃隔断一般比吊顶矮一些，这样可以通过隔断上方的空隙探测到人物的体温和移动，并且也可以探测到马桶的位置。</li><li>因为小米人体传感器2S比上一代更新了<strong>高灵敏度模式</strong>，终于可以识别微小动作了，只需要在米家app中将感应灵敏度设置为高，这样即使在马桶上灯自动关闭了，也只需要稍微动动脑袋就可以再次开灯了。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 智能家居 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 智能家居 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《小姐》（下女诱罪）影评</title>
+      <link href="/2024/02/20/%E3%80%8A%E5%B0%8F%E5%A7%90%E3%80%8B%EF%BC%88%E4%B8%8B%E5%A5%B3%E8%AF%B1%E7%BD%AA%EF%BC%89%E5%BD%B1%E8%AF%84/"/>
+      <url>/2024/02/20/%E3%80%8A%E5%B0%8F%E5%A7%90%E3%80%8B%EF%BC%88%E4%B8%8B%E5%A5%B3%E8%AF%B1%E7%BD%AA%EF%BC%89%E5%BD%B1%E8%AF%84/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>片源<code>小姐.加长版.The.Handmaiden.2016.EXTENDED.KOREAN.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1.2Audios-FGT.mkv</code></p><p>看之前我真不知道这是色情片！</p></blockquote><p>转折，再转折，仍然是吸引大量观影者的有效办法，电影分别以淑姬视角、秀子与男爵视角，上帝视角讲述了一个无关性别的纯欲爱情故事。外表天真内心却腹黑精明的千金小姐秀子，生于底层偷奸耍滑内里傻白甜的淑姬，虚伪而又贪婪的男爵，纯纯的变态喜欢听色情故事的色老头姨夫，每个人物的刻画都让人印象深刻。<code>韩国人演绎变态真是有一手</code></p><p>很有韵味的镜头：两个人趁着夜色，提着行李，以相同的频率打开一扇又一扇的门，然后跑过巨大的樱花树，去呼吸自由的空气去拥抱广阔的天地。</p><blockquote><p>“她是到了冬天就用偷来的皮革钱包来编织大衣的有名女贼的女儿，她的孩子也可能是盗贼、是扒手、是骗子，可她是毁掉我现有生活，拯救我的生活的我的救援者，我的玉子，我的淑姬。”</p><p>“不是这样的。如果母亲可以和你面对面，一定会对你说，很幸运能够把你生下来再死去，一点也不委屈。”</p></blockquote><p><strong>剧情回顾</strong></p><p><code>改编于Sarah Waters笔下的小说《Fingersmith》</code></p><p><strong>上篇：</strong></p><p>在日本帝国主义时期下的朝鲜，从小被作为小说家上月教明收养的 <strong>贵族小姐秀子</strong>被骗子藤原盯上，藤原冒充伯爵，意图骗婚，意图侵吞秀子的家财并将她关进精神病院。为了这次计划，他说服贼屋长大的 <strong>淑熙</strong> ，将其引荐给秀子，作为下女（侍女），里应外合。</p><p>为了钱， 淑熙爽快答应了这个计划，并顺利成为侍女，负责照顾敏感纤细的小姐。</p><p>在淑熙的眼里，小姐秀子好看、单纯、善良，在第一次见面时就感叹：“怎么不早告诉我她很漂亮。”</p><p>也会在看到秀子和藤原在一起时心软暗暗自语：“可怜又可悲，竟然爱上骗子。”</p><p>最终，按照原计划，在淑煕的帮助下，藤原带着小姐秀子成功私奔了；淑煕、秀子、藤原三个人，逃离了庄园。</p><p>然而，最后被关进精神病院的却是淑煕，一切似乎都是藤原和秀子的阴谋。</p><p><strong>中篇：</strong></p><p>在外人看来是个受人羡慕的温室之花，是被娇生惯养的千金小姐，却不知她其实是被姨父上月教明培养接替自杀而亡的姨母演绎的<strong>情色朗读会的当家花旦。</strong></p><p>从小目睹姨母的”自杀”，被迫朗读情色读物、地下室的阴影……所有的一切，让秀子远没有外表看起来单纯。</p><p>藤原在确定无法勾引到秀子之后，决定跟秀子坦白计划，他帮秀子摆脱地狱般的生活，同时与秀子结婚拿到她的财产，他们的计划需要一位没身份没心机的下女，让她代替秀子小姐关进精神病院，于是，骗子藤原选中了在贼窝里长大的淑煕。</p><p>秀子对淑煕的感觉很复杂，从最初的试探：“你偷窃也行，骂我也行，但是不能骗我。”到看到淑煕穿上自己的衣服时美的惊叹：“我终于明白伯爵说的睡觉时会想起的脸庞的意思。”再到和淑煕有过一夜情之后：“现在这样也挺好的，只要你陪着我。”</p><p><strong>一旦动心，阴谋就崩塌了。</strong></p><p><strong>下篇：</strong></p><p>秀子问淑煕：“你真的觉得我应该结婚吗？应该嫁给伯爵？”</p><p>淑煕：“嗯！”</p><p>秀子：“即使我喜欢的是另一个人，你也觉得我应该嫁给他？”</p><p>淑煕：“小姐会爱上他的。”</p><p>听完这句话，秀子含泪给了淑煕一巴掌，并将她推离了自己。</p><p>伤心欲绝的秀子选择了自杀，[或许我根本不该被生下来]这句独白太让人心疼了，幸好，在樱花树下上吊的秀子被赶来的淑煕救下了。</p><p>“我错了，小姐你不要死”</p><p>“你错哪里了？”</p><p>“不该骗小姐跟那个混蛋结婚，还想着把小姐关进精神病院。”</p><p>“淑煕啊，你在担心我吗？我才担心你啊，因为要被关进精神病院的是你啊。我不会对你感到抱歉，因为你也想在我背后捅我一刀。”</p><p>这两个姑娘，终于因为爱，对彼此坦陈了，也在这一刻，她们互相救赎了自己。</p><p>这一段是对于原著FingerSmith最大的改编，原著两人选择了隐瞒爱意，继续彼此的计划，最终才导致了更深的悲剧，而《小姐\下女的诱惑》选择了坦白爱意，成全了两个姑娘的爱情。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 影评 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电影 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《作品集》_快闪预告</title>
+      <link href="/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-%E5%BF%AB%E9%97%AA%E9%A2%84%E5%91%8A/"/>
+      <url>/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-%E5%BF%AB%E9%97%AA%E9%A2%84%E5%91%8A/</url>
+      
+        <content type="html"><![CDATA[<h2 id="长汀建发央玺发布会预告"><a href="#长汀建发央玺发布会预告" class="headerlink" title="长汀建发央玺发布会预告"></a>长汀建发央玺发布会预告</h2><iframe src="https://player.xinpianchang.com/?aid=12890708&amp;mid=OpgP7k9nAVL46BL5" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="建发云霄中秋快闪"><a href="#建发云霄中秋快闪" class="headerlink" title="建发云霄中秋快闪"></a>建发云霄中秋快闪</h2><iframe src="https://player.xinpianchang.com/?aid=12889695&amp;mid=DaLZwPdAKdMwnrjY" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="建发西湖泊月活动前宣"><a href="#建发西湖泊月活动前宣" class="headerlink" title="建发西湖泊月活动前宣"></a>建发西湖泊月活动前宣</h2><iframe src="https://player.xinpianchang.com/?aid=12889511&amp;mid=yM1l43vzYbywod2V" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="宋宴篇章二"><a href="#宋宴篇章二" class="headerlink" title="宋宴篇章二"></a>宋宴篇章二</h2><iframe src="https://player.xinpianchang.com/?aid=12889852&amp;mid=DaLZwPdAKGRwnrjY" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="《宋宴》第三篇章-南宁建发养云"><a href="#《宋宴》第三篇章-南宁建发养云" class="headerlink" title="《宋宴》第三篇章_南宁建发养云"></a>《宋宴》第三篇章_南宁建发养云</h2><iframe src="https://player.xinpianchang.com/?aid=12887762&amp;mid=yM1l43vzDo8wod2V" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="漳州碧湖城市广场前宣"><a href="#漳州碧湖城市广场前宣" class="headerlink" title="漳州碧湖城市广场前宣"></a>漳州碧湖城市广场前宣</h2><iframe src="https://player.xinpianchang.com/?aid=12889438&amp;mid=0lYnQmWKgkzw62j1" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="角美和悦活动视频"><a href="#角美和悦活动视频" class="headerlink" title="角美和悦活动视频"></a>角美和悦活动视频</h2><iframe src="https://player.xinpianchang.com/?aid=12889440&amp;mid=E6WlQgZoKBv4gdJz" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>]]></content>
+      
+      
+      <categories>
+          
+          <category> 作品集 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 剪辑 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《作品集》_产品展示</title>
+      <link href="/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-%E4%BA%A7%E5%93%81%E5%B1%95%E7%A4%BA/"/>
+      <url>/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-%E4%BA%A7%E5%93%81%E5%B1%95%E7%A4%BA/</url>
+      
+        <content type="html"><![CDATA[<h2 id="云霄建发南湖印交付"><a href="#云霄建发南湖印交付" class="headerlink" title="云霄建发南湖印交付"></a>云霄建发南湖印交付</h2><iframe src="https://player.xinpianchang.com/?aid=12890687&amp;mid=DaLZwPdAb0vwnrjY" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="杭州建发云熙配套第四条"><a href="#杭州建发云熙配套第四条" class="headerlink" title="杭州建发云熙配套第四条"></a>杭州建发云熙配套第四条</h2><iframe src="https://player.xinpianchang.com/?aid=12889687&amp;mid=DA0XwZgDKg34droB" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="福州璞云生活演绎（家庭篇"><a href="#福州璞云生活演绎（家庭篇" class="headerlink" title="福州璞云生活演绎（家庭篇)"></a>福州璞云生活演绎（家庭篇)</h2><iframe src="https://player.xinpianchang.com/?aid=12889657&amp;mid=0vMbw1RA1GD4eJ1p" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="宁德建发书香府交付"><a href="#宁德建发书香府交付" class="headerlink" title="宁德建发书香府交付"></a>宁德建发书香府交付</h2><iframe src="https://player.xinpianchang.com/?aid=12889509&amp;mid=qd9g4r1RVoJwv86Z" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="宁德建发天行缦云交付"><a href="#宁德建发天行缦云交付" class="headerlink" title="宁德建发天行缦云交付"></a>宁德建发天行缦云交付</h2><iframe src="https://player.xinpianchang.com/?aid=12887554&amp;mid=n8D2wL9nGJY4JvPB" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="建发书香印翠穿越机交付"><a href="#建发书香印翠穿越机交付" class="headerlink" title="建发书香印翠穿越机交付"></a>建发书香印翠穿越机交付</h2><iframe src="https://player.xinpianchang.com/?aid=12889474&amp;mid=n8D2wL9nxx04JvPB" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="福州建发玺云价值解读"><a href="#福州建发玺云价值解读" class="headerlink" title="福州建发玺云价值解读"></a>福州建发玺云价值解读</h2><iframe src="https://player.xinpianchang.com/?aid=12889466&amp;mid=gyDjwogAKKKwxv1q" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="云霄建发云玺空境"><a href="#云霄建发云玺空境" class="headerlink" title="云霄建发云玺空境"></a>云霄建发云玺空境</h2><iframe src="https://player.xinpianchang.com/?aid=12890696&amp;mid=2MmN45V2oeVQX0zL" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="宁德建发天行时代93㎡样板房空镜"><a href="#宁德建发天行时代93㎡样板房空镜" class="headerlink" title="宁德建发天行时代93㎡样板房空镜"></a>宁德建发天行时代93㎡样板房空镜</h2><iframe src="https://player.xinpianchang.com/?aid=12889729&amp;mid=8pvbQYWrKvPw306X" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="国贸智谷户型产品场景演绎vol-2"><a href="#国贸智谷户型产品场景演绎vol-2" class="headerlink" title="国贸智谷户型产品场景演绎vol.2"></a>国贸智谷户型产品场景演绎vol.2</h2><iframe src="https://player.xinpianchang.com/?aid=12889674&amp;mid=8pvbQYWrKzXw306X" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="福州建发璞云生活演绎（花园阳台）"><a href="#福州建发璞云生活演绎（花园阳台）" class="headerlink" title="福州建发璞云生活演绎（花园阳台）"></a>福州建发璞云生活演绎（花园阳台）</h2><iframe src="https://player.xinpianchang.com/?aid=12889639&amp;mid=rVo9wyZDvpL4l5PG" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="东山玺悦园林模特片"><a href="#东山玺悦园林模特片" class="headerlink" title="东山玺悦园林模特片"></a>东山玺悦园林模特片</h2><iframe src="https://player.xinpianchang.com/?aid=12889601&amp;mid=9WxJ7lZvKrL481kM" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="宁波建发缦云延时"><a href="#宁波建发缦云延时" class="headerlink" title="宁波建发缦云延时"></a>宁波建发缦云延时</h2><iframe src="https://player.xinpianchang.com/?aid=12889520&amp;mid=gyDjwogAKdYwxv1q" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="莆田建发玖华府空境"><a href="#莆田建发玖华府空境" class="headerlink" title="莆田建发玖华府空境"></a>莆田建发玖华府空境</h2><iframe src="https://player.xinpianchang.com/?aid=12888493&amp;mid=0VAm7Oq50qE4DRnW" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="宁波建发春江悦"><a href="#宁波建发春江悦" class="headerlink" title="宁波建发春江悦"></a>宁波建发春江悦</h2><iframe src="https://player.xinpianchang.com/?aid=12887565&amp;mid=3Yn57pvqRGB4dDAa" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="福州建发璞云场景演绎（社交篇）"><a href="#福州建发璞云场景演绎（社交篇）" class="headerlink" title="福州建发璞云场景演绎（社交篇）"></a>福州建发璞云场景演绎（社交篇）</h2><iframe src="https://player.xinpianchang.com/?aid=12887538&amp;mid=NK0mw6qM1Ea7W1na" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>]]></content>
+      
+      
+      <categories>
+          
+          <category> 作品集 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 剪辑 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《作品集》_政企宣传</title>
+      <link href="/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-%E6%94%BF%E4%BC%81%E5%AE%A3%E4%BC%A0/"/>
+      <url>/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-%E6%94%BF%E4%BC%81%E5%AE%A3%E4%BC%A0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="远洋福建交付品牌篇"><a href="#远洋福建交付品牌篇" class="headerlink" title="远洋福建交付品牌篇"></a>远洋福建交付品牌篇</h2><iframe src="https://player.xinpianchang.com/?aid=12889499&amp;mid=Xl5M7nV5BAm7kKEg" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="厦门建发城投何垄项目回顾"><a href="#厦门建发城投何垄项目回顾" class="headerlink" title="厦门建发城投何垄项目回顾"></a>厦门建发城投何垄项目回顾</h2><iframe src="https://player.xinpianchang.com/?aid=12886228&amp;mid=XzVJwDnNEOOQD0EZ" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="福州建发璞云品牌深耕"><a href="#福州建发璞云品牌深耕" class="headerlink" title="福州建发璞云品牌深耕"></a>福州建发璞云品牌深耕</h2><iframe src="https://player.xinpianchang.com/?aid=12889626&amp;mid=DA96QenGMK67j5N0" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="福建中海12周年品牌片"><a href="#福建中海12周年品牌片" class="headerlink" title="福建中海12周年品牌片"></a>福建中海12周年品牌片</h2><iframe src="https://player.xinpianchang.com/?aid=12889603&amp;mid=Xl5M7nV5BWj7kKEg" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="泉州建发品牌调性视频"><a href="#泉州建发品牌调性视频" class="headerlink" title="泉州建发品牌调性视频"></a>泉州建发品牌调性视频</h2><iframe src="https://player.xinpianchang.com/?aid=12888522&amp;mid=rVo9wyZDkNy4l5PG" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>]]></content>
+      
+      
+      <categories>
+          
+          <category> 作品集 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 剪辑 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《作品集》_活动</title>
+      <link href="/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-%E6%B4%BB%E5%8A%A8/"/>
+      <url>/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-%E6%B4%BB%E5%8A%A8/</url>
+      
+        <content type="html"><![CDATA[<h2 id="保利国贸天琴活动二期"><a href="#保利国贸天琴活动二期" class="headerlink" title="保利国贸天琴活动二期"></a>保利国贸天琴活动二期</h2><iframe src="https://player.xinpianchang.com/?aid=12888549&amp;mid=Mk6B4xPrk0L49LAP" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="保利国贸天琴活动15s"><a href="#保利国贸天琴活动15s" class="headerlink" title="保利国贸天琴活动15s"></a>保利国贸天琴活动<strong>15s</strong></h2><iframe src="https://player.xinpianchang.com/?aid=12888529&amp;mid=0VAm7Oq509r4DRnW" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>]]></content>
+      
+      
+      <categories>
+          
+          <category> 作品集 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 剪辑 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《作品集》_TVC广告</title>
+      <link href="/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-TVC%E5%B9%BF%E5%91%8A/"/>
+      <url>/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-TVC%E5%B9%BF%E5%91%8A/</url>
+      
+        <content type="html"><![CDATA[<h2 id="福州建发缦云"><a href="#福州建发缦云" class="headerlink" title="福州建发缦云"></a>福州建发缦云</h2><iframe src="https://player.xinpianchang.com/?aid=12889609&amp;mid=O5vZQV1BbM34DEMW" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="《焕“新”攻略·咫尺万象篇》"><a href="#《焕“新”攻略·咫尺万象篇》" class="headerlink" title="《焕“新”攻略·咫尺万象篇》"></a>《焕“新”攻略·咫尺万象篇》</h2><iframe src="https://player.xinpianchang.com/?aid=12885545&amp;mid=dkzZQK8kAnZ7vNVe" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>v<h2 id="金地618营销季钞能金房节系列病毒视频1-鱼与熊掌"><a href="#金地618营销季钞能金房节系列病毒视频1-鱼与熊掌" class="headerlink" title="金地618营销季钞能金房节系列病毒视频1_鱼与熊掌"></a>金地618营销季钞能金房节系列病毒视频1_鱼与熊掌</h2><iframe src="https://player.xinpianchang.com/?aid=12887617&amp;mid=yM1l43vzDrlwod2V" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="金地618营销季钞能金房节系列病毒视频2-相亲篇"><a href="#金地618营销季钞能金房节系列病毒视频2-相亲篇" class="headerlink" title="金地618营销季钞能金房节系列病毒视频2_相亲篇"></a>金地618营销季钞能金房节系列病毒视频2_相亲篇</h2><iframe src="https://player.xinpianchang.com/?aid=12887637&amp;mid=DA96QenGP9x7j5N0" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="金地618营销季钞能金房节系列病毒视频3-健身篇"><a href="#金地618营销季钞能金房节系列病毒视频3-健身篇" class="headerlink" title="金地618营销季钞能金房节系列病毒视频3_健身篇"></a>金地618营销季钞能金房节系列病毒视频3_健身篇</h2><iframe src="https://player.xinpianchang.com/?aid=12887651&amp;mid=36Jm4a8y0RNwyjzB" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="漳州碧湖城市广场白领演绎"><a href="#漳州碧湖城市广场白领演绎" class="headerlink" title="漳州碧湖城市广场白领演绎"></a>漳州碧湖城市广场白领演绎</h2><iframe src="https://player.xinpianchang.com/?aid=12890703&amp;mid=rVo9wyZDWq04l5PG" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="碧湖城市广场多巴胺"><a href="#碧湖城市广场多巴胺" class="headerlink" title="碧湖城市广场多巴胺"></a>碧湖城市广场多巴胺</h2><iframe src="https://player.xinpianchang.com/?aid=12889527&amp;mid=DA0XwZgDxXb4droB" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="漳州碧湖城市广场TVC-1餐饮篇"><a href="#漳州碧湖城市广场TVC-1餐饮篇" class="headerlink" title="漳州碧湖城市广场TVC_1餐饮篇"></a>漳州碧湖城市广场TVC_1餐饮篇</h2><iframe src="https://player.xinpianchang.com/?aid=12887831&amp;mid=0vMbw1RAagz4eJ1p" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="漳州碧湖城市广场TVC-2宴请篇"><a href="#漳州碧湖城市广场TVC-2宴请篇" class="headerlink" title="漳州碧湖城市广场TVC_2宴请篇"></a>漳州碧湖城市广场TVC_2宴请篇</h2><iframe src="https://player.xinpianchang.com/?aid=12887847&amp;mid=d0Nq7MzvagqwO2Vj" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="漳州碧湖城市广场TVC-3购物篇"><a href="#漳州碧湖城市广场TVC-3购物篇" class="headerlink" title="漳州碧湖城市广场TVC_3购物篇"></a>漳州碧湖城市广场TVC_3购物篇</h2><iframe src="https://player.xinpianchang.com/?aid=12888487&amp;mid=qd9g4r1RJ6Ewv86Z" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="国贸沁源生活场景演绎第一话：相遇"><a href="#国贸沁源生活场景演绎第一话：相遇" class="headerlink" title="国贸沁源生活场景演绎第一话：相遇"></a>国贸沁源生活场景演绎第一话：相遇</h2><iframe src="https://player.xinpianchang.com/?aid=12889668&amp;mid=xv5YwjZkevnw60PX" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="漳州吾悦变装"><a href="#漳州吾悦变装" class="headerlink" title="漳州吾悦变装"></a>漳州吾悦变装</h2><iframe src="https://player.xinpianchang.com/?aid=12886192&amp;mid=0vMbw1RAKVO4eJ1p" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="漳州吾悦变装（旗袍篇）"><a href="#漳州吾悦变装（旗袍篇）" class="headerlink" title="漳州吾悦变装（旗袍篇）"></a>漳州吾悦变装（旗袍篇）</h2><iframe src="https://player.xinpianchang.com/?aid=12886160&amp;mid=Mk6B4xPrMNJ49LAP" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>]]></content>
+      
+      
+      <categories>
+          
+          <category> 作品集 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 剪辑 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《作品集》_入市篇</title>
+      <link href="/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-%E5%85%A5%E5%B8%82%E7%AF%87/"/>
+      <url>/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-%E5%85%A5%E5%B8%82%E7%AF%87/</url>
+      
+        <content type="html"><![CDATA[<h2 id="宁德天行时代地标旗舰入市"><a href="#宁德天行时代地标旗舰入市" class="headerlink" title="宁德天行时代地标旗舰入市"></a>宁德天行时代地标旗舰入市</h2><iframe src="https://player.xinpianchang.com/?aid=12889735&amp;mid=gyDjwogA2BYwxv1q" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="泉州安溪央玺-版本1"><a href="#泉州安溪央玺-版本1" class="headerlink" title="泉州安溪央玺_版本1"></a>泉州安溪央玺_版本1</h2><iframe src="https://player.xinpianchang.com/?aid=12889758&amp;mid=8pvbQYWrKgPw306X" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="泉州安溪央玺概念入市-版本2"><a href="#泉州安溪央玺概念入市-版本2" class="headerlink" title="泉州安溪央玺概念入市_版本2"></a>泉州安溪央玺概念入市_版本2</h2><iframe src="https://player.xinpianchang.com/?aid=12889797&amp;mid=oe3ZwvyOD6p7JVvz" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="南安建发朗云入市-实景版"><a href="#南安建发朗云入市-实景版" class="headerlink" title="南安建发朗云入市__实景版_"></a>南安建发朗云入市__实景版_</h2><iframe src="https://player.xinpianchang.com/?aid=12889724&amp;mid=XzVJwDnNyVmQD0EZ" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="无锡建发玺云入市"><a href="#无锡建发玺云入市" class="headerlink" title="无锡建发玺云入市"></a><strong>无锡建发玺云入市</strong></h2><iframe src="https://player.xinpianchang.com/?aid=12890677&amp;mid=MzkmwJ1pbyv7xjXp" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="石狮建发璞玥东方入市"><a href="#石狮建发璞玥东方入市" class="headerlink" title="石狮建发璞玥东方入市"></a>石狮建发璞玥东方入市</h2><iframe src="https://player.xinpianchang.com/?aid=12889836&amp;mid=yOBl4znW0dY4aMg0" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="七星湾TOD·璞盛入市-赛博朋克"><a href="#七星湾TOD·璞盛入市-赛博朋克" class="headerlink" title="七星湾TOD·璞盛入市_赛博朋克"></a>七星湾TOD·璞盛入市_赛博朋克</h2><iframe src="https://player.xinpianchang.com/?aid=12889745&amp;mid=0lYnQmWK2oLw62j1" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="金山最好的时代"><a href="#金山最好的时代" class="headerlink" title="金山最好的时代"></a>金山最好的时代</h2><iframe src="https://player.xinpianchang.com/?aid=12889701&amp;mid=0VAm7Oq5bPq4DRnW" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="海沧TOD入市"><a href="#海沧TOD入市" class="headerlink" title="海沧TOD入市"></a>海沧TOD入市</h2><iframe src="https://player.xinpianchang.com/?aid=12889683&amp;mid=enXV4BmyYmVwBEmM" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="福州建发上海西入市"><a href="#福州建发上海西入市" class="headerlink" title="福州建发上海西入市"></a>福州建发上海西入市</h2><iframe src="https://player.xinpianchang.com/?aid=12889650&amp;mid=POpZQXYmLR27Er5a" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="安溪建发入市-安溪焕新出发"><a href="#安溪建发入市-安溪焕新出发" class="headerlink" title="安溪建发入市-安溪焕新出发"></a>安溪建发入市-安溪焕新出发</h2><iframe src="https://player.xinpianchang.com/?aid=12886141&amp;mid=ro1V7E1d9rd7dXAM" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>]]></content>
+      
+      
+      <categories>
+          
+          <category> 作品集 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 剪辑 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《作品集》_人物访谈</title>
+      <link href="/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-%E4%BA%BA%E7%89%A9%E8%AE%BF%E8%B0%88/"/>
+      <url>/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-%E4%BA%BA%E7%89%A9%E8%AE%BF%E8%B0%88/</url>
+      
+        <content type="html"><![CDATA[<h2 id="建发和著-齐驸人物采访"><a href="#建发和著-齐驸人物采访" class="headerlink" title="建发和著_齐驸人物采访"></a>建发和著_齐驸人物采访</h2><iframe src="https://player.xinpianchang.com/?aid=12889691&amp;mid=XzVJwDnNynXQD0EZ" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="台州建发缦云设计师"><a href="#台州建发缦云设计师" class="headerlink" title="台州建发缦云设计师"></a>台州建发缦云设计师</h2><iframe src="https://player.xinpianchang.com/?aid=12890561&amp;mid=MzkmwJ1pbNG7xjXp" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="中海人物说"><a href="#中海人物说" class="headerlink" title="中海人物说"></a>中海人物说</h2><iframe src="https://player.xinpianchang.com/?aid=12890785&amp;mid=E6WlQgZoMq14gdJz" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="联发君樾西湖设计师2"><a href="#联发君樾西湖设计师2" class="headerlink" title="联发君樾西湖设计师2"></a>联发君樾西湖设计师2</h2><iframe src="https://player.xinpianchang.com/?aid=12889715&amp;mid=0VAm7Oq5bYA4DRnW" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="轨道TOD人物采访"><a href="#轨道TOD人物采访" class="headerlink" title="轨道TOD人物采访"></a>轨道TOD人物采访</h2><iframe src="https://player.xinpianchang.com/?aid=12889666&amp;mid=MzkmwJ1pxvl7xjXp" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="保利国贸天琴湿地公园人物采访系列二"><a href="#保利国贸天琴湿地公园人物采访系列二" class="headerlink" title="保利国贸天琴湿地公园人物采访系列二"></a>保利国贸天琴湿地公园人物采访系列二</h2><iframe src="https://player.xinpianchang.com/?aid=12889523&amp;mid=DGPB72zq0k57drm5" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="碧湖城市广场-湾筵主理人采访"><a href="#碧湖城市广场-湾筵主理人采访" class="headerlink" title="碧湖城市广场_湾筵主理人采访"></a>碧湖城市广场_湾筵主理人采访</h2><iframe src="https://player.xinpianchang.com/?aid=12889505&amp;mid=DA96QenGMDR7j5N0" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="建发西湖泊月人物采访"><a href="#建发西湖泊月人物采访" class="headerlink" title="建发西湖泊月人物采访"></a>建发西湖泊月人物采访</h2><iframe src="https://player.xinpianchang.com/?aid=12889490&amp;mid=O5vZQV1Bb5A4DEMW" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="厦门和悦东方人物访谈（工程篇）"><a href="#厦门和悦东方人物访谈（工程篇）" class="headerlink" title="厦门和悦东方人物访谈（工程篇）"></a>厦门和悦东方人物访谈（工程篇）</h2><iframe src="https://player.xinpianchang.com/?aid=12887819&amp;mid=1xNm498m3ONwEBVK" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="厦门保利和悦东方（物业）人物访谈"><a href="#厦门保利和悦东方（物业）人物访谈" class="headerlink" title="厦门保利和悦东方（物业）人物访谈"></a>厦门保利和悦东方（物业）人物访谈</h2><iframe src="https://player.xinpianchang.com/?aid=12887780&amp;mid=qd9g4r1RORAwv86Z" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="厦门保利设计师-毕路德"><a href="#厦门保利设计师-毕路德" class="headerlink" title="厦门保利设计师_毕路德"></a>厦门保利设计师_毕路德</h2><iframe src="https://player.xinpianchang.com/?aid=12887700&amp;mid=yM1l43vzD92wod2V" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="厦门保利设计师采访-赵新宇"><a href="#厦门保利设计师采访-赵新宇" class="headerlink" title="厦门保利设计师采访_赵新宇"></a>厦门保利设计师采访_赵新宇</h2><iframe src="https://player.xinpianchang.com/?aid=12887673&amp;mid=Mnp8wW9OlV8QK0lG" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>]]></content>
+      
+      
+      <categories>
+          
+          <category> 作品集 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 剪辑 </tag>
+            
+            <tag> 访谈 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《作品集》_音乐MV</title>
+      <link href="/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-%E9%9F%B3%E4%B9%90MV/"/>
+      <url>/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-%E9%9F%B3%E4%B9%90MV/</url>
+      
+        <content type="html"><![CDATA[<h2 id="泰台融合MV"><a href="#泰台融合MV" class="headerlink" title="泰台融合MV"></a>泰台融合MV</h2><iframe src="https://player.xinpianchang.com/?aid=12890664&amp;mid=8pvbQYWr5XLw306X" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="厦门建发城市公司《只因热爱》"><a href="#厦门建发城市公司《只因热爱》" class="headerlink" title="厦门建发城市公司《只因热爱》"></a>厦门建发城市公司《只因热爱》</h2><iframe src="https://player.xinpianchang.com/?aid=12889502&amp;mid=v9GZQRPzMLDwWnAR" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id=""><a href="#" class="headerlink" title=""></a></h2><h2 id="东山世界第一等"><a href="#东山世界第一等" class="headerlink" title="东山世界第一等"></a>东山世界第一等</h2><iframe src="https://player.xinpianchang.com/?aid=12889433&amp;mid=36Jm4a8yMB1wyjzB" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="宁波缦云声声慢"><a href="#宁波缦云声声慢" class="headerlink" title="宁波缦云声声慢"></a>宁波缦云声声慢</h2><iframe src="https://player.xinpianchang.com/?aid=12889443&amp;mid=8pvbQYWrLE2w306X" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe><h2 id="莆田建发磐龙府MV"><a href="#莆田建发磐龙府MV" class="headerlink" title="莆田建发磐龙府MV"></a>莆田建发磐龙府MV</h2><iframe src="https://player.xinpianchang.com/?aid=12887597&amp;mid=yM1l43vzDylwod2V" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>]]></content>
+      
+      
+      <categories>
+          
+          <category> 作品集 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 剪辑 </tag>
+            
+            <tag> MV </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>转向过度如何处理？</title>
+      <link href="/2024/02/17/%E8%BD%AC%E5%90%91%E8%BF%87%E5%BA%A6%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%EF%BC%9F/"/>
+      <url>/2024/02/17/%E8%BD%AC%E5%90%91%E8%BF%87%E5%BA%A6%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%EF%BC%9F/</url>
+      
+        <content type="html"><![CDATA[<p>前驱车：<strong>反打方向</strong>并加油门，利用前轮将车子摆正。</p><p>后驱车：<strong>反打方向</strong>松油门，千万别踩刹车，不然spin。</p><p>四驱车：<strong>反打方向</strong>并加一点油门。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Game </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo如何添加分类以及标签？</title>
+      <link href="/2024/02/16/Hexo%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB%E4%BB%A5%E5%8F%8A%E6%A0%87%E7%AD%BE%EF%BC%9F/"/>
+      <url>/2024/02/16/Hexo%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB%E4%BB%A5%E5%8F%8A%E6%A0%87%E7%AD%BE%EF%BC%9F/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>随着文章越来越多，对文章进行分类整理的需求愈加紧迫。</p><p>因为文章足够清晰了，本文为摘录备份，感谢原作者Hugo。</p></blockquote><h2 id="一-配置分类"><a href="#一-配置分类" class="headerlink" title="一.配置分类"></a>一.配置分类</h2><h3 id="1-在主题里配置好分类"><a href="#1-在主题里配置好分类" class="headerlink" title="1. 在主题里配置好分类"></a>1. 在主题里配置好分类</h3><p>首先我们得先在主题里把分类这个选项打开，例如在 Next 主题下找到hexo 博客项目文件夹下 <strong>\themes\next_config.yml</strong> 这个路径得配置文件,然后打开这个文件并找到下面得代码</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: / || fa fa-home</span><br><span class="line">  # about: /about/ || fa fa-user</span><br><span class="line">  tags: /tags/ || fa fa-tags</span><br><span class="line">  categories: /categories/ || fa fa-th</span><br><span class="line">  archives: /archives/ || fa fa-archive</span><br><span class="line">  # schedule: /schedule/ || fa fa-calendar</span><br><span class="line">  # sitemap: /sitemap.xml || fa fa-sitemap</span><br><span class="line">  # commonweal: /404/ || fa fa-heartbeat</span><br></pre></td></tr></table></figure><p>然后放开 <strong>categories: &#x2F;categories&#x2F; || fa fa-th</strong> 这行代码就已经配置好里分类。</p><h3 id="2-创建分类目录文件"><a href="#2-创建分类目录文件" class="headerlink" title="2. 创建分类目录文件"></a>2. 创建分类目录文件</h3><blockquote><p>因为分类页是没有默认页面的所以需要我们手动创建分类页。</p></blockquote><p>打开命令行，进入博客项目所在的文件夹下，执行以下命令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new page categories</span><br></pre></td></tr></table></figure><p>成功后会提示：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">INFO  Created: ~/blog/source/categories/index.md</span><br></pre></td></tr></table></figure><p>这样我们就创建好了分类页面了。但是这个时候主题还不会识别这个页面为分类页；所以我们需要编辑这个新建的页面，让主题识别这个页面，并自动为这个页面显示分类。</p><h3 id="3-编辑页面让主题识别页面为分类页面"><a href="#3-编辑页面让主题识别页面为分类页面" class="headerlink" title="3. 编辑页面让主题识别页面为分类页面"></a>3. 编辑页面让主题识别页面为分类页面</h3><p>上文说到需要编辑页面才能让主题识别这个页面为分类页面，我们只需要根据成功后到提示路径打开<code>index.md</code>这个页面文件，打开后默认内容是</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章分类</span><br><span class="line">date: 2021-01-25 22:37:25</span><br><span class="line">---</span><br></pre></td></tr></table></figure><p>我们需要添加上<code>type: &quot;categories&quot;</code>这段代码就能让主题识别该页面为分类页面了</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章分类</span><br><span class="line">date: 2021-01-25 22:37:25</span><br><span class="line">type: &quot;categories&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure><p>我们就完成了整个分类页面的配置了</p><h3 id="4-给文章设置分类属性"><a href="#4-给文章设置分类属性" class="headerlink" title="4. 给文章设置分类属性"></a>4. 给文章设置分类属性</h3><p>首先打开需要添加分类的文章，在文章里添加上以下文案就设置好分类了</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">categories: </span><br><span class="line">- Android</span><br><span class="line">---</span><br></pre></td></tr></table></figure><p>如上<code>categories:Android</code>表示添加这边文章到 “<strong>Android</strong>” 这个分类下。<br>然后我们就可以在博客到分类里看到该分类了。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">//设置二级分类</span><br><span class="line">---</span><br><span class="line">categories: </span><br><span class="line">- Android</span><br><span class="line">- xxx</span><br><span class="line">---</span><br></pre></td></tr></table></figure><p>如上设置二级分类则该篇文章为 Android 分类下的 XXX 分类下。</p><h2 id="二-配置标签"><a href="#二-配置标签" class="headerlink" title="二.配置标签"></a>二.配置标签</h2><h3 id="1-在主题里配置好标签"><a href="#1-在主题里配置好标签" class="headerlink" title="1. 在主题里配置好标签"></a>1. 在主题里配置好标签</h3><p>首先我们得先在主题里把分类这个选项打开，例如在 Next 主题下找到hexo 博客项目文件夹下 <strong>\themes\next_config.yml</strong> 这个路径得配置文件,然后打开这个文件并找到下面得代码</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: / || fa fa-home</span><br><span class="line">  # about: /about/ || fa fa-user</span><br><span class="line">  tags: /tags/ || fa fa-tags</span><br><span class="line">  categories: /categories/ || fa fa-th</span><br><span class="line">  archives: /archives/ || fa fa-archive</span><br><span class="line">  # schedule: /schedule/ || fa fa-calendar</span><br><span class="line">  # sitemap: /sitemap.xml || fa fa-sitemap</span><br><span class="line">  # commonweal: /404/ || fa fa-heartbeat</span><br></pre></td></tr></table></figure><p>然后放开 <strong>tags: &#x2F;tags&#x2F; || fa fa-tags</strong> 这行代码就已经配置好里分类。</p><h3 id="2-创建标签目录文件"><a href="#2-创建标签目录文件" class="headerlink" title="2. 创建标签目录文件"></a>2. 创建标签目录文件</h3><blockquote><p>和分类页一样，标签页也是没有默认页面的所以需要我们手动创建标签页。</p></blockquote><p>打开命令行，进入博客项目所在的文件夹下，执行以下命令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new page tags</span><br></pre></td></tr></table></figure><p>成功后会提示：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">INFO  Created: ~/blog/source/tags/index.md</span><br></pre></td></tr></table></figure><p>这样我们就创建好了标签页面了。但是这个时候主题还不会识别这个页面为标签页；所以我们需要编辑这个新建的页面，让主题识别这个页面，并自动为这个页面显示标签。</p><h3 id="3-编辑页面让主题识别页面为标签页面"><a href="#3-编辑页面让主题识别页面为标签页面" class="headerlink" title="3. 编辑页面让主题识别页面为标签页面"></a>3. 编辑页面让主题识别页面为标签页面</h3><p>上文说到需要编辑页面才能让主题识别这个页面为标签页面，我们只需要根据成功后到提示路径打开<code>index.md</code>这个页面文件，打开后默认内容是</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 标签</span><br><span class="line">date: 2021-01-25 22:54:58</span><br><span class="line">---</span><br></pre></td></tr></table></figure><p>我们需要添加上<code>type: &quot;tags&quot;</code>这段代码就能让主题识别该页面为标签页面了</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 标签</span><br><span class="line">date: 2021-01-25 22:54:58</span><br><span class="line">type: &quot;tags&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure><p>我们就完成了整个标签页面的配置了</p><h3 id="4-给文章设置标签属性"><a href="#4-给文章设置标签属性" class="headerlink" title="4. 给文章设置标签属性"></a>4. 给文章设置标签属性</h3><p>首先打开需要添加标签的文章，在文章里添加上以下文案，就设置好标签里了</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">//设置单标签</span><br><span class="line">---</span><br><span class="line">tags:</span><br><span class="line">- Facebook配置</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">//设置多标签 并同时设置分类</span><br><span class="line">---</span><br><span class="line">categories: </span><br><span class="line">- Android</span><br><span class="line">tags:</span><br><span class="line">- Android</span><br><span class="line">- RecyclerView</span><br><span class="line">---</span><br></pre></td></tr></table></figure><p>如上<code>tags:- Facebook配置</code>表示给这篇文章添加 “<strong>Facebook配置</strong>” 这个分标签。<br>然后我们就可以在博客到标签里看到该标签了。</p><h2 id="三-结语"><a href="#三-结语" class="headerlink" title="三.结语"></a>三.结语</h2><p>这样我们就完成了分类和标签的配置，可以看出分类和标签的配置流程基本一样。</p><p>关于Next的更多配置请查看官方文档 <a href="https://theme-next.iissnan.com/theme-settings.html">https://theme-next.iissnan.com/theme-settings.html</a></p><h2 id="四-延伸"><a href="#四-延伸" class="headerlink" title="四.延伸"></a>四.延伸</h2><p>在上面我们配置对文件最上方以 <code>---</code>分割对区域，是用来指定个别文件的配置变量区域，名称为 <strong>Front-matter</strong></p><blockquote><p>参考：<a href="https://tohugo.com/2021/01/26/%E5%B7%A5%E5%85%B7%E9%85%8D%E7%BD%AE/Hexo%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB%E5%8F%8A%E6%A0%87%E7%AD%BE%EF%BC%88%E5%9C%A8Next%E4%B8%BB%E9%A2%98%E4%B8%8B%EF%BC%89/">https://tohugo.com/2021/01/26/%E5%B7%A5%E5%85%B7%E9%85%8D%E7%BD%AE/Hexo%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB%E5%8F%8A%E6%A0%87%E7%AD%BE%EF%BC%88%E5%9C%A8Next%E4%B8%BB%E9%A2%98%E4%B8%8B%EF%BC%89/</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Blog </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Blog </tag>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>尘埃拉力赛2.0路书详解</title>
+      <link href="/2024/02/15/%E5%B0%98%E5%9F%83%E6%8B%89%E5%8A%9B%E8%B5%9B2-0%E8%B7%AF%E4%B9%A6%E8%AF%A6%E8%A7%A3/"/>
+      <url>/2024/02/15/%E5%B0%98%E5%9F%83%E6%8B%89%E5%8A%9B%E8%B5%9B2-0%E8%B7%AF%E4%B9%A6%E8%AF%A6%E8%A7%A3/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>感谢B站up主无状态选手对拉力知识的无私奉献</p><p>注意路书英文词汇的的积累</p></blockquote><h2 id="弯道："><a href="#弯道：" class="headerlink" title="弯道："></a>弯道：</h2><p><code>1-6号弯，数字越小，转弯角度越大，几号弯也可以当做档位的参考</code></p><p><img src="/2024/02/15/%E5%B0%98%E5%9F%83%E6%8B%89%E5%8A%9B%E8%B5%9B2-0%E8%B7%AF%E4%B9%A6%E8%AF%A6%E8%A7%A3/1%E5%BC%AF%E9%81%93%E7%BC%93%E6%80%A5.jpg" alt="1弯道缓急"></p><h2 id="特殊地形"><a href="#特殊地形" class="headerlink" title="特殊地形"></a>特殊地形</h2><p><img src="/2024/02/15/%E5%B0%98%E5%9F%83%E6%8B%89%E5%8A%9B%E8%B5%9B2-0%E8%B7%AF%E4%B9%A6%E8%AF%A6%E8%A7%A3/2%E7%89%B9%E6%AE%8A%E5%9C%B0%E5%BD%A21.jpg" alt="2特殊地形1"></p><p><img src="/2024/02/15/%E5%B0%98%E5%9F%83%E6%8B%89%E5%8A%9B%E8%B5%9B2-0%E8%B7%AF%E4%B9%A6%E8%AF%A6%E8%A7%A3/2%E7%89%B9%E6%AE%8A%E5%9C%B0%E5%BD%A22.jpg" alt="2特殊地形2"></p><h2 id="衔接提示"><a href="#衔接提示" class="headerlink" title="衔接提示"></a>衔接提示</h2><p><img src="/2024/02/15/%E5%B0%98%E5%9F%83%E6%8B%89%E5%8A%9B%E8%B5%9B2-0%E8%B7%AF%E4%B9%A6%E8%AF%A6%E8%A7%A3/3%E8%A1%94%E6%8E%A5%E6%8F%90%E7%A4%BA.jpg" alt="3衔接提示"></p><h2 id="特殊提示"><a href="#特殊提示" class="headerlink" title="特殊提示"></a>特殊提示</h2><p><img src="/2024/02/15/%E5%B0%98%E5%9F%83%E6%8B%89%E5%8A%9B%E8%B5%9B2-0%E8%B7%AF%E4%B9%A6%E8%AF%A6%E8%A7%A3/4%E7%89%B9%E6%AE%8A%E6%8F%90%E7%A4%BA.jpg" alt="4特殊提示"></p><h2 id="程度提示"><a href="#程度提示" class="headerlink" title="程度提示"></a>程度提示</h2><p><img src="/2024/02/15/%E5%B0%98%E5%9F%83%E6%8B%89%E5%8A%9B%E8%B5%9B2-0%E8%B7%AF%E4%B9%A6%E8%AF%A6%E8%A7%A3/5%E7%A8%8B%E5%BA%A6%E6%8F%90%E7%A4%BA.jpg" alt="5程度提示"></p><h2 id="地面种类"><a href="#地面种类" class="headerlink" title="地面种类"></a>地面种类</h2><p><img src="/2024/02/15/%E5%B0%98%E5%9F%83%E6%8B%89%E5%8A%9B%E8%B5%9B2-0%E8%B7%AF%E4%B9%A6%E8%AF%A6%E8%A7%A3/6%E5%9C%B0%E9%9D%A2%E7%A7%8D%E7%B1%BB.jpg" alt="6地面种类"></p><h2 id="基本UI"><a href="#基本UI" class="headerlink" title="基本UI"></a>基本UI</h2><p><img src="/2024/02/15/%E5%B0%98%E5%9F%83%E6%8B%89%E5%8A%9B%E8%B5%9B2-0%E8%B7%AF%E4%B9%A6%E8%AF%A6%E8%A7%A3/7%E5%9F%BA%E6%9C%ACUI.jpg" alt="7基本UI"></p><blockquote><p>基础路书</p><p><a href="https://www.bilibili.com/video/BV1bQ4y1Q79h/?spm_id_from=333.999.0.0&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1bQ4y1Q79h/?spm_id_from=333.999.0.0&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p><iframe src="//player.bilibili.com/player.html?aid=718292221&bvid=BV1bQ4y1Q79h&cid=419949033&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></blockquote><blockquote><p>进阶讲解</p><p><a href="https://www.bilibili.com/video/BV1j84y1z7un/?p=19&share_source=copy_web&vd_source=505715987aaca96a5676bebe95471fee">https://www.bilibili.com/video/BV1j84y1z7un/?p=19&amp;share_source=copy_web&amp;vd_source=505715987aaca96a5676bebe95471fee</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 模拟赛车 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Game </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>科学上网各种模式的区别？</title>
+      <link href="/2024/02/15/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E5%90%84%E7%A7%8D%E6%A8%A1%E5%BC%8F%E7%9A%84%E5%8C%BA%E5%88%AB%EF%BC%9F/"/>
+      <url>/2024/02/15/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E5%90%84%E7%A7%8D%E6%A8%A1%E5%BC%8F%E7%9A%84%E5%8C%BA%E5%88%AB%EF%BC%9F/</url>
+      
+        <content type="html"><![CDATA[<p><strong>GFWlist：</strong>通过DNS地址进行区分，在Gfwlist列表的DNS走国外，其他走国内。该模式下会更新gfwlist到本地，该list包含所有需要走国外的DNS域名。GFW是长城防火墙，即我们所说的墙。此模式是所有被墙网站走ss。比如谷歌等。<code>除了GF列表内的翻墙，其他都直连</code></p><p><strong>大陆白名单</strong>：通过IP地址进行区分，所有国外的IP地址走国外，国内的IP地址走国内。该模式下会更新一个白名单列表，说明IP地址所在的区域。<code>所有白名单内的直连，其他的翻墙</code></p><p><strong>游戏模式：</strong>梅林固件特有。算是大陆白名单的游戏专用升级版。同样是基于是否中国大陆ip，并加入了UDP转发功能，且UDP必走ss。这里与你是否有公网ip无关，理论上应该成文NAT1，x1的话是开放。</p><p><strong>ss-local模式：</strong>老毛子固件特有。提供SOCKS代理。类似于电脑里的小飞机，只不过把路由器当做小飞机，需要浏览器或软件配合使用。比如chrome中的代理插件SwitchyOmega或SwitchySharp等。</p><p>**全局模式:**全部走代理。</p><p>节点模式大体分为三种，GFWlist、白名单、和全局模式。这是最基本的分类。</p><p>梅林固件中则多出了游戏模式；</p><p>老毛子固件中则是多出了ss-local模式；</p><blockquote><p>参考文献：<a href="https://zoohotelforever.blogspot.com/2019/03/ssgfwlist.html">https://zoohotelforever.blogspot.com/2019/03/ssgfwlist.html</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机网络 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科学上网 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>BT下载把机场流量跑光了怎么办？</title>
+      <link href="/2024/02/15/BT%E4%B8%8B%E8%BD%BD%E6%8A%8A%E6%9C%BA%E5%9C%BA%E6%B5%81%E9%87%8F%E8%B7%91%E5%85%89%E4%BA%86%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F/"/>
+      <url>/2024/02/15/BT%E4%B8%8B%E8%BD%BD%E6%8A%8A%E6%9C%BA%E5%9C%BA%E6%B5%81%E9%87%8F%E8%B7%91%E5%85%89%E4%BA%86%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>结论是：代理用GFW模式√（已测试成功）</p></blockquote><p>探索过程：</p><ol><li>在资源监视器-网络-qbittorent-侦听端口-端口，查看端口号，通过<strong>fancyss</strong>的访问控制，将BT软件占用的端口限制为不走代理模式。（端口会不断变化，测试未成功）</li><li>开个虚拟机跑BT，用<strong>fancyss</strong>的访问控制封虚拟机ip（未测试）</li><li>代理用GFW模式√（测试成功）</li></ol><blockquote><p>参考：<a href="https://github.com/hq450/fancyss/issues/32878">https://github.com/hq450/fancyss/issues/32878</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机网络 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科学上网 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>漳州市如何办理灵活就业医保？</title>
+      <link href="/2024/02/15/%E6%BC%B3%E5%B7%9E%E5%B8%82%E5%A6%82%E4%BD%95%E5%8A%9E%E7%90%86%E7%81%B5%E6%B4%BB%E5%B0%B1%E4%B8%9A%E5%8C%BB%E4%BF%9D%EF%BC%9F/"/>
+      <url>/2024/02/15/%E6%BC%B3%E5%B7%9E%E5%B8%82%E5%A6%82%E4%BD%95%E5%8A%9E%E7%90%86%E7%81%B5%E6%B4%BB%E5%B0%B1%E4%B8%9A%E5%8C%BB%E4%BF%9D%EF%BC%9F/</url>
+      
+        <content type="html"><![CDATA[<p><code>*职工医保转灵活就业医保*</code></p><p>到医保中心办理登记，每月6-25号可以受理登记，登记成功后去税务局缴纳或者线上缴纳。</p><p>费用379.08&#x2F;月，4548.96&#x2F;年，按月交费。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">关于断缴：</span><br><span class="line">断缴三个月以内（包含三个月）补缴费后不影响</span><br><span class="line">断缴三个月以上，补缴后，断交期间不报销，且重新缴纳后重新计算医保时间，前六个月只能报销50%</span><br></pre></td></tr></table></figure><blockquote><p>医保中心上班时间：9：00-12:00；13:00-17:00</p></blockquote><blockquote><p> 漳州医保退休要求：累计缴纳25年（不需要连续）</p></blockquote><blockquote><p>医保中心地址：漳州行政服务中心1楼</p></blockquote><blockquote><p>税务部门：漳州行政服务中心2楼</p></blockquote><blockquote><p>本文更新于2023年12月，政策一直在变，具有时效性，一些细节请资讯医保中心工作人员再次确认。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 五险一金 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 医保 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo博客主题优化</title>
+      <link href="/2024/01/20/Hexo%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96/"/>
+      <url>/2024/01/20/Hexo%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-设置菜单"><a href="#1-设置菜单" class="headerlink" title="1. 设置菜单"></a>1. 设置菜单</h2><p>打开主题配置文件即themes&#x2F;next下的_config.yml，查找menu，将前面的#删除就行了：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: / || home                      #首页</span><br><span class="line">  archives: /archives/ || archive      #归档</span><br><span class="line">  categories: /categories/ || th       #分类</span><br><span class="line">  tags: /tags/ || tags                 #标签</span><br><span class="line">  about: /about/ || user               #关于</span><br><span class="line">  resources: /resources/ || download   #资源</span><br><span class="line">  #schedule: /schedule/ || calendar    #日历（**干啥用？**）</span><br><span class="line">  #sitemap: /sitemap.xml || sitemap    #站点地图，供搜索引擎爬取（为爬虫指路增加网站重要内容页面的收录）</span><br><span class="line">  #commonweal: /404/ || heartbeat      #腾讯公益404（寻找丢失儿童）</span><br></pre></td></tr></table></figure><p>“||”前面的是目标链接，后面的是图标名称，next使用的图标全是<a href="http://www.fontawesome.com.cn/faicons/#web-application">图标库 - Font Awesome 中文网</a>这一网站的，有想用的图标直接在fontawesome上面找图标的名称就行。resources是我自己添加的。</p><p><del>新添加的菜单需要翻译对应的中文，打开theme&#x2F;next&#x2F;languages&#x2F;zh-CN.yml，在menu下设置：</del>（新版next主题自带翻译）</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: 首页</span><br><span class="line">  archives: 归档</span><br><span class="line">  categories: 分类</span><br><span class="line">  tags: 标签</span><br><span class="line">  about: 关于</span><br><span class="line">  resources: 资源</span><br><span class="line">  search: 搜索</span><br></pre></td></tr></table></figure><p>在根目录下打开Git Bash，输入如下代码：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo new page &quot;categories&quot;</span><br><span class="line">hexo new page &quot;tags&quot;</span><br><span class="line">hexo new page &quot;about&quot;</span><br><span class="line">hexo new page &quot;resources&quot;</span><br></pre></td></tr></table></figure><p>此时在根目录的sources文件夹下会生成categories、tags、about、resources四个文件，每个文件中有一个<code>index.md</code>文件，修改内容分别如下：（type指向该文件夹类型吧，不确定是不是这个作用）</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 分类</span><br><span class="line">date: 2020-02-10 22:07:08</span><br><span class="line">type: &quot;categories&quot;</span><br><span class="line">comments: false</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line">title: 标签</span><br><span class="line">date: 2020-02-10 22:07:08</span><br><span class="line">type: &quot;tags&quot;</span><br><span class="line">comments: false</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line">title: 关于</span><br><span class="line">date: 2020-02-10 22:07:08</span><br><span class="line">type: &quot;about&quot;</span><br><span class="line">comments: false</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line">title: 资源</span><br><span class="line">date: 2020-02-10 22:07:08</span><br><span class="line">type: &quot;resources&quot;</span><br><span class="line">comments: false</span><br><span class="line">---</span><br></pre></td></tr></table></figure><p>注：如果有启用评论，默认页面带有评论。需要关闭的话，添加字段comments并将值设置为false。</p><h2 id="2-设置建站时间"><a href="#2-设置建站时间" class="headerlink" title="2. 设置建站时间"></a>2. 设置建站时间</h2><p>打开主题配置文件即themes&#x2F;next下的_config.yml，查找since：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">footer:</span><br><span class="line">  # Specify the date when the site was setup. If not defined, current year will be used.</span><br><span class="line">  since: 2020-02   #建站时间</span><br></pre></td></tr></table></figure><h2 id="5-设置动态背景"><a href="#5-设置动态背景" class="headerlink" title="5. 设置动态背景"></a>5. 设置动态背景</h2><h3 id="5-1-canvas-nest-风格"><a href="#5-1-canvas-nest-风格" class="headerlink" title="5.1 canvas nest 风格"></a>5.1 canvas nest 风格</h3><p>效果图：</p><p><img src="https://pic3.zhimg.com/v2-0948505c3e3161c767466b90c2649aa2_r.jpg" alt="img"></p><p>在themes&#x2F;next目录下打开Git Bash，输入：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/theme-next/theme-next-canvas-nest source/lib/canvas-nest</span><br></pre></td></tr></table></figure><p>打开主题配置文件即themes&#x2F;next下的_config.yml，找到canvas-nest，将enable：false改为true：（<strong>如果找不到canvas-nest，可能是文件修改了，试试将下面的代码复制粘贴到themes&#x2F;next中</strong>）<code>可行</code></p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"># Canvas-nest</span><br><span class="line"># Dependencies: https://github.com/theme-next/theme-next-canvas-nest</span><br><span class="line"># For more information: https://github.com/hustcc/canvas-nest.js</span><br><span class="line">canvas_nest:</span><br><span class="line">  enable: true</span><br><span class="line">  onmobile: true # Display on mobile or not</span><br><span class="line">  color: &quot;0,0,255&quot; # RGB values, use `,` to separate</span><br><span class="line">  opacity: 0.5 # The opacity of line: 0~1</span><br><span class="line">  zIndex: -1 # z-index property of the background</span><br><span class="line">  count: 99 # The number of lines</span><br></pre></td></tr></table></figure><h3 id="5-2-JavaScript-3D-library风格"><a href="#5-2-JavaScript-3D-library风格" class="headerlink" title="5.2 JavaScript 3D library风格"></a>5.2 JavaScript 3D library风格</h3><p>在themes&#x2F;next目录下打开Git Bash，输入：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/theme-next/theme-next-three source/lib/three</span><br></pre></td></tr></table></figure><p>打开主题配置文件即themes&#x2F;next下的_config.yml，找到three，这里有三种风格，可以试一下看看喜欢哪种风格，直接将false改为true就行了</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># JavaScript 3D library.</span><br><span class="line"># Dependencies: https://github.com/theme-next/theme-next-three</span><br><span class="line">three:</span><br><span class="line">  enable: true</span><br><span class="line">  three_waves: false</span><br><span class="line">  canvas_lines: false</span><br><span class="line">  canvas_sphere: false</span><br></pre></td></tr></table></figure><h2 id="8-添加顶部加载条"><a href="#8-添加顶部加载条" class="headerlink" title="8. 添加顶部加载条"></a>8. 添加顶部加载条</h2><p>在themes&#x2F;next目录下打开Git Bash，输入：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/theme-next/theme-next-pace source/lib/pace</span><br></pre></td></tr></table></figure><p>打开<strong>主题配置文件</strong>即themes&#x2F;next下的_config.yml，找到pace，将enable：false改为true，你还可以选择类型（theme）：<code>flash、minimal、bounce比较喜欢</code></p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">pace:</span><br><span class="line">  enable: true</span><br><span class="line">  # Themes list:</span><br><span class="line">  # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple</span><br><span class="line">  # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal</span><br><span class="line">  theme: minimal</span><br></pre></td></tr></table></figure><h2 id="9-设置预览摘要"><a href="#9-设置预览摘要" class="headerlink" title="9. 设置预览摘要"></a>9. 设置预览摘要</h2><p>next（v7.7.1）已经没有如下代码：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">auto_excerpt:</span><br><span class="line">  enable: true</span><br><span class="line">  length: 150</span><br></pre></td></tr></table></figure><p>所以不需要设置，只要我们在文章中插入 <span id="more"></span>，该标签之上的是摘要，之后的内容不可见，需点击全文阅读按钮：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- more --&gt;</span><br></pre></td></tr></table></figure><h2 id="10-设置侧边栏显示效果"><a href="#10-设置侧边栏显示效果" class="headerlink" title="10. 设置侧边栏显示效果"></a>10. 设置侧边栏显示效果</h2><p><code>侧边栏指的是menu下面那一块</code></p><p>打开<strong>主题配置文件</strong>即themes&#x2F;next下的_config.yml，找到Sidebar Settings，设置：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">sidebar:</span><br><span class="line">  # Sidebar Position. #设置侧边栏位置</span><br><span class="line">  position: left</span><br><span class="line">  #position: right</span><br><span class="line"></span><br><span class="line">  #  - post    默认显示模式</span><br><span class="line">  #  - always  一直显示</span><br><span class="line">  #  - hide    初始隐藏</span><br><span class="line">  #  - remove  移除侧边栏</span><br><span class="line">  display: post</span><br></pre></td></tr></table></figure><h2 id="14-显示文章字数和阅读时长"><a href="#14-显示文章字数和阅读时长" class="headerlink" title="14. 显示文章字数和阅读时长"></a>14. 显示文章字数和阅读时长</h2><p><code>我一开始失败了，在站点配置文件末尾加上代码后测试报错，发现是安装代码不对</code></p><p>从根目录Blog打开Git Bash，执行下面的命令，安装插件：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-wordcount --save #错误安装代码，下方正确不报错</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-word-counter</span><br><span class="line">hexo clean</span><br></pre></td></tr></table></figure><p>然后打开<strong>站点配置文件，</strong>在文件末尾加上下面的代码：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">symbols_count_time:</span><br><span class="line">  symbols: true                # 文章字数统计</span><br><span class="line">  time: true                   # 文章阅读时长</span><br><span class="line">  total_symbols: true          # 站点总字数统计</span><br><span class="line">  total_time: true             # 站点总阅读时长</span><br><span class="line">  exclude_codeblock: false     # 排除代码字数统计</span><br></pre></td></tr></table></figure><p>效果如下图：</p><p><img src="https://pic2.zhimg.com/v2-6691afc39f011c010bd0d9e054b50e75_r.jpg" alt="img"></p><h2 id="15-显示站点文章总字数（另一种统计站点总字数的方法）"><a href="#15-显示站点文章总字数（另一种统计站点总字数的方法）" class="headerlink" title="15. 显示站点文章总字数（另一种统计站点总字数的方法）"></a>15. 显示站点文章总字数（另一种统计站点总字数的方法）</h2><p><code>可以，但是只能显示全站字数，不能显示单篇文章</code></p><p>从根目录Blog打开Git Bash，执行下面的命令，安装插件：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-wordcount --save</span><br></pre></td></tr></table></figure><p>然后在&#x2F;themes&#x2F;next&#x2F;layout&#x2F;_partials&#x2F;footer.swig文件尾部加上：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=&quot;theme-info&quot;&gt;</span><br><span class="line">  &lt;div class=&quot;powered-by&quot;&gt;&lt;/div&gt;</span><br><span class="line">  &lt;span class=&quot;post-count&quot;&gt;博客全站共&#123;&#123; totalcount(site) &#125;&#125;字&lt;/span&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure><blockquote><p>参考文献：<a href="https://zhuanlan.zhihu.com/p/106060640">https://zhuanlan.zhihu.com/p/106060640</a><br><a href="https://hexo-next.readthedocs.io/zh-cn/latest/next/advanced/%E5%AD%97%E6%95%B0%E7%BB%9F%E8%AE%A1/">https://hexo-next.readthedocs.io/zh-cn/latest/next/advanced/%E5%AD%97%E6%95%B0%E7%BB%9F%E8%AE%A1/</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Blog </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Blog </tag>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>班味？</title>
+      <link href="/2024/01/19/%E7%8F%AD%E5%91%B3%EF%BC%9F/"/>
+      <url>/2024/01/19/%E7%8F%AD%E5%91%B3%EF%BC%9F/</url>
+      
+        <content type="html"><![CDATA[<p>这个up所述，很是真实，很有感触。</p><iframe src="//player.bilibili.com/player.html?aid=923926253&bvid=BV1RT4y187Jb&cid=1410065563&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><p>精彩评论：</p><p>上班之后，甚至要权衡兴趣的利弊</p><p>不上班的时候时间似乎是无限的，我可以随便浪费在任何事情上，哪怕发呆半天都感觉不到。但上班之后的下班时间刻刻千金。</p><p>和社会彻底接轨后，地铁门打开，尸体坍塌在身上，那一瞬间就知道平庸是多大的命题。也逐渐理解了小时候无病呻吟的时候爸妈的斥骂夹杂的羡慕。然后会恐惧，怀疑自己身上属于另一个世界的细胞会坏死，终将有一天成为下一次地铁们敞开时倒下的尸体。</p><p>能感觉到创造力从自身飞速的消失。</p><p>就算坐家里休息需要随叫随到也很累，总有种胆战心惊的感觉，不知道什么时候电话会来，不管干什么都会被打断，连吃饭都不快乐了。</p><p>在最好的年纪被迫失去创造力和灵性，一直到老也没有捡回来，机能逐渐衰老，开始向内收缩，一个失去生命力的过程，大脑选择省电模式，失去表达欲，开始习惯性沉默，开始念旧，却发现没有旧可以念</p><p>原本是个对工作业务非常上心认真的人，也经常拿公司的表彰，但发现实际能得到的回报无论多么努力都少的可怜。当想通人的精力是有限的，付出给工作不如付出给自己后，就悟了。23年基本完全丧失了自己的时间，是最忙乱也最无长进的一年</p><p>上班的这半年好像被工作和鸡零狗碎填满了，自处的时间除了疲惫，就是刷手机后的更加疲惫。<br>焦躁又轻易耐不下心，生命力与活力好像被抽干，其实想做的事情还有很多，或许放空大脑也许是个好主意。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 碎碎念 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 日常 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何解决视频拍摄中的频闪问题？</title>
+      <link href="/2024/01/18/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E8%A7%86%E9%A2%91%E6%8B%8D%E6%91%84%E4%B8%AD%E7%9A%84%E9%A2%91%E9%97%AA%E9%97%AE%E9%A2%98%EF%BC%9F/"/>
+      <url>/2024/01/18/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E8%A7%86%E9%A2%91%E6%8B%8D%E6%91%84%E4%B8%AD%E7%9A%84%E9%A2%91%E9%97%AA%E9%97%AE%E9%A2%98%EF%BC%9F/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>参考：灯光一直闪、屏幕有条纹？彻底搞懂“频闪”是什么！(影视飓风),讲的很详细了，有空做个文字版本总结。</p></blockquote><iframe src="//player.bilibili.com/player.html?aid=666304538&bvid=BV1ua4y127pk&cid=1408505034&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
+      
+      
+      <categories>
+          
+          <category> 摄影技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 频闪 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《埃及艳后》(1963) 影评</title>
+      <link href="/2024/01/18/%E3%80%8A%E5%9F%83%E5%8F%8A%E8%89%B3%E5%90%8E%E3%80%8B-1963-%E5%BD%B1%E8%AF%84/"/>
+      <url>/2024/01/18/%E3%80%8A%E5%9F%83%E5%8F%8A%E8%89%B3%E5%90%8E%E3%80%8B-1963-%E5%BD%B1%E8%AF%84/</url>
+      
+        <content type="html"><![CDATA[<p>二十世纪福克斯倾家荡产之作，号称历史上耗资最大的电影<code>4400万美元，相当于现在的4.22亿美元</code>《埃及艳后》，终于是有时间欣赏了。</p><p>这部片子版本很多</p><blockquote><p>片长: 192分钟 &#x2F; 233分钟(TV) &#x2F; 251分钟(50周年纪念版) &#x2F; 320分钟(导演剪辑版)</p></blockquote><p>咱当然是挑长的看，不然怎么对得起这4400万美元呢，由于导演剪辑版暂时没发现4k资源，我所收集的是251分钟(50周年纪念版)，四个小时多。<code>上次看这么长的电影还是印度片，但印度片歌舞多，时长有水分,这可是实打实的4小时</code></p><p>这是古埃及历史人物传记的影视化演出，所述的是古埃及最后一代法老<code>克里奥佩特拉</code>的一生。公元前51年，<code>克里奥佩特拉</code>的父亲去世，当时的法律规定，由<code>克里奥佩特拉</code>和她的弟弟<code>托勒密十三世</code>结为夫妻共同掌管埃及</p><blockquote><p>古代没有近亲结婚的生物学知识，近亲结婚，巩固统治，可以理解。</p></blockquote><p>但很明显，他们只是政治联姻，埃及内部政治斗争开始，<code>克里奥佩特拉</code>显然不是他弟弟<code>托勒密十三世</code>的对手。正处当时罗马帝国内部斗争中，<code>凯撒</code>击败<code>庞贝</code>，<code>庞贝</code>逃到埃及，而<code>托勒密十三世</code>将<code>庞贝</code>的项上人头先给凯撒以讨好他，然实际上<code>凯撒</code>并不打算杀害<code>庞贝</code>，因此并不领情。<code>克里奥佩特拉</code>将自己裹在被子里献给<code>凯撒</code>，成功在凯撒的帮助下，获得了埃及的全部掌控权。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 影评 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电影 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何在HEXO博客中插入视频？</title>
+      <link href="/2024/01/17/%E5%A6%82%E4%BD%95%E5%9C%A8HEXO%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E8%A7%86%E9%A2%91%EF%BC%9F/"/>
+      <url>/2024/01/17/%E5%A6%82%E4%BD%95%E5%9C%A8HEXO%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E8%A7%86%E9%A2%91%EF%BC%9F/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>我希望可以在博客中展示个人剪辑作品，但有些素材涉及版权问题，不希望公开发布，因此需要能够直接在博客中展示作品并流畅播放</p></blockquote><p>由于优爱腾平台有广告，为了追求更好的观看体验，目标瞄准到了bilibili和新片场，而bilibili上传作品只能进行公开发表，所以pass，最终在新片场找到方案正好契合我的需求。</p><p>步骤：</p><ol><li>上传本地视频文件到新片场，并且上传时选择仅分享观看，即可不公开发表;</li></ol><p><img src="/2024/01/17/%E5%A6%82%E4%BD%95%E5%9C%A8HEXO%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E8%A7%86%E9%A2%91%EF%BC%9F/%E5%85%AC%E5%BC%80%E4%B8%8A%E4%BC%A0.jpg"></p><p><img src="/2024/01/17/%E5%A6%82%E4%BD%95%E5%9C%A8HEXO%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E8%A7%86%E9%A2%91%EF%BC%9F/%E4%BB%85%E5%88%86%E4%BA%AB%E5%8F%AF%E8%A7%81.jpg"></p><blockquote><p>上传到公开作品，是由于私密作品新片场还是beta阶段，我暂时无法上传视频,公开作品仅分享可见也可以达成目的。</p></blockquote><ol start="2"><li>在上传完成的视频页面，点击分享-获取嵌入代码，并将代码粘贴到博客正文中即可;</li></ol><p><img src="/2024/01/17/%E5%A6%82%E4%BD%95%E5%9C%A8HEXO%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E8%A7%86%E9%A2%91%EF%BC%9F/%E7%82%B9%E5%87%BB%E5%88%86%E4%BA%AB.jpg"></p><p><img src="/2024/01/17/%E5%A6%82%E4%BD%95%E5%9C%A8HEXO%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E8%A7%86%E9%A2%91%EF%BC%9F/%E8%8E%B7%E5%8F%96%E5%B5%8C%E5%85%A5%E4%BB%A3%E7%A0%81.jpg"></p><ol start="3"><li>完成效果。</li></ol><p><img src="/2024/01/17/%E5%A6%82%E4%BD%95%E5%9C%A8HEXO%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E8%A7%86%E9%A2%91%EF%BC%9F/%E5%AE%8C%E6%88%90%E6%95%88%E6%9E%9C.jpg"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Blog </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Blog </tag>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Git Bash如何进行复制粘贴</title>
+      <link href="/2024/01/17/Git-Bash%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E5%A4%8D%E5%88%B6%E7%B2%98%E8%B4%B4/"/>
+      <url>/2024/01/17/Git-Bash%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E5%A4%8D%E5%88%B6%E7%B2%98%E8%B4%B4/</url>
+      
+        <content type="html"><![CDATA[<p>Git Bash中，Control+C和Control+V并不是复制和粘贴的快捷键，要实现复制粘贴有两个办法：</p><ol><li>使用鼠标，右键Git Bash的黑框框，即可进行复制粘贴</li></ol><p>![鼠标复制粘贴](D:\Blog\source_posts\Git-Bash如何进行复制粘贴\屏幕截图 2024-01-17 121404.png)</p><ol start="2"><li>使用上图所示的快捷键Ctrl+Ins和Shift+ins即可复制粘贴</li></ol><blockquote><p>注：Ctrl&#x3D;Control；Ins&#x3D;insert；</p><p>一般非全尺寸键盘，例如我的是84键，insert键和Del同一键位, 同理Home和Pause, End和Prtsc在同一键位, 为了实现Insert操作, 需要同时按下Fn键和Del键, 实现功能转换。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Blog </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Blog </tag>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《三体》电视剧剧评</title>
+      <link href="/2024/01/16/%E3%80%8A%E4%B8%89%E4%BD%93%E3%80%8B%E7%94%B5%E8%A7%86%E5%89%A7%E5%89%A7%E8%AF%84/"/>
+      <url>/2024/01/16/%E3%80%8A%E4%B8%89%E4%BD%93%E3%80%8B%E7%94%B5%E8%A7%86%E5%89%A7%E5%89%A7%E8%AF%84/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>虫子从来就没有被真正的战胜过！</p></blockquote><p>久闻刘慈欣所著的《三体》盛名，大概是三年前阅读完《三体》小说第一部，折服于大刘丰富的想象力，近几年，《三体》影视改编大潮来袭，其中有艺画开天工作室负责制作的《三体》动画版，杨磊导演的《三体》电视剧版以及未上映的由《权游》原班人马打造的海外版本奈飞版《三体》剧集（预计于2024年3月21日上线 )。</p><p>其中《三体》动画版评价太差了，就没有看。因此有幸先欣赏了《三体》电视剧版。</p><p>在故事层面它确实足够忠于原著，在表达上也算是继承了原著的精神内核，但视觉上完全没有看书时以文字描述那般震撼，拍成了一套悬疑剧而不是科幻史诗剧。节奏拖沓，故弄玄虚，一个倒计时能水两三集。演员方面最有代入感的就是叶文洁和史强，其他角色感觉都不够入戏。不过在三体游戏的画面做的不错，基本还原了想象中的样子。</p><p>优缺点明显，满分10分给6分。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 影评 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电视剧 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电影文件名解析</title>
+      <link href="/2023/12/11/%E7%94%B5%E5%BD%B1%E6%96%87%E4%BB%B6%E5%90%8D%E8%A7%A3%E6%9E%90/"/>
+      <url>/2023/12/11/%E7%94%B5%E5%BD%B1%E6%96%87%E4%BB%B6%E5%90%8D%E8%A7%A3%E6%9E%90/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://www.cnblogs.com/qnbs1/articles/1728562.html">https://www.cnblogs.com/qnbs1/articles/1728562.html</a></p><p>HD：高清，一般指1080P</p><p>UHD :超清，一般指2160P，4k</p><p>Blu-ray，BD：蓝光原盘</p><p>Remux：去掉蓝光原盘中的导航菜单、花絮、不需要的音轨等文件，只保留主视频文件，收藏推荐收藏remux版本。</p><p>roper:并非指“完美版”，proper这个词英文是“合适的，恰当的”意思。通常DVDRIP电影如果在文件名中用“proper”就表示其他小组可能已经发布过，但分辨率或视频及音频格式不够好，所以才发布一个更合适的“proper”版本，但只有更好，没有最好。</p><p>DUPE:与别的组织Release有重复</p><p>UNRATE:未删节(好)</p><p>WS: 宽银幕版本的影片</p><p>FS: 4：3 全屏幕版本的影片（有些影片DVD中同时有WS和FS两种版本，Rip出来就要有两种Release）</p><p>LIMITED: 指在美国有限上映的片子，很多外国片都这样</p><p>WITH EXTRAS: 带花絮</p><p>INTERLACED: 隔行(可看见横的扫瞄线)</p><p>SUBED: 内嵌硬字幕(画面内不能消去)</p><p>CAM: 摄影机拍影院银幕，带有影院音响(夹带观众笑声，不好)</p><p>Telesync, TS: 摄像机拍影院银幕，从影院放映机直接接线输出</p><p>Telecine, TC: 胶版，直接转电影拷贝，转电影拷贝</p><p>DVD SCREENER: 用于观摩或展示的DVD</p><p>SCREENER, SCR: 用于观摩或展示录像带</p><p>WORKPRINT,WP: 工作录像带（导演剪接版，与发行版不同 )</p><p>Director Cut: 导演剪接版</p><p>INTERNAL: 不太符合TDX标准的作品，一些是自己做着玩，还有一些是那组织认为依照TDX无法做到满意的质量，但不依照TDX做又会被NUKE，所以只好INTERNAL，</p><p>STV: 指没有也不会有美国影院公映这部片，或者是在影院放映前已经在电视上放过</p><p>OST: 原声大碟</p><p><a href="https://zhuanlan.zhihu.com/p/88545123">https://zhuanlan.zhihu.com/p/88545123</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 多媒体技术 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Kodi为什么无法播放ISO蓝光原盘</title>
+      <link href="/2023/12/11/Kodi%E4%B8%BA%E4%BB%80%E4%B9%88%E6%97%A0%E6%B3%95%E6%92%AD%E6%94%BEISO%E8%93%9D%E5%85%89%E5%8E%9F%E7%9B%98/"/>
+      <url>/2023/12/11/Kodi%E4%B8%BA%E4%BB%80%E4%B9%88%E6%97%A0%E6%B3%95%E6%92%AD%E6%94%BEISO%E8%93%9D%E5%85%89%E5%8E%9F%E7%9B%98/</url>
+      
+        <content type="html"><![CDATA[<ul><li><p>下载了蓝光原盘的ISO文件，Kodi中却打不开，点击就无限转圈，只能关机重启</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">原因是Kodi虽然能识别.ISO后缀的原盘文件，但因为传输速度限制，或者解码能力限制，打开速度很慢，需要在电脑上将.ISO文件进行解压，点击解压后的BDMV-index.bdmv，文件即可播放。Kodi刮削时也能直接识别整个解压的文件夹。不过播放时也会转圈一会儿，与你的网络和硬盘读写性能有关，但至少能够打开播放了。</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 多媒体技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Kodi </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Kodi刮削器百分百成功秘诀</title>
+      <link href="/2023/12/11/Kodi%E5%88%AE%E5%89%8A%E5%99%A8%E7%99%BE%E5%88%86%E7%99%BE%E6%88%90%E5%8A%9F%E7%A7%98%E8%AF%80/"/>
+      <url>/2023/12/11/Kodi%E5%88%AE%E5%89%8A%E5%99%A8%E7%99%BE%E5%88%86%E7%99%BE%E6%88%90%E5%8A%9F%E7%A7%98%E8%AF%80/</url>
+      
+        <content type="html"><![CDATA[<ul><li><p>在使用Kodi （TV）版进行刮削时，遇到过各种问题，包括但不限于刮削失败；只刮削了标题，内部剧集刮削失败；刮削剧集跟实际影片对不上，刮削成英文了等等，多半只是因为命名不规范以及刮削设置不正确导致。</p></li><li><p>百分百刮削成功原理：</p><blockquote><p>适用前提是你已经拥有了良好的科学上网网络环境，毕竟TMBD是国外网站，直接使用国内网络难免出现连接不畅的问题。</p></blockquote><p>由于Kodi默认刮削器使用的是TMBD网站的数据<code>https://www.themoviedb.org/</code></p><p>因此我们需要保证命名是使用TMBD网站中的命名即可，且需要保证字体，符号半圆角等与网站保持一致，否则依然会刮削失败。</p><pre><code>百分百刮削成功方案：1. 进入TMBD，搜索即将重命名的电影剧集，点击进入对应电影或剧集详情页，复制详情页的标题作为外层文件夹的名字。如 【甄嬛传(2011)】2. 如果是多季剧集，内部文件各集命名规则为S01E01、S01E02、S02E01，以此类推；如果是单季剧集，命名规则为EP01、EP02，以此类推，并且在TMDB中确认对应剧集的编号（有些影片下载下来编号是跟网站不一样的）。3. Kodi刮削时设置，需要将首选语言搜索语言改成中文，并勾选影片在单独的文件夹中。</code></pre></li><li><p>完成了，一点小小的经验总结，愿大家都能成功建立自己的影音库。</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 多媒体技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Kodi </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>阿里云盘资源下载提速</title>
+      <link href="/2023/12/11/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E6%8F%90%E9%80%9F/"/>
+      <url>/2023/12/11/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E6%8F%90%E9%80%9F/</url>
+      
+        <content type="html"><![CDATA[<p>喊出永不限速口号的阿里云盘也开始限速了。。。诚信</p><ul><li><p>提速原理：解析出BT下载链接，用BT软件进行下载，即可跑满带宽。</p></li><li><p>提速方法：</p><pre><code>1. 下载阿里云盘小白羊（阿里云盘第三方客户端），作者GitHub仓库：https://github.com/odomu1. 打开阿里云盘小白羊登录阿里云账号，并在要下载的文件上右键-属性-复制下载链接1. 打开迅雷（测试过Qbittorren和比特彗星，都无法解析），新建项目，使用复制的链接下载，千兆网没开会员下载速度10M/s，是原来2M/s的十倍速度了</code></pre></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机网络 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 阿里云盘 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>补番专用！《名侦探柯南》主线剧情集数整理</title>
+      <link href="/2023/12/11/%E8%A1%A5%E7%95%AA%E4%B8%93%E7%94%A8%EF%BC%81%E3%80%8A%E5%90%8D%E4%BE%A6%E6%8E%A2%E6%9F%AF%E5%8D%97%E3%80%8B%E4%B8%BB%E7%BA%BF%E5%89%A7%E6%83%85%E9%9B%86%E6%95%B0%E6%95%B4%E7%90%86/"/>
+      <url>/2023/12/11/%E8%A1%A5%E7%95%AA%E4%B8%93%E7%94%A8%EF%BC%81%E3%80%8A%E5%90%8D%E4%BE%A6%E6%8E%A2%E6%9F%AF%E5%8D%97%E3%80%8B%E4%B8%BB%E7%BA%BF%E5%89%A7%E6%83%85%E9%9B%86%E6%95%B0%E6%95%B4%E7%90%86/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>注：集数分为日本国内版与海外版，目前各大中国平台都是海外版集数，本文表示的也是海外版集数。</p></blockquote><h2 id="一、工藤新一的名侦探之路"><a href="#一、工藤新一的名侦探之路" class="headerlink" title="一、工藤新一的名侦探之路"></a>一、工藤新一的名侦探之路</h2><p>TV908-909<br>TV512-513<br>TV936-937<br>TV536-537<br>TV172-173<br>TV308-310<br>TV235<br>TV825-826<br>特别篇题《变小的名侦探》</p><h2 id="二、变小的名侦探-世界观建立"><a href="#二、变小的名侦探-世界观建立" class="headerlink" title="二、变小的名侦探 世界观建立"></a>二、变小的名侦探 世界观建立</h2><p>TV001-008<br>TV010<br>TV014<br>TV028-029<br>TV043-044<br>TV049-051<br>TV056<br>TV059-060<br>TV078-079<br>TV099-102<br>TV124-125</p><h2 id="三、雪莉篇"><a href="#三、雪莉篇" class="headerlink" title="三、雪莉篇"></a>三、雪莉篇</h2><p>TV135-140（TV140仅需要看06:00－07:10）<br>剧场版《世纪末的魔术师》<br>TV163-164<br>TV181-182<br>TV190-192<br>TV203-209（TV209仅需要看到04:00）<br>TV236-238<br>TV241-243<br>剧场版《瞳孔中的暗杀者》<br>《通往天国的倒计时》</p><h2 id="四、贝尔摩德篇"><a href="#四、贝尔摩德篇" class="headerlink" title="四、贝尔摩德篇"></a>四、贝尔摩德篇</h2><p>TV245-246<br>TV249-250<br>TV277-278<br>TV282-285<br>TV288-294<br>TV296（仅需要看到05:00）<br>TV299-301（TV301仅需要看07:30－09:50）<br>TV306-312<br>TV332-337（TV337仅需要看05:40－08:00）<br>TV354-355（仅需要看04:26－06:46）<br>TV358-366<br>TV369-377 （TV377仅需要看18:50－彩蛋）<br>TV392（仅需要看到08:20）</p><h2 id="五、七只乌鸦篇"><a href="#五、七只乌鸦篇" class="headerlink" title="五、七只乌鸦篇"></a>五、七只乌鸦篇</h2><p>TV406（仅需要看彩蛋）<br>TV421（仅需要看彩蛋）<br>TV428（仅需要看到06:53）<br>TV432-435（仅需要看到03:40）</p><h2 id="六、红与黑的对决篇"><a href="#六、红与黑的对决篇" class="headerlink" title="六、红与黑的对决篇"></a>六、红与黑的对决篇</h2><p>TV459-463<br>TV467 （仅需要看到09:00）<br>TV502-504<br>TV506 （仅需要看到06:20）<br>TV519-522<br>TV527-528<br>TV538-551<br>TV554-TV555（TV555仅需要看17:00－彩蛋）</p><h2 id="七、波本篇"><a href="#七、波本篇" class="headerlink" title="七、波本篇"></a>七、波本篇</h2><p>TV556-TV558<br>TV564-566<br>TV570-576<br>TV587（仅需要看到03:00）<br>剧场版《漆黑的追迹者》<br>TV593-594<br>TV608-612<br>TV614-615<br>TV629-632<br>TV643 （仅需要看到07:30）<br>TV667-TV676 （TV676仅需要看到06:00）<br>TV697-703<br>TV708-709<br>TV326-329<br>TV733-735<br>TV719-720<br>TV723-728<br>TV736-737<br>TV742-743<br>TV751-758<br>TV774-777<br>TV780（仅需要看08:40－10:51）<br>TV783-784<br>TV786-787<br>TV791-794<br>TV797-798<br>TV804<br>TV807-809<br>TV812-813<br>TV816-817<br>TV823-824<br>剧场版《异次元的狙击手》<br>TV832-836</p><h2 id="八、朗姆篇"><a href="#八、朗姆篇" class="headerlink" title="八、朗姆篇"></a>八、朗姆篇</h2><p>TV838-841<br>TV845-846 （TV845仅需要看到05:20，TV846仅需要看彩蛋）<br>TV863-870 （TV869仅需要看到04:33，TV870仅需要看彩蛋）<br>剧场版《纯黑的噩梦》<br>TV877-878<br>TV882-883<br>TV891-892<br>TV898-899<br>TV902（仅需要看到11:09）<br>TV904-905<br>剧场版《唐红的恋歌》<br>TV916-919<br>TV921-922<br>TV927-929<br>TV933-934（TV933仅需要看到07:50，TV934仅需要看彩蛋）<br>TV936-937<br>TV944-945<br>TV949-952<br>TV964-965<br>剧场版《零的执行人》<br>TV980-985<br>TV998-999<br>TV1009-1011<br>File1013-最新更新的1045话</p><blockquote><p>参考视频文档：<a href="https://www.bilibili.com/video/BV1DJ411r7R5/?spm_id_from=333.337.search-card.all.click&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1DJ411r7R5/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p></blockquote>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《沙丘》简评</title>
+      <link href="/2023/12/03/%E3%80%8A%E6%B2%99%E4%B8%98%E3%80%8B%E7%AE%80%E8%AF%84/"/>
+      <url>/2023/12/03/%E3%80%8A%E6%B2%99%E4%B8%98%E3%80%8B%E7%AE%80%E8%AF%84/</url>
+      
+        <content type="html"><![CDATA[<p>节奏很慢，但是沙漠氛围渲染的很好，沙虫很震撼。</p><p>由于原著的世界观太过庞大，这篇沙丘顶多算个大型预告片，主要展现了沙丘的部分世界观，包括帝王、皇帝及其手下的各大家族，圣母、联合会几大势力，它如同披着科幻外表宫斗剧，皇帝挑拨离间，借刀杀人，圣母造神培育出了主角保罗是为了什么，整部片子就是巨大的阴谋。</p><p>反派哈克南家族的老大，可以飘在空中，那么长的衣服我还以为他下半身是蛇身那么长哈哈，被岳医生和雷托公爵设局毒气刺杀时候可以吸在天花板上也太好笑了。</p><p>邓肯和哈莱克傻傻分不清，这两个人物刻画的有点简单了。</p><p>影片中很多设定，如果没看过原著完全无法理解，例如科技都这么发达了，这些人怎么还在肉搏（科技禁令），怎么土著都打不过(科技禁令，土著有环境优势），怎么不把沙虫灭了（“香料”竟然是沙虫的粑粑），反派怎么吸在天花板上就不会被毒气熏死，毒气不会往上飘吗？张震（岳医生）是不是傻，为了救自己的老婆帮助反派灭了整个家族，结果老婆早就被杀了，自己也难逃一死。保罗总是能梦到未来，保罗梦到自己都被土著女主捅死了，怎么还带土著翻身呢。。。</p><p>非常多的疑问，期待下《沙丘2》吧，2024年3月1日上映。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 影评 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电影 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何解决kodi刮削器无法添加剧集分级</title>
+      <link href="/2023/12/03/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3kodi%E5%88%AE%E5%89%8A%E5%99%A8%E6%97%A0%E6%B3%95%E6%B7%BB%E5%8A%A0%E5%89%A7%E9%9B%86%E5%88%86%E7%BA%A7/"/>
+      <url>/2023/12/03/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3kodi%E5%88%AE%E5%89%8A%E5%99%A8%E6%97%A0%E6%B3%95%E6%B7%BB%E5%8A%A0%E5%89%A7%E9%9B%86%E5%88%86%E7%BA%A7/</url>
+      
+        <content type="html"><![CDATA[<p>今天使用kodi创建自己的影音库，发现甄嬛传进行刮削后无论如何都只有一个名字为甄嬛传的文件夹，有海报等资料，但是点进去却没有分集显示，忙活了好几个小时。</p><p>故障原因：文件命名出现问题。</p><p>刮削器识别命名规则：（若要刮削中文信息记得将刮削器语言选择ZH-CN、ZH等）</p><ul><li><p>首层命名：剧集名（年份），如<code>甄嬛传（2011）</code></p></li><li><p>分集命名:如果是单季电视剧则为<code>EP01</code>；若有多季影片则为<code>S01E01</code></p></li></ul><blockquote><p><code>S</code>表示<code>season季</code>;<code>E</code>和<code>EP</code>表示<code>episode集</code>，养成命名规范。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 多媒体技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Kodi </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何解决USB3.0对2.4G频段WiFi和蓝牙的干扰</title>
+      <link href="/2023/12/02/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3USB3-0%E5%AF%B92-4G%E9%A2%91%E6%AE%B5WiFi%E5%92%8C%E8%93%9D%E7%89%99%E7%9A%84%E5%B9%B2%E6%89%B0/"/>
+      <url>/2023/12/02/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3USB3-0%E5%AF%B92-4G%E9%A2%91%E6%AE%B5WiFi%E5%92%8C%E8%93%9D%E7%89%99%E7%9A%84%E5%B9%B2%E6%89%B0/</url>
+      
+        <content type="html"><![CDATA[<p>当我链接移动硬盘传输数据时，无线鼠标飘了，智能家居掉线了，一直困扰我许久，后来查阅资料发现这都是USB3.0对2.4G频段WiFi和蓝牙的干扰导致的。具体原理有点复杂先不写了，直接上解决方法先。（方法已测试，实践出真知）</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">【解决方法】</span><br><span class="line">1.使用USB2.0；</span><br><span class="line">2.使用带屏蔽的USB3.0延长线；</span><br><span class="line">3.将USB3.0HUB或者外设，与2.4G接收器不要放太近，不要把2.4G接收器插在USB3.0HUB上；</span><br><span class="line">4.使用带屏蔽的USB 3.1以及以上HUB；</span><br><span class="line">WIFI尽量使用5G频段，或者上WIFI6；</span><br><span class="line">总之对于USB3.0的线缆和外设一定要有屏蔽。</span><br><span class="line"></span><br><span class="line"> —— 来自装备前线 文章 https://www.zfrontier.com/app/flow/WpJLWb1pM1WQ </span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">【测试结果】</span><br><span class="line">本来用硬盘盒+机械硬盘作为影音库，并用硬盘盒原装线连接AX86U路由器后的USB3.0接口，数据传输时会对2.4GWiFi和蓝牙造成严重干扰，导致我家里2.4GWiFi协议的电动窗帘和小厨宝不断掉线。购买了绿联带屏蔽层的USB延长线2米，插在USB3.0接口和硬盘盒原装线之间，并且硬盘盒仍然放在路由器旁边，电动窗帘和小厨宝再也没有掉线过，完美解决测试成功。</span><br></pre></td></tr></table></figure><p>参考文档：</p><p><a href="https://www.zhihu.com/tardis/zm/art/362814362?source_id=1003">https://www.zhihu.com/tardis/zm/art/362814362?source_id=1003</a></p><p><a href="https://www.zfrontier.com/app/flow/WpJLWb1pM1WQ">https://www.zfrontier.com/app/flow/WpJLWb1pM1WQ</a></p><p><a href="http://xzb.xunlei.com/xzbbbs-prime/14.html">http://xzb.xunlei.com/xzbbbs-prime/14.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机网络 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 信号干扰 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《猎天使魔女2》简评</title>
+      <link href="/2023/12/02/%E3%80%8A%E7%8C%8E%E5%A4%A9%E4%BD%BF%E9%AD%94%E5%A5%B32%E3%80%8B%E7%AE%80%E8%AF%84/"/>
+      <url>/2023/12/02/%E3%80%8A%E7%8C%8E%E5%A4%A9%E4%BD%BF%E9%AD%94%E5%A5%B32%E3%80%8B%E7%AE%80%E8%AF%84/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>首先 感谢白金工作室带来如此优秀的游戏作品，感谢任天堂对这款游戏开发的支持</p></blockquote><p>这是一款不断在打擦边球的游戏，华丽的动作演出，流畅的操作体验，诙谐的美式幽默，都让人印象深刻。</p><p>本作的剧情与第一部形成了一个完美的闭环，通过时间穿梭的设定，插入了部分第一部的剧情，也解释了第一部中贝优妮塔的父亲为何黑化</p><p>缺点：</p><ul><li>为了节省开发成本过场动画使用了很多动漫画面切换的效果，略显简陋</li><li>时长太短，大概10小时就通关了，意犹未尽，在如此快节奏的环境下或许也不能算是缺点。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Game </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Game </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《熔炉》简评</title>
+      <link href="/2023/11/26/%E3%80%8A%E7%86%94%E7%82%89%E3%80%8B%E7%AE%80%E8%AF%84/"/>
+      <url>/2023/11/26/%E3%80%8A%E7%86%94%E7%82%89%E3%80%8B%E7%AE%80%E8%AF%84/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>我们不断努力不是为了改变世界，而是为了不被世界改变。</p></blockquote><blockquote><p>如果我在看到他们受侵害的时候无动于衷，那我也没信心能当好一个爸爸。</p></blockquote><p>即使背负了家庭生活的压力，在巨大的利益面前，孔刘<code>啊为什么看完了没记住角色的名字</code>还是毅然决然的为孩子们发声，因为他们是聋哑孩子，如果自己不站出来的话，又有谁会站出来为他们说话呢，明明自己过得不如意，却也见不得人间疾苦。</p><p>据说《熔炉》在很大程度上影响力韩国的法律，说明影视作品不仅仅是娱乐的产物，他还能够反映很多的社会问题，正所谓艺术源自生活，生活也在艺术的软性鞭策下不断修正前行。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 影评 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电影 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《了不起的盖茨比》电影简评</title>
+      <link href="/2023/11/24/%E3%80%8A%E4%BA%86%E4%B8%8D%E8%B5%B7%E7%9A%84%E7%9B%96%E8%8C%A8%E6%AF%94%E3%80%8B%E7%AE%80%E8%AF%84/"/>
+      <url>/2023/11/24/%E3%80%8A%E4%BA%86%E4%B8%8D%E8%B5%B7%E7%9A%84%E7%9B%96%E8%8C%A8%E6%AF%94%E3%80%8B%E7%AE%80%E8%AF%84/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>深夜突然眼睛很痒，所以起床看了《了不起的盖茨比》，久闻其名，在我的库存中躺了许久，眯着眼看完整部电影，震撼，钦佩。</p></blockquote><p>黛西不会回来了，但盖茨比不相信，那是他的白月光，他爱的义无反顾，爱的如此透彻。他心中所爱的黛西，和他追求的地位，财富一样，不过是一场繁华虚幻的梦境，总有一天会醒来。整部影片大部分都是华丽，奢靡场景，超现代的美国，豪华的庄园，上流的人群，精致的服装，华丽的音乐，也许是因为我不属于那个阶层的人，这些场景让我觉得虚幻，如同梦一般，或许导演也是想通过这些来渲染梦境的氛围，预示这就是一场梦吧。</p><p>黛西家里的绿光，贯穿了整部电影，她是盖茨比想伸手抓住的东西，但人又怎么能抓得住光呢，就如同盖茨比无法抓住黛西，黛西永远只能是他心里的那束光。</p><p>黛西曾经收到盖茨比的信后，也马上决定不结婚了，但是被家人制止，后来她变了，盖茨比仍傻傻的坚定的认为黛西没有变。</p><p>盖茨比整个人都沉醉在黛西·布坎南这座海市蜃楼里，他不是生活在现实世界，他生活在人群的孤岛之上，紧紧抓着过去时光留下的一点灰烬，他满怀悲伤，又充满希望，作为一个不朽的追梦者，他永远不会停下。</p><p>在盖茨比临终前，随着最后一声电话响起，盖茨比笑了，他的期待没有落空，他终于等来了黛西的电话，带着幸福感死去。。即使后来我们知道，那不是黛西打来的。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 影评 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电影 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Steam下载把机场流量跑光了怎么办？</title>
+      <link href="/2023/11/24/Steam%E4%B8%8B%E8%BD%BD%E6%8A%8A%E6%9C%BA%E5%9C%BA%E6%B5%81%E9%87%8F%E8%B7%91%E5%85%89%E4%BA%86%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F/"/>
+      <url>/2023/11/24/Steam%E4%B8%8B%E8%BD%BD%E6%8A%8A%E6%9C%BA%E5%9C%BA%E6%B5%81%E9%87%8F%E8%B7%91%E5%85%89%E4%BA%86%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F/</url>
+      
+        <content type="html"><![CDATA[<p>我是在路由器上用<code>科学上网</code>插件，只需要在白名单上加上以下域名以及ip即可<code>域名和ip在该插件中要分开复制入框中，前三个为域名</code></p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line">api.<span class="property">steampowered</span>.<span class="property">com</span></span><br><span class="line">*.<span class="property">cm</span>.<span class="property">steampowered</span>.<span class="property">com</span></span><br><span class="line">*.<span class="property">steamserver</span>.<span class="property">net</span></span><br><span class="line"><span class="number">103.10</span><span class="number">.124</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">103.10</span><span class="number">.125</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">103.28</span><span class="number">.54</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">146.66</span><span class="number">.152</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">146.66</span><span class="number">.155</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">153.254</span><span class="number">.86</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">155.133</span><span class="number">.224</span><span class="number">.0</span>/<span class="number">23</span></span><br><span class="line"><span class="number">155.133</span><span class="number">.226</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">155.133</span><span class="number">.227</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">155.133</span><span class="number">.230</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">155.133</span><span class="number">.232</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">155.133</span><span class="number">.233</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">155.133</span><span class="number">.234</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">155.133</span><span class="number">.236</span><span class="number">.0</span>/<span class="number">23</span></span><br><span class="line"><span class="number">155.133</span><span class="number">.238</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">155.133</span><span class="number">.239</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">155.133</span><span class="number">.240</span><span class="number">.0</span>/<span class="number">23</span></span><br><span class="line"><span class="number">155.133</span><span class="number">.245</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">155.133</span><span class="number">.246</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">155.133</span><span class="number">.248</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">155.133</span><span class="number">.249</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">155.133</span><span class="number">.250</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">155.133</span><span class="number">.251</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">155.133</span><span class="number">.252</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">155.133</span><span class="number">.253</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">155.133</span><span class="number">.254</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">155.133</span><span class="number">.255</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">162.254</span><span class="number">.192</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">162.254</span><span class="number">.193</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">162.254</span><span class="number">.194</span><span class="number">.0</span>/<span class="number">23</span></span><br><span class="line"><span class="number">162.254</span><span class="number">.195</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">162.254</span><span class="number">.196</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">162.254</span><span class="number">.197</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">162.254</span><span class="number">.198</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">162.254</span><span class="number">.199</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">185.25</span><span class="number">.182</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">185.25</span><span class="number">.183</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">190.217</span><span class="number">.33</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">192.69</span><span class="number">.96</span><span class="number">.0</span>/<span class="number">22</span></span><br><span class="line"><span class="number">205.185</span><span class="number">.194</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">205.196</span><span class="number">.6</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">208.64</span><span class="number">.200</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">208.64</span><span class="number">.201</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">208.64</span><span class="number">.202</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">208.64</span><span class="number">.203</span><span class="number">.0</span>/<span class="number">24</span></span><br><span class="line"><span class="number">208.78</span><span class="number">.164</span><span class="number">.0</span>/<span class="number">22</span></span><br></pre></td></tr></table></figure><blockquote><p>参考文档：<a href="https://femoon.top/article/f5540f1e-fa0b-4883-9104-21ffee1e2f1b">https://femoon.top/article/f5540f1e-fa0b-4883-9104-21ffee1e2f1b</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机网络 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科学上网 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>AX86U路由器折腾记录</title>
+      <link href="/2023/10/11/AX86U%E8%B7%AF%E7%94%B1%E5%99%A8%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/"/>
+      <url>/2023/10/11/AX86U%E8%B7%AF%E7%94%B1%E5%99%A8%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/</url>
+      
+        <content type="html"><![CDATA[<h2 id="一、前置知识："><a href="#一、前置知识：" class="headerlink" title="一、前置知识："></a>一、前置知识：</h2><ul><li>路由器固件论坛：<ul><li>koolcenter论坛：<a href="https://www.koolcenter.com/">https://www.koolcenter.com/</a></li><li>koolshare论坛：2021年关闭，内容迁移到koolcenter</li><li>恩山无线论坛：<a href="https://www.right.com.cn/forum/">https://www.right.com.cn/forum/</a></li></ul></li><li>参考教程：<ul><li>完整教程：<a href="https://www.koolcenter.com/posts/5">https://www.koolcenter.com/posts/5</a></li><li>官改：<a href="https://fw.koolcenter.com/KoolCenter_ASUS_Official_Mod/RT-AX86U/">https://fw.koolcenter.com/KoolCenter_ASUS_Official_Mod/RT-AX86U/</a></li></ul></li><li>华硕固件发展史：<a href="https://fw.koolcenter.com/KoolCenter_Merlin_New_Gen_388/1.%20388%E5%9B%BA%E4%BB%B6%E7%AE%80%E4%BB%8B.html">https://fw.koolcenter.com/KoolCenter_Merlin_New_Gen_388/1.%20388%E5%9B%BA%E4%BB%B6%E7%AE%80%E4%BB%8B.html</a></li></ul><hr><ul><li><p>路由器固件有：原版固件、官改固件、梅林原版固件、梅林改版固件，改版固件的功能是增加了软件中心：包含科学上网，广告拦截等软件。</p><ul><li><code>原厂固件</code>为RT-AX86U华硕官方固件：<a href="https://www.asus.com.cn/networking-iot-servers/wifi-routers/asus-gaming-routers/rt-ax86u/HelpDesk_Download/">RT-AX86U华硕官方固件下载地址</a>；</li><li><code>官改384固件</code>为KoolCenter开发组在koolshare论坛（论坛已关，官改384固件下载请前往：<a href="https://fw.koolcenter.com/KoolCenter_ASUS_Official_Mod/RT-AX86U/%EF%BC%89%E5%8F%91%E5%B8%83%E7%9A%84%EF%BC%8C%E5%9F%BA%E4%BA%8E%E5%8D%8E%E7%A1%95%E5%AE%98%E6%96%B9RT-AX86U">https://fw.koolcenter.com/KoolCenter_ASUS_Official_Mod/RT-AX86U/）发布的，基于华硕官方RT-AX86U</a> 384源代码修改而来的带软件中心的RT-AX86U官改固件，版本号为官方固件版本号后加上<code>_koolshare</code>后缀，如RT-AX86U官改固件版本：<code>3.0.0.4.384_9318_koolshare</code>。</li><li><code>官改386固件</code>为koolshare开发组在此贴：<a href="https://www.koolcenter.com/posts/135%E5%8F%91%E5%B8%83%E7%9A%84%E5%9F%BA%E4%BA%8E%E5%8D%8E%E7%A1%95%E5%AE%98%E6%96%B9RT-AX86U">https://www.koolcenter.com/posts/135发布的基于华硕官方RT-AX86U</a> 386源代码修改而来的带软件中心的RT-AX86U官改固件，版本号为官方固件版本号后加上<code>_koolshare</code>后缀，如RT-AX86U官改固件版本：<code>3.0.0.4.386_46061_koolshare</code>。</li><li><code>原版梅林固件</code>为加拿大独立开发者Eric Sauvageau在华硕RT-AX86U官方源码上二次开发的第三方固件，相较华硕官方固件，其区别为：<a href="https://github.com/RMerl/asuswrt-merlin.ng/blob/master/README-merlin.txt#L62-L132">这些功能</a>，其版本号为<code>386.x_y</code>，如：<code>386.5_2</code>；</li><li><code>改版梅林固件</code>为koolshare开发组在本贴发布的基于梅林固件源码再次开发而来的带软件中心的RT-AX86U梅林改版固件，其版本号和梅林原版固件保持一致，如RT-AX86U梅林改版固件版本：<code>386.5_2</code>。</li></ul><hr></li><li><p>刷机术语</p><ol><li><p><strong>固件双清</strong>：双清就是要清除：1. nvram配置，2：JFFS分区文件。固件的很多设置都是储存在nvram中，例如拨号方式、拨号上网帐号密码、无线网络设置等；固件的很多文件是储存在JFFS分区的，例如流量分析储存的流量数据，SSL证书，UU加速器程序等。一般同类型固件互刷不需要进行双清，不同类型固件互刷视情况要进行双清，以保证路由器刷机后处于最佳工作状态。<strong>如何双清路由器：进入【系统管理 】–【 恢复&#x2F;导出&#x2F;上传设置】，勾选恢复按钮旁的选择框，然后点击恢复按钮。</strong></p><p><code>(NVRAM（ Non-Volatile Random Access Memory） 是非易失性随机访问[存储器]，指断电后仍能保持数据的一种RAM。)</code></p><p><code>JFFS( Journalling Flash File System ),路由器闪存的可写部分,由于此空间将在重新启动后继续存在,因此对于我们需要路由器在关机后不丢失的脚本或模块我们可以尝试使用路由器JFFS分区。</code></p></li><li><p><strong>恢复出厂</strong>：恢复出厂就是清除固件的nvram配置，但是不清除JFFS分区文件。这样流量分析、SSL证书等文件并不会丢失。值得注意的是很多朋友有用【导出设置】来备份固件配置的习惯，而在刷固件，特别是不同类型固件互刷的情况下，是不适用使用备份的配置来恢复刚刚进行了恢复出厂的机器的，因为这样就相当于你什么也没恢复。所以请一定不要使用以前备份的配置来恢复刚刷机后，又进行过恢复出厂的路由器。使用【导出设置】备份的配置文件，一般进行了一些设置导致路由器出了问题，将路由器恢复到原厂默认值后，再用备份配置进行恢复，使用备份配置前后，路由器都是同一个版本。如何恢复出厂：进入【系统管理 】–【 恢复&#x2F;导出&#x2F;上传设置】，点击恢复按钮，记住不要勾选恢复按钮右侧的选择框！！</p></li><li><p><strong>格式化JFFS</strong>：格式化JFFS就是对JFFS分区进行格式化，这样会删除JFFS分区中储存的所有文件，而不影响路由器的其它配置。在梅林改版固件中，因为软件中心就是储存在JFFS分区中的，所以格式化JFFS可以快速的清除当前JFFS分区中的软件中心文件，从而实现软件中心的重置。当然，格式化JFFS，也会删除固件在JFFS分区中存放的一些文件，如SSL证书、流量分析数据等。如果你只想重置软件中心，而不伤害其它JFFS分区中的文件，你可以参考下文【重要命令】中的【软件中心重置】或【删除软件中心】。<strong>如何格式化JFFS</strong>：在梅林&#x2F;梅林改版固件中，在【系统管理】–【 系统设置】内勾选<code>Format JFFS partition at next boot</code>（中文意思就是：下次重启的时候格式化JFFS分区），然后点击<code>应用本页面设置</code>，成功后点击顶部<code>重启</code>按钮重启路由器。路由器重启过程中就会对JFFS分区进行格式化，重启完成后，<code>Format JFFS partition at next boot</code>将自动变为否，以免下次路由器重启的时候，JFFS分区再次被格式化。</p></li><li><p><strong>JFFS挂载状态</strong>：通过SSH连接到路由器后台后输入命令（如果不知道如何使用SSH执行命令，可以参考下文【重要命令】中的【如何使用SSH】）：<code>mount | grep -w /jffs</code>，如果看到类似<code>/dev/mtdblock9 on /jffs type jffs2 (rw,noatime)</code>这样的输出，说明&#x2F;jffs成功挂载了，挂载设备为<code>/dev/mtdblock9</code>。当然，在梅林&#x2F;梅林改版固件中，只需要进入【Tools - Sysinfo】页面，在JFFS一栏即可看到JFFS挂载状态，如果成功挂载，将会显示JFFS已用容量和总容量，如果没有挂在，则会显示<em>umounted</em>字样。因为软件中心是储存在JFFS中的，所以如果软件中心进入后是空白页面，一般来说JFFS分区的挂载就出现了问题。遇到这种情况，可以参考下文FAQ中的【Q4：刷机后软件中心一片空白】来尝试解决。</p></li><li><p><strong>JFFS分区备份&#x2F;还原</strong>：使用梅林&#x2F;梅林改版固件的朋友，可能知道梅林固件相对于华硕官方固件，多了JFFS分区备份&#x2F;还原功能，其本质就是将JFFS分区内的所有文件进行打包，然后在需要的时候进行还原。此功能在某些时候会特别管用，比如某个版本固件升级后，JFFS分区容量被缩小了，这会导致储存在JFFS分区靠后的文件块被强行清除，从而导致JFFS分区内文件丢失、文件损坏。而使用JFFS分区备份&#x2F;还原功能，在每次固件升级前先备份一次JFFS分区内容，在固件升级后，如果JFFS分区内容出现丢失、损坏等，再用备份进行还原即可规避上面的问题。当然如果是梅林改版固件的话，只进行还原还是不够的，因为刚还原后，软件中心相关程序虽然还原了，但是其进程还没有启动，此时重启一次路由器，才能让软件中心在还原后正常工作。</p></li></ol><hr></li></ul><h2 id="二、刷机前信息："><a href="#二、刷机前信息：" class="headerlink" title="二、刷机前信息："></a>二、刷机前信息：</h2><ul><li>固件版本：<a href="http://192.168.50.1/Advanced_FirmwareUpgrade_Content.asp"><strong>3.0.0.4.388_23285</strong></a></li><li>PPPoE拨号上网：账号：0596913131740 密码：950467</li></ul><hr><h2 id="三、刷机过程："><a href="#三、刷机过程：" class="headerlink" title="三、刷机过程："></a>三、刷机过程：</h2><ul><li><p>因为救援模式的存在，所以华硕路由器刷机是刷不死的，只要刷机过程中有灯亮，那么出现任何无法启动的问题都是能救得活的。所以不论你当前处在什么类型固件、什么固件版本下，都可以尝试一步刷到位：直接刷机到最新的<code>386改版梅林</code>固件！如果能正常通过刷机，成功后进行一次固件双清，达到干净刷机的效果。如果不能通过刷机，救援模式也是分分钟能搞定的事情！所以请不要被下面写得非常详细的刷机流程吓到。</p><p>当然，也可以将刷机做到很细致，那么根据你现在的固件，用下面A - F的操作来对号入座把！虽然细致刷机过程也可能发生意外，但是请记住三大法宝：重启、重置、救援模式。</p></li><li><p><strong>原厂固件 → 改版梅林固件：</strong></p><blockquote><p>原厂固件和原版梅林固件&#x2F;改版梅林固件在一些默认配置上有所不同，虽然刷机后不用恢复出厂设置也能正常工作，但是建议有时间朋友刷机完成后双清一次路由双清后全部手动配置，且双清后不要用以前的备份配置来恢复。</p></blockquote><ol><li>在原厂固件固件升级页面下直接上传.w 后缀的改版梅林固件文件；</li><li>成功上传固件后，路由器会自动重启，此时刷机完成（刷机完成后可以不恢复出产设置，当然恢复一次更好）；</li><li>刷机完成在【系统管理 】–【 系统设置】内勾选：<code>Format JFFS partition at next boot</code> 和 <code>Enable JFFS custom scripts and configs</code> 然后点击<code>应用本页面设置</code>，成功后点击顶部<code>重启</code>按钮重启路由器；</li><li>重启后进入web后台时先设置路由器，将路由器连上网络，然后进入软件中心，如果软件中心一片空白，不要着急，先软重启（使用顶部重启按钮）一次路由器即可出现软件中心，如果软件中心仍然空白，参见FAQ：Q4的解决办法。</li><li>如果进入软件中心后正常，将软件中心更新到最新版本（如果有）后即完成全部刷机，之后你可以对路由器固件进行其它喜好的设置，或者在软件中心安装插件等操作。</li></ol><hr><p>问题：无法使用UU加速器。</p><p>解决过程：</p><ul><li><p>软重启，双清后依然无法使用</p></li><li><p>找到一篇UU官方文档<a href="https://router.uu.163.com/app/html/online/baike_share.html?baike_id=5bd1b3a0e3a8b2785c7129ff?from_share_platform=COPY_LINK">https://router.uu.163.com/app/html/online/baike_share.html?baike_id=5bd1b3a0e3a8b2785c7129ff?from_share_platform=COPY_LINK</a></p><blockquote><p>需要注意的是，华硕和UU合作的官方固件是支持重启路由器后直接使用UU插件的，梅林固件也是支持。但是koolshare官改固件、非华硕和UU合作的官方固件，重启路由器后需要解绑路由器重新安装一遍插件才能使用。</p></blockquote><p>但我不知道怎么重新安装。。</p></li><li><p>找到UU客服，客服表示他们没有和梅林合作，没法解决。</p></li></ul><p>暂时放弃，刷官改固件试试。</p><hr><p>刷官改成功，测试UU加速器正常使用，也满足需求，暂时不动了。</p><p>寻找科学上网插件：Clash，科学上网</p></li><li><p><strong>fancyss</strong> 即科学上网插件：</p></li></ul><blockquote><h2 id="版本选择"><a href="#版本选择" class="headerlink" title="版本选择"></a><a href="https://github.com/hq450/fancyss_history_package#%E7%89%88%E6%9C%AC%E9%80%89%E6%8B%A9">版本选择</a></h2><blockquote><p>以下描述仅针对fancyss 3.0版本</p></blockquote><p>fancyss 3.0支持hnd、hnd_v8、qca、arm、mtk 五个平台，每个平台又有full版本和lite版本</p><p>full版本为全功能版本，支持SS、 SSR、V2ray、 Xray、Trojan、NaïveProxy 六种客户端，安装包体积较大</p><p>lite版本为精简版本，支持SS、 SSR、 V2ray、 Xray、 Trojan 五种客户端，安装包小巧，以下为lite版本精简内容：</p><ol><li>lite版本移除了v2ray、trojan二进制文件，默认使用xray-core来运行v2ray和trojan协议</li><li>lite版本移除了NaïveProxy支持及其相关二进制文件：naive、ipt2socks</li><li>lite版本移除了shadowsocks的v2ray-plugin插件功能及其对应的二进制文件：v2ray-plugin</li><li>lite版本移除了UDP加速功能及其二进制文件：speederv1、speederv2、udp2raw</li><li>lite版本移除了KCP加速功能及其二进制文件：kcptun</li><li>lite版本移除了负载均衡支持及其页面和二进制文件：haproxy</li><li>lite版本移除了直连解析的DNS方案及其二进制：cdns、chinadns、chinadns1、smartdns、https_dns_proxyy</li><li>lite版本移除了haveged，因为现在较新的固件系统自带了熵增软件</li><li>lite版本移除了shadowsocks-rust替换shadowsocks-libev功能，默认由shadowsocks-libev运行ss协议</li><li>lite版本移除了socks5页面及其脚本及其acl规则文件</li></ol><p>如果是不折腾以上被精简功能的用户，完全可以使用体积更小的lite版本</p><p>RT-AX56U_V2、RT-AX57 这种jffs分区极小(15MB)的机型，直接使用lite版本即可</p><p>要切换为lite版本，直接安装lite版本的离线安装包即可，以后在线更新也会维持为lite版本</p><p>要切换为full版本，直接安装full版本的离线安装包即可，以后在线更新也会维持为full版本</p><p>RT-AX86U、GT-AX6000等armv8机型（见上表），从3.0.6开始建议安装fancyss_hnd_v8版本，当然fancyss_hnd同样兼容</p></blockquote><p>先装入full版本，正常使用，占用很多Jffs空间。</p><p>配置教程：<a href="https://help.hitun.io/zh/article/merlin-lywzep/">https://help.hitun.io/zh/article/merlin-lywzep/</a></p><p>负载均衡解析：<a href="https://www.youtube.com/watch?v=dxYdec9csl4">https://www.youtube.com/watch?v=dxYdec9csl4</a></p><p>负载均衡教程：<a href="https://www.youtube.com/watch?v=1FStIgzg8bk">https://www.youtube.com/watch?v=1FStIgzg8bk</a></p><hr><p>折腾路由器的USB口，制作小型NAS。</p><p>华硕路由器USB限制：不支持exFAT，支持NTFS，<strong>单个文件大小限制在8G</strong></p><hr><p>  以上已整理、实践成功。</p><p>  以下内容为纯转载备份，以防哪天原网站消失。</p><hr><h2 id="四、未整理教程："><a href="#四、未整理教程：" class="headerlink" title="四、未整理教程："></a>四、未整理教程：</h2><p><code>https://www.koolcenter.com/posts/5</code></p><h4 id="A-原厂固件-→-改版梅林固件："><a href="#A-原厂固件-→-改版梅林固件：" class="headerlink" title="A. 原厂固件 → 改版梅林固件："></a>A. 原厂固件 → 改版梅林固件：</h4><blockquote><p>原厂固件和原版梅林固件&#x2F;改版梅林固件在一些默认配置上有所不同，虽然刷机后不用恢复出厂设置也能正常工作，但是建议有时间朋友刷机完成后双清一次路由双清后全部手动配置，且双清后不要用以前的备份配置来恢复。</p></blockquote><ol><li>在原厂固件固件升级页面下直接上传.w 后缀的改版梅林固件文件；</li><li>成功上传固件后，路由器会自动重启，此时刷机完成（刷机完成后可以不恢复出产设置，当然恢复一次更好）；</li><li>刷机完成在【系统管理 】–【 系统设置】内勾选：<code>Format JFFS partition at next boot</code> 和 <code>Enable JFFS custom scripts and configs</code> 然后点击<code>应用本页面设置</code>，成功后点击顶部<code>重启</code>按钮重启路由器；</li><li>重启后进入web后台时先设置路由器，将路由器连上网络，然后进入软件中心，如果软件中心一片空白，不要着急，先软重启（使用顶部重启按钮）一次路由器即可出现软件中心，如果软件中心仍然空白，参见FAQ：Q4的解决办法。</li><li>如果进入软件中心后正常，将软件中心更新到最新版本（如果有）后即完成全部刷机，之后你可以对路由器固件进行其它喜好的设置，或者在软件中心安装插件等操作。</li></ol><h4 id="B-原版梅林固件-→-改版梅林固件："><a href="#B-原版梅林固件-→-改版梅林固件：" class="headerlink" title="B. 原版梅林固件 → 改版梅林固件："></a>B. 原版梅林固件 → 改版梅林固件：</h4><blockquote><p>原版梅林固件和改版梅林固件在固件配置上完全相同，所以刷机后不需要进行双清操作也能正常工作。但是如果你是从官方固件 → 原版梅林固件 → 改版梅林固件，且官方固件 → 原版梅林固件过程中没有双清，那么还是建议进行一次路由器双清操作。</p></blockquote><ol><li>在<code>原版梅林固件</code>固件升级页面下直接上传.w 后缀的<code>改版梅林固件</code>文件；</li><li>成功上传固件后，路由器会自动重启，此时刷机完成（刷机完成后可以不恢复出产设置，当然恢复一次更好）；</li><li>刷机完成在【系统管理 】–【 系统设置】内勾选：<code>Format JFFS partition at next boot</code> 和 <code>Enable JFFS custom scripts and configs</code> 然后点击<code>应用本页面设置</code>，成功后点击顶部<code>重启</code>按钮重启路由器；</li><li>重启后进入web后台时先设置路由器，将路由器连上网络，然后进入软件中心，如果软件中心一片空白，不要着急，先软重启（使用顶部重启按钮）一次路由器即可出现软件中心，如果软件中心仍然空白，参见FAQ：Q4的解决办法。</li><li>如果进入软件中心后正常，将软件中心更新到最新版本（如果有）后即完成全部刷机，之后你可以对路由器固件进行其它喜好的设置，或者在软件中心安装插件等操作。</li></ol><h4 id="C-官改固件-→-改版梅林固件："><a href="#C-官改固件-→-改版梅林固件：" class="headerlink" title="C. 官改固件 → 改版梅林固件："></a>C. 官改固件 → 改版梅林固件：</h4><blockquote><ul><li>官改固件和原版梅林固件&#x2F;改版梅林固件在一些默认配置上有所不同，虽然刷机后不用恢复出厂设置也能正常工作，但是建议有时间朋友刷机完成后双清一次路由双清后全部手动配置，不要用以前的备份配置。</li><li>目前某些情况下，官改固件刷改版梅林固件后，出现jffs2_scripts无法勾选（勾选后应用还是会变成未勾选），那就必须进行恢复出厂设置！</li><li>固件双清不仅会清除路由器所有配置，还会删除JFFS分区得所有内容，包括软件中心，如果你希望在官改固件刷到改版梅林固件后，软件中心和所有插件得到保留，你可以使用USB2JFFS插件，用USB磁盘来替代JFFS分区。刷机前在USB2JFFS插件内点击卸载 → 然后刷机 → 双清路由器 → 进入到新系统并完成软件中心初始化后 → 安装USB2JFFS插件 → 点击挂载 → 重启路由器。</li></ul></blockquote><ol><li>在<code>官改固件</code>固件升级页面下直接上传.w 后缀的<code>改版梅林固件</code>文件；</li><li>成功上传固件后，路由器会自动重启，此时刷机完成；</li><li>刷机完成后对路由器进行一次<code>双清</code>，并全部手动配置路由器；</li><li>双清完成后进入路由器web后台，在【系统管理 】–【 系统设置】内勾选：<code>Format JFFS partition at next boot</code> 和 <code>Enable JFFS custom scripts and configs</code> 然后点击<code>应用本页面设置</code>，成功后点击顶部<code>重启</code>按钮重启路由器；</li><li>重启后进入web后台时先设置路由器，将路由器连上网络，然后进入软件中心，如果软件中心一片空白，不要着急，先软重启（使用顶部重启按钮）一次路由器即可出现软件中心，如果软件中心仍然空白，参见FAQ：Q4的解决办法。</li><li>如果进入软件中心后正常，将软件中心更新到最新版本（如果有）后即完成全部刷机，之后你可以对路由器固件进行其它喜好的设置，或者在软件中心安装插件等操作。</li></ol><h4 id="D-改版梅林固件-→-改版梅林固件、"><a href="#D-改版梅林固件-→-改版梅林固件、" class="headerlink" title="D. 改版梅林固件 → 改版梅林固件、"></a>D. 改版梅林固件 → 改版梅林固件、</h4><blockquote><p>常见于系统升级，比如梅林改版固件386.4_0升级到386.5_2，一般来说如果新固件没有特别说明，都是不需要双清操作的。</p></blockquote><ol><li>在改版梅林固件升级页面下直接上传.w 后缀的改版梅林固件文件，刷机完成后机器会自动重启；</li><li>请阅读你刷的固件版本的更新日志，看是否有附加刷机说明（如恢复出厂，双清，格式化JFFS等），如果没有任何要求，刷机完成后可以不恢复出厂设置；</li><li>刷机完成后，固件中的软件中心和所有插件都会得到保留；</li><li>以上步骤完成后，固件中的软件中心和所有插件都会得到保留；</li><li>如果刷机后软件中心页面一片空白，建议再手动软重启（使用顶部重启按钮）一次路由器，如果仍然空白，参见FAQ：Q4。</li></ol><h4 id="E-改版梅林固件-→-官改固件"><a href="#E-改版梅林固件-→-官改固件" class="headerlink" title="E. 改版梅林固件 → 官改固件"></a>E. 改版梅林固件 → 官改固件</h4><blockquote><p>原版梅林固件&#x2F;改版梅林固件与官改固件在一些默认配置上有所不同，虽然刷机后不用恢复出厂设置也能正常工作，但是建议有时间朋友刷机完成后双清一次路由，双清后全部手动配置，不要用以前的备份配置。</p><p>固件双清不仅会清除路由器所有配置，还会删除JFFS分区得所有内容，包括软件中心，如果你希望在官改固件刷到改版梅林固件后，软件中心和所有插件得到保留，你可以使用USB2JFFS插件，用USB磁盘来替代JFFS分区。刷机前在USB2JFFS插件内点击卸载 → 然后刷机 → 双清路由器 → 进入到新系统并完成软件中心初始化后 → 安装USB2JFFS插件 → 点击挂载 → 重启路由器。</p></blockquote><ol><li>在<code>改版梅林固件</code>固件升级页面下直接上传.w 后缀的<code>官改固件</code>文件；</li><li>成功上传固件后，路由器会自动重启，此时刷机完成；</li><li>刷机完成后对路由器进行一次<code>双清</code>，并全部手动配置路由器；</li><li>双清完成后进入路由器web后台，将路由器连上网络，然后进入软件中心，如果软件中心一片空白，不要着急，先软重启（使用顶部重启按钮）一次路由器即可出现软件中心，如果软件中心仍然空白，参见FAQ：Q4的解决办法。</li><li>如果进入软件中心后正常，将软件中心更新到最新版本（如果有）后即完成全部刷机，之后你可以对路由器固件进行其它喜好的设置，或者在软件中心安装插件等操作。</li></ol><h4 id="F-改版梅林固件-→-原厂固件-原版梅林固件"><a href="#F-改版梅林固件-→-原厂固件-原版梅林固件" class="headerlink" title="F. 改版梅林固件 → 原厂固件&#x2F;原版梅林固件"></a>F. 改版梅林固件 → 原厂固件&#x2F;原版梅林固件</h4><blockquote><p>从改版梅林固件刷为原厂固件&#x2F;原版梅林固件后建议做一次双清操作，以清除jffs分区里残留的一些软件中心相关文件。不过即使不进行双清操作，也不会影响刷回原厂固件路由器的正常工作，你甚至可以立即再刷回改版梅林固件，软件中心的所有插件和配置都将得到保留，并且正常工作。</p></blockquote><ol><li>在<code>改版梅林固件</code>升级页面下直接上传.w 后缀的<code>原厂固件</code>&#x2F;<code>原版梅林固件</code>文件；</li><li>成功上传固件后，路由器会自动重启，此时刷机完成；</li><li>刷机完成后固件恢复为官方固件，但是jffs分区可能仍然留有一些软件中心相关文件；</li><li>如需彻底清空jffs里的文件残留，需要再执行一次双清操作；</li><li>如果不想双清后重新设置路由器，可以参见后文【重要命令】中的【清空jffs空间】或者【删除软件中心】。</li></ol><h3 id="六、注意事项"><a href="#六、注意事项" class="headerlink" title="六、注意事项"></a>六、注意事项</h3><ol><li>刷机后如果界面显示不正常，请使用组合键<code>ctrl + F5</code>强制清空浏览器缓存后重试；</li><li>强烈建议使用chrome浏览器或者chromium内核的浏览器，以保持最佳兼容性；</li><li>单纯的恢复出厂设置并不能完全清除jffs分区的软件中心文件，需要在恢复出厂设置的时候同时勾选恢复按钮旁边的选择框；</li></ol><h3 id="七、FAQ"><a href="#七、FAQ" class="headerlink" title="七、FAQ"></a>七、FAQ</h3><ul><li>此处列出一些经常被问到的问题（FAQ）的回答，持续更新中~</li><li>FAQ更新日期：2022年04月25日</li></ul><p><strong>Q1：RT-AX86U的华硕官改固件和梅林改版固件比较有什么区别，哪个好用，哪个更稳定？</strong></p><blockquote><p><strong>A1：</strong> 梅林改版固件基于梅林固件修改，华硕官改固件基于官方固件修改。两者都是在基础固件代码上以添加软件中心为目的。</p><p><strong>梅林改版固件：</strong> 首先，梅林改版固件有更多的功能和bug修复。而梅林改版固件使用梅林固件源代码为基础（<a href="https://github.com/RMerl/asuswrt-merlin.ng">asuswrt-merlin.ng代码</a>）修改而来，也继承了这些功能和bug修复。具体来说梅林固件特有的功能，梅林改版固件都有（参考此链接：<a href="https://github.com/RMerl/asuswrt-merlin.ng/blob/master/README-merlin.txt#L66-L142">梅林固件添加的功能</a>）。但是梅林固件不能使用的功能，梅林改版固件也不能使用，比如说固件自带的UU加速器等；</p><p><strong>华硕官改固件：</strong> 华硕官改固件更加接近官方固件，因为官改固件的开发初衷是在尽量保持ASUS官方固件原汁原味的基础上，增加软件中心及对应插件的支持。所以华硕固件的功能，在官改固件上都有！比如UU加速器，其在华硕官改固件上就可以正常使用！</p><p>当然，至于软件中心和插件来说，使用<strong>梅林改版固件</strong>或者<strong>华硕官改固件</strong>是没有本质的区别的！两者的固件在稳定性上一般来说也没有太大的区别，选哪个固件基于个人喜好即可。硬要给选择建议的话就是：如果你是官方固件党，又想用到一些插件的功能，可以选择华硕官改固件；如果你追求功能，如openvpn，nfs挂载，AMTM，定义开机脚本，更改软件启动配置等等功能，可以选择梅林改版固件。</p></blockquote><p><strong>Q2：我手动安装第三方xxx插件失败怎么办？</strong></p><blockquote><p><strong>A2：</strong> 目前各个平台的软件中心也没有提供严格的插件开发规范，加上论坛的插件区管理比较混乱，没有进行良好的插件审核，所以经常有一些第三方插件无法兼容所有软件中心平台，但是却能在这些平台上进行安装。</p><ol><li>本贴的RT-AX86U属于p1axhnd.675平台机型，对于hnd&#x2F;axhnd&#x2F;axhnd.675&#x2F;p1axhnd.675平台机型，使用的是rogsoft软件中心，这些机型的插件是可以通用的，具体请见：<a href="https://github.com/koolshare/rogsoft#%E6%9C%BA%E5%9E%8B%E6%94%AF%E6%8C%81">rogsoft机型支持</a>；</li><li>目前koolshare开发组推出的几个版本的软件中心：<a href="https://github.com/koolshare/koolshare.github.io">arm380软件中心</a>，<a href="https://github.com/koolshare/armsoft">arm384软件中心</a>，<a href="https://github.com/koolshare/rogsoft">hnd软件中心</a>，<a href="https://github.com/koolshare/qca">qca软件中心</a>，<a href="https://github.com/koolshare/ledesoft">LEDE-酷软</a>，他们的插件都是互不兼容的！具体可以参考：<a href="https://github.com/koolshare/rogsoft#koolshare%E5%87%A0%E4%B8%AA%E7%89%88%E6%9C%AC%E7%9A%84%E8%BD%AF%E4%BB%B6%E4%B8%AD%E5%BF%83%E5%8C%BA%E5%88%AB">koolshare几个版本的软件中心区别</a>；</li><li>对于第三方作者开发的插件，除非作者明确表示其支持hnd&#x2F;axhnd&#x2F;axhnd.675平台，不然请不要随意安装！不然因为可能没有遵循开发规范，安装后无法使用，甚至给路由器带来问题！</li><li>为了论坛和固件未来更好的发展，koolshare软件中心也会针对一些特殊的插件在离线安装上有所限制。</li></ol></blockquote><p><strong>Q3：软件中心一直显示更新中怎么办？</strong></p><blockquote><p><strong>A3：</strong> 此问题也可以有很多变种，比如：软件中心不显示本地版本号，软件中心本地版本号显示为0.0.0，此问题可能由多种原因导致，请尝试下面的方法：</p><ol><li>访问<a href="https://rogsoft.ddnsto.com/%EF%BC%8C%E8%AF%B7%E7%A1%AE%E4%BF%9D%E4%BD%A0%E8%AE%BF%E9%97%AE%E6%AD%A4%E7%BD%91%E7%AB%99%E7%9A%84%E6%97%B6%E5%80%99%E4%BD%BF%E7%94%A8%E7%9A%84%E6%98%AF%E8%BF%9E%E6%8E%A5%E5%88%B0%E8%AF%A5%E8%B7%AF%E7%94%B1%E5%99%A8%E4%B8%8B%E7%9A%84%E5%AE%A2%E6%88%B7%E7%AB%AF%EF%BC%8C%E5%A6%82%E6%9E%9C%E6%98%BE%E7%A4%BA%60Hello">https://rogsoft.ddnsto.com/，请确保你访问此网站的时候使用的是连接到该路由器下的客户端，如果显示`Hello</a> to everyone&#96;字样，表示你的路由下的本地网络访问软件中心服务器没有问题；如果不显示上述字样，则可能是是网络方面的问题。</li><li>情况1，路由器本地网络故障：开启路由器SSH功能后，通过putty、xshell等SSH软件连接路由器，输入命令：<code>ping armsoft.ddnsto.com</code>，看是否能ping通服务器，如果无法解析ip地址，可以尝试更换路由器dns设定后再试；如果能解析ip地址当时无法ping通，可能是本地网络问题或者软件中心服务器正在维护。</li><li>情况2，路由器本地网络故障：开启路由器SSH功能后，通过putty、xshell等SSH软件连接路由器，输入命令：<code>curl -sS4L https://armsoft.ddnsto.com/|grep Hello</code>，如果显示了两行内容都包含<code>Hello to everyone</code>字样，表明路由器访问软件中心web服务器没有问题；如果没有以上显示，可能是本地网络问题或者软件中心服务器正在维护。</li><li>情况3，服务器网络故障：这有可能是koolshare软件中心服务器维护，建议可以加本论坛相关讨论群组，可以第一时间获得相关信息。</li><li>如果排除了以上网络故障，那么可能是程序运行方面的问题。可以进行以下操作：开启路由器SSH功能后，通过putty、xshell等SSH软件连接路由器后，输入命令：<code>ps|grep -w httpdb|grep -v grep</code>，如果有输出内容表明软件中心web服务运行正常，如果输出内容为空表明软件中心web服务运行异常，请参考下文：重要命令里的<strong>重启软件中心</strong>以解决httpdb没有运行的问题。</li><li>开启路由器SSH功能后，通过putty、xshell等SSH软件连接路由器后，输入命令：<code>ps|grep skipd|grep -v grep</code>，如果有输出内容表明软件中心数据库服务运行正常，如果输出内容为空表明软件中心数据库服务运行异常，可以尝试通过运行命令<code>service restart_skipd</code>来重启skipd服务。如果运行重启skipd的命令后，再次运行<code>ps|grep skipd|grep -v grep</code>仍然没有输出，说明储存在jffs分区的skipd数据库可能遭到了损坏，此时可以请参考下文：重要命令里的软件中心重置。</li><li>还有一种较为常见的情况，在刷机过程中，jffs分区中存放的软件中心相关文件在刷机过程&#x2F;路由器断电&#x2F;重启过程中被破坏了，如果被破坏的文件正好是httpdb、软件中心数据库等关键文件，也会导致软件中心一直显示更新中的情况。虽然部分情况下，替换损坏的文件可以修复此问题，但是由于无法知晓是否有其它的文件损坏，所以这种情况下建议对路由器进行双清操作，双清完成后，路由器jffs分区内的软件中心相关文件会得到重建，然后在此基础上手动安装插件并手动配置，切记不要使用以前的jffs分区备份来进行恢复！</li><li>最后，最严重的情况，路由器的jffs分区遇到了很多无法屏蔽的坏块，查看路由器有多少坏块，先重启路由器，然后用putty、xshell等SSH软件连接路由器后，参考下文：重要命令里的<strong>RT-AX86U查询坏块命令</strong>。一般来说，两三个坏块是正常品控水平，如果坏块太多，建议走售后渠道。</li></ol></blockquote><p><strong>Q4：软件中心页面一片空白</strong></p><blockquote><p><strong>A4：</strong> 按照下面的顺序依次尝试：</p><ol><li>如果你使用的固件是koolcenter软件中心，那么可能会出现有侧边栏却没有软件中心界面的问题，遇到此情况建议更换谷歌Chrome，或者Chromium内核的浏览器！如果你连侧边栏都看不到，点击软件中心菜单栏后一片空白，请继续往下读。</li><li>参考本贴的<strong>重要命令</strong>章节部分，使用ssh登陆到路由器后台后，输入命令：<code>mount | grep -w /jffs</code>，如果看到类似<code>/dev/mtdblock9 on /jffs type jffs2 (rw,noatime)</code>这样的输出，说明&#x2F;jffs成功挂载了，挂载设备为<code>/dev/mtdblock9</code>。如果没有任何输出，则说明&#x2F;jffs分区没有成功挂载，请尝试重启路由、重置路由等操作后再次查看jffs分区是否成功挂载，如果仍然不行，尝试运行以下命令手动挂载RT-AX86U的jffs分区：<code>mount -t jffs2 -o rw,noatime /dev/mtdblock9 /jffs</code>，运行完毕后再次<code>mount | grep /jffs</code>，检查是否成功挂载。如果手动挂载还是不行，那么可能是FALSH有问题或者是系统有问题，这种建议售后渠道换机了。</li><li>如果jffs分区挂载没有问题，软件中心页面还是空白，可以尝试使用下文：重要命令里的<strong>软件中心重置命令</strong>，来重置一次软件中心。然后基本上就能看到软件中心页面了。</li></ol></blockquote><p><strong>Q5：Rmerl发布了最新的RT-AX86U梅林固件，为什么此贴还不更新梅林改版固件啊？</strong></p><blockquote><p><strong>A5</strong>：新梅林改版固件的发布涉及大到大量的源代码合并工作，期间还涉及到一些编译、测试、回炉等工作，不过一般来说梅林原版固件更新后1天-1周内，就会完成编译和测试工作。</p></blockquote><p><strong>Q6：我的xxx固件无线有问题，能否修复？</strong></p><blockquote><p><strong>A6</strong>：无线问题无能为力，因为华硕使用的是博通商业代码，无线这部分在固件源代码里是不开源的，没法进行任何修改或者调整。</p></blockquote><p><strong>Q7：可不可给固件以增加xxx功能？</strong></p><blockquote><p><strong>A7</strong>：基本不可以，本官改固件的开发宗旨是在尽量保持ASUS官方固件原汁原味的基础上，增加软件中心及对应插件的支持。所以一些官方固件所有的问题，在官改固件中也可能会遗传。koolshare固件开发组会尽量对一些ASUS已知的bug进行修复，不过仅限于非常重要的。另外，添加功能是软件中心的使命，软件中心就是为此而生的；</p></blockquote><p><strong>Q8：我现在已经是xxx的版本，用着挺稳定，看见本帖更新了最新固件，我还需要跟随最新版本升级吗？升级后稳定吗？升级后需要恢复出厂设置吗？</strong></p><blockquote><p><strong>A8：</strong> 非常建议升级！最新的固件版本不仅有来自ASUS官方&#x2F;梅林的一些功能更新，也会包含ASUS官方&#x2F;梅林的一些安全更新、稳定性更新，一般来说会比老版本固件更加稳定。同时，koolshare软件中心和相关插件也是持续为最新版本的官改固件进行更新的，所以是强烈建议升级到最新版本的官改的。另外已经刷过koolshare官改固件的，升级到最新koolshare官改固件，如无特殊说明，是不需要做恢复出厂设置等操作的，固件升级后所有的插件都会得到保留。</p></blockquote><h3 id="八、重要命令"><a href="#八、重要命令" class="headerlink" title="八、重要命令"></a>八、重要命令</h3><blockquote><p>以下操作需要使用支持SSH协议的软件，连接到路由器后台进行操作，如果不会使用，可以参考下面步骤：</p><ol><li><strong>启用SSH：</strong> 在路由器后台的【系统管理】-【系统设置】里，将【启用 SSH】更改为<code>LAN only</code>，将端口号设置为<code>22</code>或者其它数字，点击页面下方【应用本页面设置】保存更改；</li><li><strong>登录SSH：</strong> 下载SSH软件，如putty（<a href="https://the.earth.li/~sgtatham/putty/0.74/w64/putty.exe">官方绿色版putty 0.74下载地址</a>），运行后在Host Name（or IP address）处输入路由器的局域网IP地址，如：<code>192.168.50.1</code>或者<code>router.asus.com</code>，端口为上一步中【SSH 端口】中的端口，如果没有更改，则为<code>22</code>，点击【Open】，如果有弹出Putty Security Alert，点击【是】；在界面的<code>login as</code>后面输入<code>路由器的登录帐号</code>后回车，然后在 password: 提示符后输入<code>路由器登录密码</code>后回车（记住：输入密码的时候不会有任何显示，输入完成后直接回车即可），完成登录。</li><li><strong>键入命令：</strong> 键入命令时建议将系统输入法切换为英文，也可以复制命令后使用右键即可粘贴命令，粘贴完毕后按回车即可执行命令。</li></ol></blockquote><h4 id="1-软件中心重置"><a href="#1-软件中心重置" class="headerlink" title="1. 软件中心重置"></a>1. 软件中心重置</h4><ul><li>开启路由器SSH功能后，通过putty、xshell等SSH软件连接路由器，直接在ssh客户端内运行下面的程序即可。</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">koolshare-reset</span><br></pre></td></tr></table></figure><h4 id="2-清空JFFS空间"><a href="#2-清空JFFS空间" class="headerlink" title="2. 清空JFFS空间"></a>2. 清空JFFS空间</h4><ul><li>注意，此操作会删除jffs分区内的所有文件，包括但不限于：软件中心、安装的证书、TrafficAnalyzer的数据库、自定义的设备图标等</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">kill -9 $(pidof skipd)</span><br><span class="line">cd /jffs &amp;&amp; rm -r .[a-zA-Z_]* *</span><br><span class="line">reboot</span><br></pre></td></tr></table></figure><h4 id="3-删除软件中心"><a href="#3-删除软件中心" class="headerlink" title="3. 删除软件中心"></a>3. 删除软件中心</h4><ul><li>适用于<strong>官改固件</strong>刷回<strong>原厂固件</strong>，需要删除留在jffs分区内软件中心，而不删除其它文件；</li><li>如果是在<strong>官改固件</strong>下删除软件中心，路由器重启后软件中心会重新初始化为最初状态。</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">kill -9 $(pidof skipd)</span><br><span class="line">cd /jffs</span><br><span class="line">rm -rf .asusrouter .koolshare db ksdb config/* etc/profile scripts/*</span><br><span class="line">reboot</span><br></pre></td></tr></table></figure><h4 id="4-重启软件中心"><a href="#4-重启软件中心" class="headerlink" title="4. 重启软件中心"></a>4. 重启软件中心</h4><ul><li>当软件中心相关进程挂掉的时候，此时可以用ssh进入路由器后台，输入以下命令重启软件中心：</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh /koolshare/perp/perp.sh</span><br></pre></td></tr></table></figure><h4 id="5-RT-AX86U查询坏块命令"><a href="#5-RT-AX86U查询坏块命令" class="headerlink" title="5. RT-AX86U查询坏块命令"></a>5. RT-AX86U查询坏块命令</h4><ul><li>axhnd.675x平台查询坏块的命令如下（运行以下命令，返回数字即为坏块数量）：</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat /sys/class/mtd/mtd6/bad_blocks</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机网络 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科学上网 </tag>
+            
+            <tag> 路由器硬件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何在HEXO博客中插入图片？</title>
+      <link href="/2023/10/09/%E5%A6%82%E4%BD%95%E5%9C%A8HEXO%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%EF%BC%9F/"/>
+      <url>/2023/10/09/%E5%A6%82%E4%BD%95%E5%9C%A8HEXO%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%EF%BC%9F/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前置概念"><a href="#前置概念" class="headerlink" title="前置概念"></a>前置概念</h2><p><strong>插入图片</strong>的Markdown语法为</p><blockquote><p><code>![图片描述](图片路径)</code></p></blockquote><p>图片路径可以是<strong>绝对路径、相对路径、网络路径</strong>。</p><p>由于博文需要部署到网站上，部署后会生成新的文件目录，所以必须使用相对路径。</p><h2 id="操作步骤："><a href="#操作步骤：" class="headerlink" title="操作步骤："></a>操作步骤：</h2><ol><li>图片需要放置于文章<strong>资源文件夹中</strong>,需要更改<code>config.yaml</code>文件中更高以下配置：</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">post_asset_folder: true</span><br></pre></td></tr></table></figure><p>   当该配置应用后，用<code>hexo new</code>命令创建新文章时，会生成同名文件夹用于储存资源，即<strong>资源文件夹</strong>。</p><ol start="2"><li><p>安装<strong>hexo-renderer-marked</strong>插件,使用<code>npm install hexo-renderer-marked</code>直接安装，之后在<code>config.yaml</code>中更改和添加以下配置</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">post_asset_folder: true</span><br><span class="line">marked:</span><br><span class="line">  prependRoot: true</span><br><span class="line">  postAsset: true</span><br></pre></td></tr></table></figure></li></ol><p>​之后即可用<code>![](image.jpg)</code>插入图片</p><h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><ul><li><p>网络路径<img src="https://images.pexels.com/photos/10433031/pexels-photo-10433031.jpeg"></p></li><li><p>相对路径<img src="/2023/10/09/%E5%A6%82%E4%BD%95%E5%9C%A8HEXO%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%EF%BC%9F/pexels-hannah-luo-18540208.jpg"></p></li></ul><hr><p>参考资料：</p><blockquote><p><a href="https://cloud.tencent.com/developer/article/1736563">https://cloud.tencent.com/developer/article/1736563</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Blog </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Blog </tag>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Markdown语法</title>
+      <link href="/2023/09/01/Markdown%E8%AF%AD%E6%B3%95/"/>
+      <url>/2023/09/01/Markdown%E8%AF%AD%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<p>官方教程地址： <a href="https://markdown.com.cn/">https://markdown.com.cn/</a></p><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><p><strong>这个是粗体</strong><br><em>这个是斜体</em><br><em><strong>这个是粗体加斜体</strong></em><br>~这里想用删除线~~</p><p>注：如果想给字体换颜色、字体或者居中显示，需要使用内嵌HTML来实现。</p><ul><li>无序列表 1</li><li>无序列表 2</li><li>无序列表 3</li></ul><p>如果要控制列表的层级，则需要在符号<code>-</code>前使用空格。如下：</p><ul><li>无序列表 1</li><li>无序列表 2<ul><li>无序列表 2.1</li><li>无序列表 2.2</li></ul></li></ul><ol><li>有序列表 1</li><li>有序列表 2</li><li>有序列表 3</li></ol><p>引用的格式是在符号<code>&gt;</code>后面书写文字。如下：</p><blockquote><p>读一本好书，就是在和高尚的人谈话。 ——歌德<br>雇用制度对工人不利，但工人根本无力摆脱这个制度。 ——阮一峰</p></blockquote><p><a href="https://mp.weixin.qq.com/s/s5IhxV2ooX3JN_X416nidA">你是《未来世界的幸存者》么？</a></p><p><a id="jump_8"></a>是什么</p><hr><table><thead><tr><th align="left">姓名</th><th align="center">年龄</th><th align="right">工作</th></tr></thead><tbody><tr><td align="left">小可爱</td><td align="center">18</td><td align="right">吃可爱多</td></tr><tr><td align="left">小小勇敢</td><td align="center">20</td><td align="right">爬棵勇敢树</td></tr><tr><td align="left">小小小机智</td><td align="center">22</td><td align="right">看一本机智书</td></tr></tbody></table><p>在需要高亮的代码块的前一行及后一行使用三个反引号（反引号指的是<code>esc</code>下面那个按键），同时<strong>第一行反引号后面表示代码块所使用的语言</strong>，如下：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// FileName: HelloWorld.java</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">HelloWorld</span> &#123;</span><br><span class="line">  <span class="comment">// Java 入口程序，程序从此入口</span></span><br><span class="line">  <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">    System.out.println(<span class="string">&quot;Hello,World!&quot;</span>); <span class="comment">// 向控制台打印一条语句</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>创建代码块方法2：整体TAB缩进<br>    &#x2F;&#x2F; FileName: HelloWorld.java<br>    public class HelloWorld {<br>      &#x2F;&#x2F; Java 入口程序，程序从此入口<br>      public static void main(String[] args) {<br>        System.out.println(“Hello,World!”); &#x2F;&#x2F; 向控制台打印一条语句<br>      }<br>    }</p><p>数学公式单独详解</p><p>[TOC]</p><hr><p>代码短语的表示:反引号指的是<code>esc</code>下面那个按键</p><p><code>代码</code></p><hr><p>插入图片</p><p><code>![](图片路径或链接)</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Blog </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Blog </tag>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Blog Bug Record</title>
+      <link href="/2023/09/01/Blog-Bug-Record/"/>
+      <url>/2023/09/01/Blog-Bug-Record/</url>
+      
+        <content type="html"><![CDATA[<ul><li><p>error：Spawn failed 网络问题，切换节点或者改为直连。</p></li><li><p>next主题显示空白主题问题，切换为其他主题</p></li><li><p>原主题英文是landscape不是lanscape</p></li><li><p>文章只显示了两行Markdown格式问题。</p></li><li><p>图片语法正确但无法加载图片：图片名字格式有问题（也许是空格什么的）修改为简单的命名即可</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Blog </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Blog </tag>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>HEXO常用命令</title>
+      <link href="/2023/09/01/HEXO%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+      <url>/2023/09/01/HEXO%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<p>HEXO常用命令</p><p>创建新文章‘hexo new  ‘<br>sample：‘hexo new’HEXO常用命令##如果标题包含空格，需要用引号括起来</p><p>发布文章三部曲：hexo clean ##清除缓存文件 (db.json) 和已生成的静态文件 (public)。在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。<br>        hexo g##generate 生成静态文件<br>        hexo d##deploy 部署到网站</p><p>本地预览服务器hexo s<br>取消本地预览服务器Control+C</p><p>参考文献：HEXO官网文档 <a href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a> 文档评论区有人说文档该重新写了，相比经过更新之后有许多的不同</p><p>日记：<br>夜里失眠，遂起身，研究点什么。。。<br>抓住了停止参观的尾巴，昨日带弟弟去了厦门大学思明校区，风景秀丽，想来在这种环境里生活、学习、工作，体验应该都是极好的。<br>阴雨天气，带了伞，又好像没带，因为带了伞丢在车里了啊喂！一次预约只能刷一次闸门，出去到停车场后就进不来了，导致斥巨资买了把伞。<br>学校餐厅、教学楼、图书馆等只供教职工与学生，不对游客开放，很可惜。芙蓉隧道里充满了游客不文明的涂鸦留言，想来是因为被游客伤的可深，现在限制才这么多吧，人类旅游文明仍有很大的进步空间。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Blog </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Blog </tag>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Good Job</title>
+      <link href="/2023/08/29/Good-Job/"/>
+      <url>/2023/08/29/Good-Job/</url>
+      
+        <content type="html"><![CDATA[<p>搁置半年，博客终于是建成了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 碎碎念 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2023/08/29/Hello-World/"/>
+      <url>/2023/08/29/Hello-World/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+    
+    
+    <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>资源</title>
+      <link href="/resources/index.html"/>
+      <url>/resources/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+  
+</search>
