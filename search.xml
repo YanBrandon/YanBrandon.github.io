@@ -8,7 +8,7 @@
       <link href="/2024/04/25/Hexo%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD%EF%BC%9F/"/>
       <url>/2024/04/25/Hexo%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD%EF%BC%9F/</url>
       
-        <content type="html"><![CDATA[<p>要在 Hexo 博客中添加搜索功能，你可以使用一些 Hexo 插件或者集成第三方搜索服务。以下是两种常见的方法：</p><ol><li><strong>Hexo 插件</strong>:<code>hexo-generator-search</code></li></ol><p>   使用这个插件，你可以在你的 Hexo 博客中生成一个搜索索引，然后在博客中添加一个搜索框，让用户通过输入关键字来搜索博客文章。</p><p>   安装步骤：</p><ul><li><p>安装插件：在你的 Hexo 项目目录下运行 <code>npm install hexo-generator-search --save</code> 来安装插件。</p></li><li><p>配置插件：在 Hexo 配置文件 </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">_config.yml</span><br></pre></td></tr></table></figure><p> 中添加以下配置：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">yamlCopy codesearch:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: all</span><br></pre></td></tr></table></figure></li><li><p>生成搜索索引：运行 <code>hexo generate</code> 命令来生成搜索索引。</p></li><li><p>在博客中添加搜索框：根据你的需求，在你的博客主题中添加一个搜索框，并链接到搜索结果页面。</p></li></ul><ol start="2"><li><p><strong>集成第三方搜索服务</strong></p><p>另一种方法是集成第三方搜索服务，如 Google Custom Search、Algolia、Elasticsearch 等。你可以将你的博客文章内容上传到这些搜索服务，并使用它们的搜索 API 在博客中添加搜索功能。这种方法通常需要一些额外的配置和开发工作，但可以提供更加强大和灵活的搜索功能。</p></li></ol>]]></content>
+        <content type="html"><![CDATA[<p>要在 Hexo 博客中添加搜索功能，你可以使用一些 Hexo 插件或者集成第三方搜索服务。以下是两种常见的方法：</p><ol><li><strong>Hexo 插件</strong>:<code>hexo-generator-search</code></li></ol><p>   使用这个插件，你可以在你的 Hexo 博客中生成一个搜索索引，然后在博客中添加一个搜索框，让用户通过输入关键字来搜索博客文章。</p><p>   这个插件实际上是根据网页内容生成了一个数据文件，格式是<code>XML</code>或者<code>JSON</code>。然后通过JS代码去匹配这个文件的内容，从而达到搜索的目的</p><p>   安装步骤：</p><ul><li><p>安装插件：在你的 Hexo 项目目录下运行 <code>npm install hexo-generator-search --save</code> 来安装插件。</p></li><li><p>配置插件：在 Hexo 配置文件 </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">_config.yml</span><br></pre></td></tr></table></figure><p> 中添加以下配置：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">yamlCopy codesearch:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: all</span><br></pre></td></tr></table></figure></li><li><p>生成搜索索引：运行 <code>hexo generate</code> 命令来生成搜索索引。就会发现<code>public</code>根目录下多了<code>search.xml</code>文件。</p></li><li><p>在博客中添加搜索框：根据你的需求，在你的博客主题中添加一个搜索框，并链接到搜索结果页面。</p></li></ul><ol start="2"><li><p><strong>集成第三方搜索服务</strong></p><p>另一种方法是集成第三方搜索服务，如 Google Custom Search、Algolia、Elasticsearch 等。你可以将你的博客文章内容上传到这些搜索服务，并使用它们的搜索 API 在博客中添加搜索功能。这种方法通常需要一些额外的配置和开发工作，但可以提供更加强大和灵活的搜索功能。</p></li></ol>]]></content>
       
       
       
@@ -1152,6 +1152,17 @@
     
     
     <entry>
+      <title>search</title>
+      <link href="/search/index.html"/>
+      <url>/search/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -1163,9 +1174,9 @@
     
     
     <entry>
-      <title>资源</title>
-      <link href="/resources/index.html"/>
-      <url>/resources/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -1174,9 +1185,9 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>资源</title>
+      <link href="/resources/index.html"/>
+      <url>/resources/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
