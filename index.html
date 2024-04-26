@@ -203,8 +203,17 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2024-04-26 16:35:03" itemprop="dateModified" datetime="2024-04-26T16:35:03+08:00">2024-04-26</time>
+                <time title="修改时间：2024-04-26 17:26:42" itemprop="dateModified" datetime="2024-04-26T17:26:42+08:00">2024-04-26</time>
               </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Blog/" itemprop="url" rel="index"><span itemprop="name">Blog</span></a>
+                </span>
+            </span>
 
           <br>
             <span class="post-meta-item" title="本文字数">
@@ -212,14 +221,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>1.1k</span>
+              <span>1.6k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>4 分钟</span>
+              <span>6 分钟</span>
             </span>
 
         </div>
@@ -236,8 +245,10 @@
 </blockquote>
 <p>要在 Hexo 博客中添加搜索功能，你可以使用一些 Hexo 插件或者集成第三方搜索服务。以下是两种常见的方法：</p>
 <ol>
-<li><p><strong>Hexo 插件</strong>:<code>hexo-generator-search</code></p>
-</li>
+<li><strong>Hexo 插件</strong>:<code>hexo-generator-search</code></li>
+</ol>
+<p>   插件GitHub地址：<a target="_blank" rel="noopener" href="https://github.com/wzpan/hexo-generator-search/tree/master">https://github.com/wzpan/hexo-generator-search/tree/master</a></p>
+<ol start="2">
 <li><p><strong>集成第三方搜索服务</strong></p>
 <p>另一种方法是集成第三方搜索服务，如 Google Custom Search、Algolia、Elasticsearch 等。你可以将你的博客文章内容上传到这些搜索服务，并使用它们的搜索 API 在博客中添加搜索功能。这种方法通常需要一些额外的配置和开发工作，但可以提供更加强大和灵活的搜索功能。</p>
 </li>
@@ -245,19 +256,102 @@
 <hr>
 <h2 id="用hexo-generator-search实现博文搜索"><a href="#用hexo-generator-search实现博文搜索" class="headerlink" title="用hexo-generator-search实现博文搜索"></a>用hexo-generator-search实现博文搜索</h2><p>安装步骤：</p>
 <ul>
-<li><p>安装插件：在你的 Hexo 项目目录下运行 <code>npm install hexo-generator-search --save</code> 来安装插件。</p>
-<p>注：<code>--save</code>可以不用,<code>--save </code>参数在 npm 中已经不再建议使用，因为现在 npm 5.x 版本及以上已经默认将安装的包保存到了 <code>package.json</code> 文件中的 <code>dependencies</code> 或 <code>devDependencies</code> 字段中</p>
-</li>
-<li><p>配置插件：在 Hexo 配置文件 </p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">_config.yml</span><br></pre></td></tr></table></figure>
+<li><p>安装插件：在Hexo根目录文件夹用Gitbash Here运行代码 </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-search --save</span><br></pre></td></tr></table></figure>
 
-<p> 中添加以下配置：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 10000</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>注：<code>--save</code>可以不用,<code>--save </code>参数在 npm 中已经不再建议使用，因为现在 npm 5.x 版本及以上已经默认将安装的包保存到了 <code>package.json</code> 文件中的 <code>dependencies</code> 或 <code>devDependencies</code> 字段中,可以在该文件中查看安装版本</p>
+</blockquote>
 </li>
-<li></li>
+<li><p>获取或者自己写js的搜索代码，由于我不会写就用了【潘伟洲wzpan】大佬的代码文件， <a href="....%5Cthemes%5Cnext%5Csource%5Cjs%5Csearch.js">search.js</a> 。下载放到Blog\themes\next\source\js，在主题文件夹下，每个人的路径不一定一样。</p>
+<blockquote>
+<p>获取地址：<a target="_blank" rel="noopener" href="https://github.com/wzpan/wzpan.github.io/blob/master/js/search.js">https://github.com/wzpan/wzpan.github.io/blob/master/js/search.js</a></p>
+</blockquote>
+</li>
+<li><p>在导航栏添加search选项。</p>
+<p>参考：《Hexo博客主题优化》</p>
+<p><a target="_blank" rel="noopener" href="https://exbrain.com.cn/2024/01/20/Hexo%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96/">https://exbrain.com.cn/2024/01/20/Hexo%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96/</a></p>
+</li>
+<li><p>在search文件夹中的<code>index.md</code>中书写搜索代码</p>
+<ol>
+<li><p>添加搜索框</p>
+<div id="site_search">
+<div class="form-group">
+    <input type="text" id="local-search-input" name="q" results="0" placeholder="Search" class="st-search-input st-default-search-input form-control">
+</div>
+
+<blockquote>
+<p>代码：</p>
+<p>&lt;div id&#x3D;”site_search”&gt;</p>
+<p>&lt;div class&#x3D;”form-group”&gt;<br>    &lt;input type&#x3D;”text” id&#x3D;”local-search-input” name&#x3D;”q” \results&#x3D;”0” placeholder&#x3D;”Search” class&#x3D;”st-search-input st-\default-search-input form-control”&gt;<br>&lt;&#x2F;div&gt;</p>
+</blockquote>
+</li>
+<li><p>引入**jQuery脚本 **，因为<code>search.js</code> 依赖 jQuery，</p>
+<script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+
+<blockquote>
+<p>代码可以放在<code>index.md</code>中(单页面生效）</p>
+<p>或者主题文件夹下的<code>_layout.swig</code> 或者 <code>_layout.ejs</code>。你可以在这些文件中找到 <code>&lt;head&gt;</code> 部分，或者在页面底部，找到 <code>&lt;body&gt;</code> 结束标签前的位置，然后将这行代码粘贴进去。（全局生效）</p>
+</blockquote>
+</li>
+<li><p>在文章内引入search.js程序</p>
+<script src="/js/search.js"></script>
+</li>
+<li><p>程序加到搜索框上</p>
+<script type="text/javascript">      
+     var search_path = "search.xml";
+     if (search_path.length == 0) {
+         search_path = "search.xml";
+     }
+     var path = '/' + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+</script>
+</li>
+<li><p>搜索框样式CSS（可选）</p>
+<style>
+#local-search-input {
+    height: 55px;
+    width: 94%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 3% 0 3%;
+    font-size: 18px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+}
+</style>
+</li>
+<li><p>搜索关键字底色高亮CSS(可选)</p>
+<style>
+.search-keyword {
+    background: #c5afd9;
+}
+</style></li>
+</ol>
+</li>
+</ul>
+<p>​	</p>
+<ul>
+<li><p>配置插件：在 Hexo 配置文件<code>_config.yml</code>中添加以下配置：</p>
+<p>`&#96;&#96;<br> search:<br>  path: search.xml<br>  field: post<br>  content: true</p>
+<pre><code>
+&gt; 注：
+&gt;
+&gt; - field
+&gt;
+&gt;   \- the search scope you want to search, you can chose:
+&gt;
+&gt;   - **post** (Default) - will only covers all the posts of your blog.
+&gt;   - **page** - will only covers all the pages of your blog.
+&gt;   - **all** - will covers all the posts and pages of your blog.
+&gt;
+&gt; - **content** - whether contains the whole content of each article. If `false`, the generated results only cover title and other meta info without mainbody. By default is `true`.
+
+</code></pre>
+</li>
 <li><p>生成搜索索引：运行 <code>hexo generate</code> 命令来生成搜索索引。就会发现<code>public</code>根目录下多了<code>search.xml</code>文件。</p>
 </li>
-<li><p>在博客中添加搜索框：根据你的需求，在你的博客主题中添加一个搜索框，并链接到搜索结果页面。（怎么添加？）</p>
+<li><p>之后常规Hexo clean 、Hexo g 、Hexo d就可以正常使用了。</p>
 </li>
 </ul>
 <hr>
@@ -270,6 +364,7 @@
 <h2 id="专业词汇"><a href="#专业词汇" class="headerlink" title="专业词汇"></a>专业词汇</h2><p><strong>hexo-generator-search:</strong></p>
 <p>HaHack 参考 Christian Fei 的 <a target="_blank" rel="noopener" href="https://github.com/christian-fei/Simple-Jekyll-Search">Simple Jekyll Search</a> 实现了名为 <code>hexo-generator-search</code> 的生成器。安装该生成器之后，在执行 <code>hexo generate</code> 的过程中，会按照配置生成一个<code>XML</code>或者<code>JSON</code> 文件，用于保存全站的文档数据。这个 XML 文件只是简单地做了数据的结构化存储，而完全没有考虑分词、倒排等问题。然后通过JS代码去匹配这个文件的内容，从而达到搜索的目的</p>
 <p>使用这个插件，你可以在你的 Hexo 博客中生成一个搜索索引，然后在博客中添加一个搜索框，让用户通过输入关键字来搜索博客文章。</p>
+<hr>
 <p><strong>倒排索引（Inverted Index）</strong>是一种常用于信息检索的数据结构。它将文档集合中的每个单词映射到包含该单词的文档列表，从而允许根据单词来快速检索相关的文档。</p>
 <p>通常，倒排索引由两部分组成：词项（Terms）和倒排列表（Inverted Lists）。</p>
 <ol>
@@ -1555,14 +1650,14 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">1:40</span>
+    <span title="站点阅读时长">1:42</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共26.2k字</span>
+  <span class="post-count">博客全站共26.6k字</span>
 </div>
         
 
