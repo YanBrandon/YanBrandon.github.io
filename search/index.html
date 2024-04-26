@@ -22,15 +22,15 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":"ture","async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="创建搜索框 123456&lt;div id&#x3D;&quot;site_search&quot;&gt;&lt;div class&#x3D;&quot;form-group&quot;&gt;    &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;local-search-input&quot; name&#x3D;&quot;q&quot; results&#x3D;&quot;0&quot;">
+  <meta name="description" content="创建搜索框              在文章内引入search.js程序       程序加到搜索框上             var search_path &#x3D; &quot;search.xml&quot;;      if (search_path.length &#x3D;&#x3D; 0) {      	search_path &#x3D; &quot;search.xml&quot;;      }      var path &#x3D; &#39;&#x2F;&#39; + searc">
 <meta property="og:type" content="website">
 <meta property="og:title" content="搜索">
 <meta property="og:url" content="http://example.com/search/index.html">
 <meta property="og:site_name" content="External-Brain">
-<meta property="og:description" content="创建搜索框 123456&lt;div id&#x3D;&quot;site_search&quot;&gt;&lt;div class&#x3D;&quot;form-group&quot;&gt;    &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;local-search-input&quot; name&#x3D;&quot;q&quot; results&#x3D;&quot;0&quot;">
+<meta property="og:description" content="创建搜索框              在文章内引入search.js程序       程序加到搜索框上             var search_path &#x3D; &quot;search.xml&quot;;      if (search_path.length &#x3D;&#x3D; 0) {      	search_path &#x3D; &quot;search.xml&quot;;      }      var path &#x3D; &#39;&#x2F;&#39; + searc">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-04-25T12:32:06.000Z">
-<meta property="article:modified_time" content="2024-04-25T15:35:51.381Z">
+<meta property="article:modified_time" content="2024-04-26T04:34:03.373Z">
 <meta property="article:author" content="BrandonYan">
 <meta name="twitter:card" content="summary">
 
@@ -142,7 +142,7 @@
   </li>
         <li class="menu-item menu-item-search">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>搜索</a>
+    <a href="/search/" rel="section"><i class="fa fa-search fa-fw"></i>搜索</a>
 
   </li>
   </ul>
@@ -192,21 +192,55 @@
       
       <div class="post-body">
           <p>创建搜索框</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;div id=&quot;site_search&quot;&gt;</span><br><span class="line">&lt;div class=&quot;form-group&quot;&gt;</span><br><span class="line">    &lt;input type=&quot;text&quot; id=&quot;local-search-input&quot; name=&quot;q&quot; results=&quot;0&quot; placeholder=&quot;Search&quot; class=&quot;st-search-input st-default-search-input form-control&quot;&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line"></span><br><span class="line">&lt;div id=&quot;local-search-result&quot;&gt;&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+<div id="site_search">
+<div class="form-group">
+    <input type="text" id="local-search-input" name="q" results="0" placeholder="Search" class="st-search-input st-default-search-input form-control">
+</div>
+
+<div id="local-search-result"></div>
 
 
 
 <p>在文章内引入search.js程序</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=&quot;/js/search.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+<script src="/js/search.js"></script>
+
+
+
+
 
 <p>程序加到搜索框上</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;script type=&quot;text/javascript&quot;&gt;      </span><br><span class="line">     var search_path = &quot;search.xml&quot;;</span><br><span class="line">	 if (search_path.length == 0) &#123;</span><br><span class="line">	 	search_path = &quot;search.xml&quot;;</span><br><span class="line">	 &#125;</span><br><span class="line">	 var path = &#x27;/&#x27; + search_path;</span><br><span class="line">     searchFunc(path, &#x27;local-search-input&#x27;, &#x27;local-search-result&#x27;);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+<script type="text/javascript">      
+     var search_path = "search.xml";
+     if (search_path.length == 0) {
+     	search_path = "search.xml";
+     }
+     var path = '/' + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+</script>
+
+
 
 <p>搜索框样式CSS</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&lt;style&gt;</span><br><span class="line">#local-search-input &#123;</span><br><span class="line">    height: 55px;</span><br><span class="line">    width: 94%;</span><br><span class="line">    outline: none;</span><br><span class="line">    border: none;</span><br><span class="line">    border-radius: 5px;</span><br><span class="line">    padding: 0 3% 0 3%;</span><br><span class="line">    font-size: 18px;</span><br><span class="line">    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure>
+<style>
+#local-search-input {
+    height: 55px;
+    width: 94%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 3% 0 3%;
+    font-size: 18px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+}
+</style>
 
 <p>搜索关键字底色高亮CSS</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;style&gt;</span><br><span class="line">.search-keyword &#123;</span><br><span class="line">	background: #c5afd9;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure>
+<style>
+.search-keyword {
+    background: #c5afd9;
+}
+</style>
+
 
       </div>
       
@@ -399,3 +433,5 @@
 
 </body>
 </html>
+
+
