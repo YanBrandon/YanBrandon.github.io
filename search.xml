@@ -4,6 +4,60 @@
   
     
     <entry>
+      <title>Assetto Corsa（神力科莎）详解</title>
+      <link href="/2024/06/10/Assetto-Corsa%EF%BC%88%E7%A5%9E%E5%8A%9B%E7%A7%91%E8%8E%8E%EF%BC%89%E8%AF%A6%E8%A7%A3/"/>
+      <url>/2024/06/10/Assetto-Corsa%EF%BC%88%E7%A5%9E%E5%8A%9B%E7%A7%91%E8%8E%8E%EF%BC%89%E8%AF%A6%E8%A7%A3/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>作为模拟赛车的经典游戏，经过无数的大神拓展，整个神力科莎系统十分复杂，本篇仅作为自己的笔记使用。</p></blockquote><h1 id="词汇注解："><a href="#词汇注解：" class="headerlink" title="词汇注解："></a>词汇注解：</h1><h2 id="专业词汇："><a href="#专业词汇：" class="headerlink" title="专业词汇："></a>专业词汇：</h2><p>FWD(<strong>FRONT-WHEEL DRIVE</strong>，前轮驱动)、</p><p>RWD(<strong>REAR-WHEEL DRIVE</strong>，后轮驱动)、</p><p>4WD(四轮驱动，分时四驱，有分动器，需要手动切换两驱和四驱)</p><p>AWD(全轮驱动，全时四驱)</p><blockquote><p> 不同种类四驱的区别</p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=33360318&bvid=BV1QW411y72A&cid=58385191&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></blockquote><p>Volkswagen，缩写VW ，大众汽车</p><p> <em>BHP</em>，Brake Horse Power，制动马力<code>考虑了汽车轮胎与道路之间的摩擦后的汽车马力。</code></p><p>HP, Horse Power,马力</p><p><em>SEAT LEON</em>，西雅特里昂，大众子品牌的一款两厢车</p><p>Škoda Octavia，<strong>斯柯达明锐</strong>，大众子品牌的一款两厢车</p><p>PS，Pferde（马） Starke（力），公制马力（德语）</p><p><strong>turbocharged</strong>，引擎或车辆配备涡轮增压器的</p><p>litre,度量单位,升,&#x3D;liter</p><p>four-cylinder,四缸</p><p>available performance pack，可用性能包</p><p>haldex traction，智能四轮全时四驱系统</p><p>《<strong>出赛准备</strong>》(<strong>Assetto Corsa</strong>)，神力科莎</p><p>rallycross，汽车拉力赛</p><p>EEUU ， “Estados Unidos” 的缩写，也就是美国的西班牙语缩写。</p><h2 id="其他词汇："><a href="#其他词汇：" class="headerlink" title="其他词汇："></a>其他词汇：</h2><p>debuted,亮相</p><p>its home country，本土</p><p>in the guise of，伪装成，披着…的外衣</p><p>radical，激进的</p><p>significant，显著的</p><p>modular，模块化的</p><p>utilised to，被用于</p><p>approximate，大概的</p><p>restriction,（受）限制（状态）</p><p>Pacific coast，太平洋海岸</p><h2 id="插件下载地址"><a href="#插件下载地址" class="headerlink" title="插件下载地址"></a>插件下载地址</h2><p><a href="https://www.overtake.gg/">https://www.overtake.gg/</a></p><h1 id="管理各种模组"><a href="#管理各种模组" class="headerlink" title="管理各种模组"></a>管理各种模组</h1><p>CM-内容</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 模拟赛车 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Game </tag>
+            
+            <tag> 赛车 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>漂移详解</title>
+      <link href="/2024/06/09/%E6%BC%82%E7%A7%BB%E8%AF%A6%E8%A7%A3/"/>
+      <url>/2024/06/09/%E6%BC%82%E7%A7%BB%E8%AF%A6%E8%A7%A3/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>学完咱也去送豆腐</p></blockquote><p>漂移是甩尾衍生出的一种驾驶方式。</p><h1 id="前置步骤"><a href="#前置步骤" class="headerlink" title="前置步骤"></a>前置步骤</h1><p>选择一辆后驱或者四驱车，关闭辅助和TC。</p><h1 id="步骤："><a href="#步骤：" class="headerlink" title="步骤："></a>步骤：</h1><p>打方向起飘-后轮失去抓地力-反打方向并稍微收油-维持合适的油门和方向保持漂移姿态-收油结束漂移</p><h2 id="起飘"><a href="#起飘" class="headerlink" title="起飘"></a>起飘</h2><ul><li>动力起飘</li><li>弹离合起飘</li><li>手刹起飘</li></ul><h2 id="反打收油"><a href="#反打收油" class="headerlink" title="反打收油"></a>反打收油</h2><p>感觉开始侧倾后快速反打并稍微收油<code>不收油会spin，收油太多后轮恢复抓地力又会停止漂移</code></p><blockquote><p>参考资料：</p><p><a href="https://www.bilibili.com/video/BV1hP4y1A7Rt/?t=6.711354&spm_id_from=333.1350.jump_directly&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1hP4y1A7Rt/?t=6.711354&amp;spm_id_from=333.1350.jump_directly&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p><p><a href="https://www.bilibili.com/video/BV1hF411J7zc/?spm_id_from=333.788.recommend_more_video.2&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1hF411J7zc/?spm_id_from=333.788.recommend_more_video.2&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p><p><a href="https://www.bilibili.com/video/BV15f4y1V78R?p=2&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV15f4y1V78R?p=2&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 模拟赛车 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Game </tag>
+            
+            <tag> 赛车 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>如何自动跳过开屏广告以节约您的生命（安卓专用）</title>
       <link href="/2024/06/02/%E5%A6%82%E4%BD%95%E8%87%AA%E5%8A%A8%E8%B7%B3%E8%BF%87%E5%BC%80%E5%B1%8F%E5%B9%BF%E5%91%8A%E4%BB%A5%E8%8A%82%E7%BA%A6%E6%82%A8%E7%9A%84%E7%94%9F%E5%91%BD%EF%BC%88%E5%AE%89%E5%8D%93%E4%B8%93%E7%94%A8%EF%BC%89/"/>
       <url>/2024/06/02/%E5%A6%82%E4%BD%95%E8%87%AA%E5%8A%A8%E8%B7%B3%E8%BF%87%E5%BC%80%E5%B1%8F%E5%B9%BF%E5%91%8A%E4%BB%A5%E8%8A%82%E7%BA%A6%E6%82%A8%E7%9A%84%E7%94%9F%E5%91%BD%EF%BC%88%E5%AE%89%E5%8D%93%E4%B8%93%E7%94%A8%EF%BC%89/</url>
