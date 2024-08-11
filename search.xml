@@ -4,6 +4,269 @@
   
     
     <entry>
+      <title>Windows7安装方法</title>
+      <link href="/2024/08/10/Windows7%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/"/>
+      <url>/2024/08/10/Windows7%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>几年前突发奇想想玩一下老网游，寻找一些童年回忆，浴室百年</p></blockquote><blockquote><p>小学的电脑竟然还健在，于是我给他换了一块固态硬盘，重新安装了Windows7，电脑机械寿命真的好长，但是性能寿命实在太短了。</p></blockquote><p>参考资料：<br>Bilibili Windows7原版纯净版安装：（已收藏）<a href="https://www.bilibili.com/video/BV1gE411e7kN">https://www.bilibili.com/video/BV1gE411e7kN</a></p><p>准备工作：<br>Msdn我告诉你下载原版win7镜像（因为只有2g内存选择家庭升级版)<br>下载软碟通用于写入iso镜像文件<br>准备一个u盘装系统<br>准备360驱动大师网卡版安装包<br>用软碟通将镜像写入u盘中（需要在Windows系统）</p><p>安装过程：<br>将 U盘插入待安装电脑中，进入bios将启动盘改为U盘，按照提示安装。（我不分盘符）<br>用安装包安装360驱动大师网卡版，安装驱动程序。<br>安装浏览器（360极速版（支持flash））<br>安装图吧工具箱激活win7<br>安装其他软件……</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机系统 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Windows7 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>调色师的自我修养</title>
+      <link href="/2024/08/10/%E8%B0%83%E8%89%B2%E5%B8%88%E7%9A%84%E8%87%AA%E6%88%91%E4%BF%AE%E5%85%BB/"/>
+      <url>/2024/08/10/%E8%B0%83%E8%89%B2%E5%B8%88%E7%9A%84%E8%87%AA%E6%88%91%E4%BF%AE%E5%85%BB/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>调色原理笔记</p></blockquote><p>色彩也有欲扬先抑</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 影视后期技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 调色 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>剪辑师的自我修养</title>
+      <link href="/2024/08/10/%E5%89%AA%E8%BE%91%E5%B8%88%E7%9A%84%E8%87%AA%E6%88%91%E4%BF%AE%E5%85%BB/"/>
+      <url>/2024/08/10/%E5%89%AA%E8%BE%91%E5%B8%88%E7%9A%84%E8%87%AA%E6%88%91%E4%BF%AE%E5%85%BB/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>剪辑首先要满足情感，剪辑要像眨眼一样自然——《眨眼之间》</p><p>这是剪辑原理笔记</p></blockquote><p>​•由远及近<br>​•动接动</p><h1 id="音乐戛然而止："><a href="#音乐戛然而止：" class="headerlink" title="音乐戛然而止："></a>音乐戛然而止：</h1><p>添加音效：impact或者关门等</p><p>过度音：反转镲（cha）</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 影视后期技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 剪辑 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>显示器校色技术</title>
+      <link href="/2024/08/10/%E6%98%BE%E7%A4%BA%E5%99%A8%E6%A0%A1%E8%89%B2%E6%8A%80%E6%9C%AF/"/>
+      <url>/2024/08/10/%E6%98%BE%E7%A4%BA%E5%99%A8%E6%A0%A1%E8%89%B2%E6%8A%80%E6%9C%AF/</url>
+      
+        <content type="html"><![CDATA[<p>校色：【苹果ICC文件调出】在 Finder 按 “shift＋command＋G”，输入：~&#x2F;Library&#x2F;ColorSync&#x2F;Profiles，确认“前往” </p><p>系统设置-显示器-打开描述文件，然后会调用ColorSync工具，在ColorSync工具中保存这个配置文件就ok</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 影视后期技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 显示器校色 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>SONY4个官方Lut详解</title>
+      <link href="/2024/08/10/SONY4%E4%B8%AA%E5%AE%98%E6%96%B9Lut%E8%AF%A6%E8%A7%A3/"/>
+      <url>/2024/08/10/SONY4%E4%B8%AA%E5%AE%98%E6%96%B9Lut%E8%AF%A6%E8%A7%A3/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>本篇仅针对Slog3</p></blockquote><p>官方Slog3还原Lut下载地址：</p><p><a href="https://www.sony.com/electronics/support/software/00263050">https://www.sony.com/electronics/support/software/00263050</a></p><p>下载解压后得到：</p><p><img src="/SONY4%E4%B8%AA%E5%AE%98%E6%96%B9Lut%E8%AF%A6%E8%A7%A3/image-20240810211145175.png" alt="image-20240810211145175"></p><p>按从上到下顺序<br>1 直接还原成广播级709，适合加载后完全不调色<br>2 具有一定调色空间的709，也就是还原了709的对应颜色关系，但还保留一定的调色空间<br>3 颜色对应关系参考阿莱，比2的调色空间略大<br>4 颜色空间对应为709，亮度曲线保留，适合需要完全掌控曲线调节的用户</p><p>一般使用2，即typeA版本</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 影视后期技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 调色 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>数字媒体基础知识</title>
+      <link href="/2024/08/10/%E6%95%B0%E5%AD%97%E5%AA%92%E4%BD%93%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+      <url>/2024/08/10/%E6%95%B0%E5%AD%97%E5%AA%92%E4%BD%93%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</url>
+      
+        <content type="html"><![CDATA[<h1 id="透明图像"><a href="#透明图像" class="headerlink" title="透明图像"></a>透明图像</h1><p>图片格式：png可以做而jpg不行</p><h1 id="相机中光的传导过程："><a href="#相机中光的传导过程：" class="headerlink" title="相机中光的传导过程："></a>相机中光的传导过程：</h1><p>太阳光-镜头-传感器-转化为2进制-转换为色彩系统-压缩保存为文件<br>-图像处理器-via cpu-屏幕-眼睛</p><h1 id="色深"><a href="#色深" class="headerlink" title="色深"></a>色深</h1><p>8bit 、10bit，即色彩丰富度</p><h1 id="封装格式format："><a href="#封装格式format：" class="headerlink" title="封装格式format："></a>封装格式format：</h1><p> mov.  Mp4.(网络传输） </p><h1 id="编码："><a href="#编码：" class="headerlink" title="编码："></a>编码：</h1><p>​•H264:帧间编码 文件小，压缩率高，适合输出使用（只记录两帧之间的不同）  —使用代理让剪辑流畅<br>​•prores：帧内编码 文件大，电脑回放轻松，适合剪辑使用（单独分析每帧）</p><h1 id="码率："><a href="#码率：" class="headerlink" title="码率："></a>码率：</h1><p>单位：bps (bit per second）</p><p>每秒的数据量，码率越低，表示压缩程度越高，画质越差</p><p>码率低则尽量规避运动镜头或者大量粒子运动<br>    •恒定码率（CBR）：<br>    •可变码率（VBR）：实用，编码器自动分析画面提供不同码率 </p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>快门角度</title>
+      <link href="/2024/08/10/%E5%BF%AB%E9%97%A8%E8%A7%92%E5%BA%A6/"/>
+      <url>/2024/08/10/%E5%BF%AB%E9%97%A8%E8%A7%92%E5%BA%A6/</url>
+      
+        <content type="html"><![CDATA[<p>快门角度：</p><blockquote><p>来自于以前的胶片机，适用于24、25、30帧的影片，50帧以上的影片可快门速度对动态模糊的影响不大了,可以用到360°，避免给曝光带来压力。</p><p><a href="https://www.bilibili.com/video/BV1L24y1J7EH/?spm_id_from=333.337.search-card.all.click&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1L24y1J7EH/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p></blockquote><p>360度&#x3D;所有部分都曝光&#x3D;24帧下每张胶片曝光1&#x2F;24S&#x3D;快门速度1&#x2F;24 ，更多运动模糊，梦幻效果<br>180度最常用：快门速度为帧率的两倍的倒数<br>90度：运动镜头拍摄，高速快门，更少运动模糊</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 影视 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 摄影技术 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>影视行业相关书单</title>
+      <link href="/2024/08/09/%E5%BD%B1%E8%A7%86%E8%A1%8C%E4%B8%9A%E7%9B%B8%E5%85%B3%E4%B9%A6%E5%8D%95/"/>
+      <url>/2024/08/09/%E5%BD%B1%E8%A7%86%E8%A1%8C%E4%B8%9A%E7%9B%B8%E5%85%B3%E4%B9%A6%E5%8D%95/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>希望有朝一日可以看完</p></blockquote><h1 id="书单："><a href="#书单：" class="headerlink" title="书单："></a>书单：</h1><p>基础电影理论：<br>《 认识电影》、《电影艺术：形式与风格》《电影语言的语法》<br>电影摄影：<br>《电影摄影：理论与实践》、《电影镜头入门》《大师镜头三部》《电影镜头设计》<br>剪辑：<br>《电影电视剪辑学》、《看不见的剪辑》、《眨眼之间》、《剪辑圣经》</p><p>调色：</p><p>《调色师手册》</p><p>编剧：<br>《故事》、《电影剧本写作基础》。《电影化叙事》<br>导演：《导演创作完全手册》《演员的自我修养》节目（演员的诞生）</p><p>综合：<br>《荣誉》</p><p>《看电影杂志》</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 影视 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 书单 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分镜</title>
+      <link href="/2024/08/09/%E5%88%86%E9%95%9C/"/>
+      <url>/2024/08/09/%E5%88%86%E9%95%9C/</url>
+      
+        <content type="html"><![CDATA[<h1 id="什么是分镜？"><a href="#什么是分镜？" class="headerlink" title="什么是分镜？"></a>什么是分镜？</h1><p>分镜（Storyboard）：是在拍摄和制作影片之前，将我们脑中的成片，以「一次运镜」为单位进行分解，并标注上时长、景别和运镜方式等等信息的一个图表。（把你的文字版分镜给画出来，一个镜头一幅画）</p><h1 id="制作分镜的好处？"><a href="#制作分镜的好处？" class="headerlink" title="制作分镜的好处？"></a>制作分镜的好处？</h1><p>可以更好地向摄影师表达自己的想法，降低沟通成本且如果是全特效的场景还需要结合其他方式向伙伴说明自己的拍摄想法；另外分镜也能让你的客户明白你想要的画面和创意、如果不满意就可以在分镜时期进行修改、修改成本较低。</p><h1 id="如何去做一个分镜表？"><a href="#如何去做一个分镜表？" class="headerlink" title="如何去做一个分镜表？"></a>如何去做一个分镜表？</h1><p>首先要有创意梗概，然后细化创意、设计一个文字版的分镜（需要包含：<br>1.内景还是外景<br>2.时间，涉及「色温」<br>3.景别<br>4.镜头运动的方式<br>5.画面内容即演员的表演<br>6.场景<br>7.使用的道具<br>8.服装和化妆风格<br>9.这个镜头的时长<br>10.声音</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 影视前期技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 策划 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Pr笔记</title>
+      <link href="/2024/08/09/Pr%E7%AC%94%E8%AE%B0/"/>
+      <url>/2024/08/09/Pr%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>以前的工作笔记，慢慢更新上来</p></blockquote><h1 id="使用技巧"><a href="#使用技巧" class="headerlink" title="使用技巧"></a>使用技巧</h1><p>shift+delet 波纹删除<br>查看序列信息：选中序列-序列设置<br>项目-序列<br>标记入点出点I O<br>音频：高通（电话，耳机声）<br>低通（留声机）<br>结合高通低通<br>按住alt单独选中音频，可以单独删除音频<br>右键时间线素材-启用，快捷键：shift+E(因为shift容易切换中英文，所以我习惯自定义为alt+D）<br>子剪辑：长素材中创建短素材，用于筛选<br>R：调整视频速率<br>ctrl+m ：输出视频<br>上&#x2F;下：移动到上&#x2F;下一个剪辑点<br>&#96;键（1左边）：全屏窗口<br>ctrl+alt+k：打开快捷键设置，便于查看快捷键<br>shift+E：启用&#x2F;停用素材</p><h1 id="常用转场：（impact插件）"><a href="#常用转场：（impact插件）" class="headerlink" title="常用转场：（impact插件）"></a>常用转场：（impact插件）</h1><p>impact推动<br>impact模糊溶解<br>impact模糊颜色<br>滚动<br>燃烧alpha<br>燃烧白色<br>闪光<br>VHS损坏<br>方向模糊<br>缩放模糊<br>发光</p><h1 id="BUG"><a href="#BUG" class="headerlink" title="BUG"></a>BUG</h1><p>国内输入法<br>会导致pr输入顺序错误</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 影视后期技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Pr </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>AE笔记</title>
+      <link href="/2024/07/31/AE%E7%AC%94%E8%AE%B0/"/>
+      <url>/2024/07/31/AE%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>以前的工作笔记，慢慢更新上来</p></blockquote><h1 id="AfterEffect"><a href="#AfterEffect" class="headerlink" title="AfterEffect"></a>AfterEffect</h1><h2 id="一、AE学习方向"><a href="#一、AE学习方向" class="headerlink" title="一、AE学习方向"></a>一、AE学习方向</h2><blockquote><p><a href="https://zhuanlan.zhihu.com/p/32115614">https://zhuanlan.zhihu.com/p/32115614</a></p></blockquote><p>AE最重要的三部分是：MG动画、合成、视觉效果。</p><p>视觉效果就是很多人追求的东西，说白了主要就这两个，一个是粒子，一个是光，但是里面要学大量的插件。</p><h2 id="二、AE基础"><a href="#二、AE基础" class="headerlink" title="二、AE基础"></a>二、AE基础</h2><p>AE延长关键帧：全选关键帧，按住ALT，拉动最后一个关键帧</p><p>图形锚点居中：Ctrl+Alt+Home</p><p>每次话图形锚点都居中：编辑-首选项-常规-在新形状图层上居中放置锚点</p><p>锚点吸附在点、线上：锚点工具状态下按住Ctrl</p><p>锚点移动工具Y</p><p>有灯光时候素材要选择【关闭接收灯光】</p><p>command+点击时间码，变成纯帧显示<br>command+点击小眼睛滑动 批量显示或者隐藏<br>command+shift+C，合并图层<br>调整图层。影响下方所有图层<br>command+shift+A取消全选</p><p>不透明度 ：T<br>　　位置： P<br>　　旋转 ：R<br>　　缩放： S</p><p>U：查看所有关键帧</p><p>J&#x2F;K:前一个关键帧&#x2F;后一个关键帧</p><p>B&#x2F;N :设定预览长度<br>反向运动：动画-关键帧辅助-时间反向关键帧</p><p>PSD导入AE，选择合成（保持图层大小） </p><p>选中图层，用形状工具和钢笔工具可以建立蒙版</p><p>预合成：分组的作用</p><p>control+D：复制图层</p><p>操控点工具（木偶工具）：可用于操控树叶摆动</p><p>剪切蒙版&#x2F;轨道遮罩：A为需要添加蒙版的图层，B为蒙版图层；将创建形状图层B作为蒙版置于A上一层，并将B的trkmat（轨道遮罩）改为alpha。</p><p>父级和链接：使一图层随另一图层变化</p><p>框选关键帧后按f9：可以使运动缓入缓出<br>图标编辑器可以精细调整运动曲线</p><p>添加运动模糊记得开运动模糊总开关</p><p>无法使用运动模糊是因为开启了左边的小太阳图标</p><p>f9 缓动</p><p>图层上方有图标编辑器，打开可以控制曲线</p><p>轨道遮照可以用于图形变化的转场</p><p>3d开关</p><p>蒸发效果</p><p>选择所有关键帧，按alt，左键移动可以等比例压缩</p><p>Y：锚点工具（移动锚点）</p><p> 素材太大可以右键-变换-适合复合</p><h3 id="AE表达式："><a href="#AE表达式：" class="headerlink" title="AE表达式："></a>AE表达式：</h3><p>添加表达式：alt+点击小秒表</p><h4 id="Wiggle："><a href="#Wiggle：" class="headerlink" title="Wiggle："></a>Wiggle：</h4><p>抖动表达式，适用于<strong>位置缩放不透明度</strong></p><p>wiggle（freq，amp）<br>（frequency频率，amplitude振幅）</p><p> <img src="/AE%E7%AC%94%E8%AE%B0/wps1.jpg" alt="img"></p><h4 id="Time："><a href="#Time：" class="headerlink" title="Time："></a>Time：</h4><p>表示时间，以秒为单位，time<em>n &#x3D;时间（秒数）</em>n （若应用于旋转属性，则n表示角度）。打关键帧的地方都可用。</p><blockquote><p> 注意：time只能赋予一维属性的数据。(位置属性可进行单独尺寸的分离，从而可单独设置X或Y上的time)。</p></blockquote><p><img src="/AE%E7%AC%94%E8%AE%B0/wps2.jpg" alt="img"> </p><p> <strong>举例：</strong></p><p>​若在旋转属性上设置time表达式为time*60，则图层每秒旋转60°</p><p>​若在旋转属性上设置time表达式为time&#x3D;60，则旋转属性固定为60°</p><p>​若若在旋转属性上设置time表达式为time*60*time,则风扇会越转越快（time表示当前时间，会不断增加）</p><p>​若在源文本上设置time表达式为(time*5).toFixed(0)，则数字每秒递增5，并且不保留小数；</p><p>​控制停止数值增长</p><p><img src="/AE%E7%AC%94%E8%AE%B0/wps5.jpg" alt="img"> </p><p>​<em><strong>*滑块控制控制小数办法（value表示当前值）*</strong></em></p><p>effect(“滑块控制”)(“滑块”).value.toFixed(2).</p><p>​Wiggle和time结合</p><p><img src="/AE%E7%AC%94%E8%AE%B0/wps6.jpg" alt="img"></p><blockquote><p><a href="https://www.bilibili.com/video/BV1Pg411h7tH/?spm_id_from=333.337.top_right_bar_window_history.content.click&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1Pg411h7tH/?spm_id_from=333.337.top_right_bar_window_history.content.click&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p></blockquote><h4 id="循环表达式loop："><a href="#循环表达式loop：" class="headerlink" title="循环表达式loop："></a>循环表达式loop：</h4><blockquote><p><a href="https://www.bilibili.com/video/BV1ve4y117Zn/?spm_id_from=333.337.search-card.all.click&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1ve4y117Zn/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p></blockquote><p>（loopOut区分大小写）<br>格式：<code>loopOut(&quot;cycle&quot;,0)</code></p><ul><li><ul><li>0表示所有关键帧进行循环，1则表示倒数第二帧和倒数第一帧之间的动作进行循环【loopIn则从第一帧开始算）</li></ul></li><li>loopOut ：关键帧之前开始循环</li><li>loopIn：关键帧结束之后开始循环<ul><li>cycle：小球从点A移动到点B，结束时小球闪现回到点A再次移动到点B循环。</li><li>pingpong：小球从点A移动到点B，再从点B移动到点A，循环往复。</li><li>continue：根据小球最后一帧的状态继续往下执行</li><li>offset：小球从A移动到B点，从B点按A到B的方向移动相同距离，一直往前。</li></ul></li></ul><h3 id="抠像"><a href="#抠像" class="headerlink" title="抠像"></a>抠像</h3><h4 id="Roto笔刷："><a href="#Roto笔刷：" class="headerlink" title="Roto笔刷："></a>Roto笔刷：</h4><p><a href="https://www.bilibili.com/video/BV1dL4y1Y7vR/?spm_id_from=333.337.search-card.all.click">https://www.bilibili.com/video/BV1dL4y1Y7vR/?spm_id_from=333.337.search-card.all.click</a></p><p>Cctrl+鼠标可以调整光圈大小</p><p>Alt 变成减号</p><p>Roto卡</p><p>需要冻结，避免重复演算</p><h3 id="湍流置换"><a href="#湍流置换" class="headerlink" title="湍流置换"></a>湍流置换</h3><blockquote><p><a href="https://www.bilibili.com/video/BV11v411v7ud/?spm_id_from=333.337.search-card.all.click&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV11v411v7ud/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p><p><a href="https://www.bilibili.com/video/BV1BY4y167fJ/?spm_id_from=333.337.search-card.all.click&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1BY4y167fJ/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p></blockquote><p>用于扭曲、制作充电效果、下载动画、杯子、动态LOGO</p><h3 id="简单阻塞工具"><a href="#简单阻塞工具" class="headerlink" title="简单阻塞工具"></a>简单阻塞工具</h3><p>将图形边缘遮罩缩小，用于制作小球融合等</p><h2 id="三、具体特效"><a href="#三、具体特效" class="headerlink" title="三、具体特效"></a>三、具体特效</h2><h3 id="AE光线（particular）"><a href="#AE光线（particular）" class="headerlink" title="AE光线（particular）"></a>AE光线（particular）</h3><p>步骤</p><p>1、跟踪摄像机</p><p>2、新建地面</p><p>3、新建两个跟踪空对象</p><p>4、空对象复制给灯光</p><p>5、灯光控制P粒子</p><p><a href="https://www.bilibili.com/video/BV1of4y1m7to/?spm_id_from=333.337.search-card.all.click&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1of4y1m7to/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p><p>灯光控制路径</p><p>有很多预设可以用</p><h3 id="震动"><a href="#震动" class="headerlink" title="震动"></a>震动</h3><p>摇摆器：用来制作震动</p><p>选定两个关键帧，使用摇摆器，自动生成中间的关键帧</p><h3 id="描边出现效果"><a href="#描边出现效果" class="headerlink" title="描边出现效果"></a>描边出现效果</h3><p>描边出现效果：<br>1、在文字图层-右键-创建-从文字创建蒙版<br>2、在蒙版上添加描边效果<br>3、调整蒙版画笔大小4以上<br>3、结束关键帧设置为从0-100%</p><h3 id="创造球体"><a href="#创造球体" class="headerlink" title="创造球体"></a>创造球体</h3><p>1:编辑纹路<br>2：建立与合成<br>3：给预合成添加CC sphere(球体化效果），sphere(球体)。<br>4：调整小球方向<br>（rotation，回转；radius,半径；offset，偏移量，抵消；ambient，周围的，环境光；diffuse，扩散；specular，镜面反射；roughness，粗糙度；reflective，反光的；transparency fall 透明度下降<br>5： reflective map 选择底色可以更好融合进环境中</p><h3 id="重力曲线"><a href="#重力曲线" class="headerlink" title="重力曲线"></a>重力曲线</h3><p>time函数：time<em>360<br>（这个表示随时间变化的频率，比如time</em>150，如果时间向后走了一秒，那么改属性值就变化了150，同理2秒变化300，大概是这个道理，当然具体可能按毫秒算）</p><h3 id="跟踪文字"><a href="#跟踪文字" class="headerlink" title="跟踪文字"></a>跟踪文字</h3><p>1：创建跟踪摄像机<br>2：在分析出的跟踪点上创建文字<br>3：复制2层，只显示描边，位移增加立体感<br>4：点击效果控件的3D摄像机跟踪器可以复现分析的跟踪点时间表达式：</p><h3 id="无线电波"><a href="#无线电波" class="headerlink" title="无线电波"></a>无线电波</h3><h3 id="plexus-（点线面插件）"><a href="#plexus-（点线面插件）" class="headerlink" title="plexus （点线面插件）"></a>plexus （点线面插件）</h3><h3 id="发光"><a href="#发光" class="headerlink" title="发光"></a>发光</h3><p>staglow发光效果</p><h3 id="光线"><a href="#光线" class="headerlink" title="光线"></a>光线</h3><p>saber</p><h3 id="字幕常用出现效果"><a href="#字幕常用出现效果" class="headerlink" title="字幕常用出现效果"></a>字幕常用出现效果</h3><p>运输车、蒸发</p><h4 id="小球融合"><a href="#小球融合" class="headerlink" title="小球融合"></a>小球融合</h4><blockquote><p><a href="https://www.bilibili.com/video/BV1v7411W7qs/?spm_id_from=333.337.search-card.all.click&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1v7411W7qs/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p></blockquote><p>两个小球</p><p>调整图层（快速方框模糊效果（模糊半径20） 简单阻塞工具效果（阻塞遮罩20）</p><h2 id="四、BUG-解决方案"><a href="#四、BUG-解决方案" class="headerlink" title="四、BUG 解决方案"></a>四、BUG 解决方案</h2><h3 id="遇到失效插件："><a href="#遇到失效插件：" class="headerlink" title="遇到失效插件："></a>遇到失效插件：</h3><p>​1、清理内存与磁盘缓存</p><p>​2、断网</p><p>​3、新建合成，使用纯色层添加失效插件</p><p>​4、完成</p><h3 id="素材或者输出夹绿帧"><a href="#素材或者输出夹绿帧" class="headerlink" title="素材或者输出夹绿帧"></a>素材或者输出夹绿帧</h3><p>收集的解决方法：（一项一项尝试排除吧）</p><ul><li>素材问题，将素材进行转码</li><li>驱动问题，安装其他版本的驱动</li><li>帧速率匹配问题，解释素材使与合成速率匹配</li><li>编辑-首选项-导入-取消启用硬件加速解码，并清理所有内存与缓存（<a href="https://www.bilibili.com/video/BV1yM411s7op/?spm_id_from=333.999.0.0&vd_source=a07c82c6cb97fb4f6f2e96c58468f044%EF%BC%89%EF%BC%88%E8%AF%A5%E9%A1%B9%E5%B7%B2%E6%88%90%E5%8A%9F%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98%EF%BC%89">https://www.bilibili.com/video/BV1yM411s7op/?spm_id_from=333.999.0.0&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044）（该项已成功解决问题）</a></li><li>GPU加速选项里面的颜色设置改成16位</li></ul><h2 id="五、专业词汇"><a href="#五、专业词汇" class="headerlink" title="五、专业词汇"></a>五、专业词汇</h2><p>element元素、要素<br>optical 光学的<br>flare闪光<br>optical flares镜头光晕<br>template模板<br>theme主题、题目<br>massive大块的<br>pixdot像素点<br>pix照片、影片<br>placeholder 占位符<br>footage连续镜头<br>tint色彩、浅色<br>color amount色彩饱和度<br>elasticity。  弹性<br>damping衰减<br>annimate动画</p><p>compositing 合成<br>musical 音乐的</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 影视后期技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Ae </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>AE素材或者输出夹绿帧解决方法</title>
       <link href="/2024/07/15/AE%E7%B4%A0%E6%9D%90%E6%88%96%E8%80%85%E8%BE%93%E5%87%BA%E5%A4%B9%E7%BB%BF%E5%B8%A7%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
       <url>/2024/07/15/AE%E7%B4%A0%E6%9D%90%E6%88%96%E8%80%85%E8%BE%93%E5%87%BA%E5%A4%B9%E7%BB%BF%E5%B8%A7%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
