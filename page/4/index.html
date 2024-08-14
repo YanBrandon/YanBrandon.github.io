@@ -198,6 +198,678 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2024/04/25/Hexo%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD%EF%BC%9F/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="BrandonYan">
+      <meta itemprop="description" content="一个脑子不够，那就再加一个。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="External-Brain">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2024/04/25/Hexo%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD%EF%BC%9F/" class="post-title-link" itemprop="url">Hexo如何添加搜索功能？</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2024-04-25 18:35:13" itemprop="dateCreated datePublished" datetime="2024-04-25T18:35:13+08:00">2024-04-25</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2024-04-27 16:49:22" itemprop="dateModified" datetime="2024-04-27T16:49:22+08:00">2024-04-27</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Blog/" itemprop="url" rel="index"><span itemprop="name">Blog</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>1.7k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>6 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <blockquote>
+<p>由于博客文章的增多，博文寻找起来多有不便，因此急需添加搜索功能。</p>
+</blockquote>
+<p>要在 Hexo 博客中添加搜索功能，你可以使用一些 Hexo 插件或者集成第三方搜索服务。以下是两种常见的方法：</p>
+<ol>
+<li><strong>Hexo 插件</strong>:<code>hexo-generator-search</code></li>
+</ol>
+<p>   插件GitHub地址：<a target="_blank" rel="noopener" href="https://github.com/wzpan/hexo-generator-search/tree/master">https://github.com/wzpan/hexo-generator-search/tree/master</a></p>
+<ol start="2">
+<li><p><strong>集成第三方搜索服务</strong></p>
+<p>另一种方法是集成第三方搜索服务，如 Google Custom Search、Algolia、Elasticsearch 等。你可以将你的博客文章内容上传到这些搜索服务，并使用它们的搜索 API 在博客中添加搜索功能。这种方法通常需要一些额外的配置和开发工作，但可以提供更加强大和灵活的搜索功能。</p>
+</li>
+</ol>
+<hr>
+<h1 id="用hexo-generator-search实现博文搜索"><a href="#用hexo-generator-search实现博文搜索" class="headerlink" title="用hexo-generator-search实现博文搜索"></a>用hexo-generator-search实现博文搜索</h1><p>安装步骤：</p>
+<ul>
+<li><p>安装插件：在Hexo根目录文件夹用Gitbash Here运行代码 </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-search --save</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>注：<code>--save</code>可以不用,<code>--save </code>参数在 npm 中已经不再建议使用，因为现在 npm 5.x 版本及以上已经默认将安装的包保存到了 <code>package.json</code> 文件中的 <code>dependencies</code> 或 <code>devDependencies</code> 字段中,可以在该文件中查看安装版本</p>
+</blockquote>
+</li>
+<li><p>获取或者自己写js的搜索代码，由于我不会写就用了【潘伟洲wzpan】大佬的代码文件， <a href="....%5Cthemes%5Cnext%5Csource%5Cjs%5Csearch.js">search.js</a> 。下载放到Blog\themes\next\source\js，在主题文件夹下，每个人的路径不一定一样。</p>
+<blockquote>
+<p>获取地址：<a target="_blank" rel="noopener" href="https://github.com/wzpan/wzpan.github.io/blob/master/js/search.js">https://github.com/wzpan/wzpan.github.io/blob/master/js/search.js</a></p>
+</blockquote>
+</li>
+<li><p>在导航栏添加search选项。</p>
+<p>参考：《Hexo博客主题优化》</p>
+<p><a target="_blank" rel="noopener" href="https://exbrain.com.cn/2024/01/20/Hexo%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96/">https://exbrain.com.cn/2024/01/20/Hexo%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96/</a></p>
+</li>
+<li><p>在search文件夹中的<code>index.md</code>中书写搜索代码</p>
+<ol>
+<li><p>添加搜索框</p>
+<div id="site_search">
+<div class="form-group">
+    <input type="text" id="local-search-input" name="q" results="0" placeholder="Search" class="st-search-input st-default-search-input form-control">
+</div>
+
+<blockquote>
+<p>代码：</p>
+<p>&lt;div id&#x3D;”site_search”&gt;</p>
+<p>&lt;div class&#x3D;”form-group”&gt;<br>    &lt;input type&#x3D;”text” id&#x3D;”local-search-input” name&#x3D;”q” \results&#x3D;”0” placeholder&#x3D;”Search” class&#x3D;”st-search-input st-\default-search-input form-control”&gt;<br>&lt;&#x2F;div&gt;</p>
+</blockquote>
+</li>
+<li><p>引入**jQuery脚本 **，因为<code>search.js</code> 依赖 jQuery，</p>
+<script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+
+<blockquote>
+<p>代码可以放在<code>index.md</code>中(单页面生效）</p>
+<p>或者主题文件夹下的<code>_layout.swig</code> 或者 <code>_layout.ejs</code>。你可以在这些文件中找到 <code>&lt;head&gt;</code> 部分，或者在页面底部，找到 <code>&lt;body&gt;</code> 结束标签前的位置，然后将这行代码粘贴进去。（全局生效）</p>
+</blockquote>
+</li>
+<li><p>在文章内引入search.js程序</p>
+<script src="/js/search.js"></script>
+</li>
+<li><p>程序加到搜索框上</p>
+<script type="text/javascript">      
+     var search_path = "search.xml";
+     if (search_path.length == 0) {
+         search_path = "search.xml";
+     }
+     var path = '/' + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+</script>
+</li>
+<li><p>搜索框样式CSS（可选）</p>
+<style>
+#local-search-input {
+    height: 55px;
+    width: 94%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 3% 0 3%;
+    font-size: 18px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+}
+</style>
+</li>
+<li><p>搜索关键字底色高亮CSS(可选)</p>
+<style>
+.search-keyword {
+    background: #c5afd9;
+}
+</style></li>
+</ol>
+</li>
+</ul>
+<p>​	</p>
+<ul>
+<li><p>配置插件：在 Hexo 配置文件<code>_config.yml</code>中添加以下配置：</p>
+<p>`&#96;&#96;<br> search:<br>  path: search.xml<br>  field: post<br>  content: true</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">  </span><br><span class="line">  &gt; 注：</span><br><span class="line">  &gt;</span><br><span class="line">  &gt; - field</span><br><span class="line">  &gt;</span><br><span class="line">  &gt;   \- the search scope you want to search, you can chose:</span><br><span class="line">  &gt;</span><br><span class="line">  &gt;   - **post** (Default) - will only covers all the posts of your blog.</span><br><span class="line">  &gt;   - **page** - will only covers all the pages of your blog.</span><br><span class="line">  &gt;   - **all** - will covers all the posts and pages of your blog.</span><br><span class="line">  &gt;</span><br><span class="line">  &gt; - **content** - whether contains the whole content of each article. If `false`, the generated results only cover title and other meta info without mainbody. By default is `true`.</span><br><span class="line">  </span><br><span class="line">  </span><br><span class="line">  </span><br><span class="line">- 生成搜索索引：运行 `hexo generate` 命令来生成搜索索引。就会发现`public`根目录下多了`search.xml`文件。</span><br><span class="line"></span><br><span class="line">- 之后常规Hexo clean 、Hexo g 、Hexo d就可以正常使用了。</span><br><span class="line"></span><br><span class="line">  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"># Next主题开启本地搜索功能（请直接看这个！！！）</span><br><span class="line"></span><br><span class="line">&gt; 因为我是用Next主题，原来这么简单，那我上1p在折腾个啥,fc!</span><br><span class="line"></span><br><span class="line">### 步骤</span><br><span class="line"></span><br><span class="line">- 安装插件`hexo-generator-searchdb`,命令行输入：</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>npm install hexo-generator-searchdb –save</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">- 编辑`站点配置文件`，新增以下内容到任意位置，如下：</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>search:<br>path: search.xml<br>field: post<br>format: html</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">- 编辑`主题配置文件`，启用本地搜索功能，如下：</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h1 id="Local-search"><a href="#Local-search" class="headerlink" title="Local search"></a>Local search</h1><p>local_search:<br>enable: true</p>
+<pre><code>
+</code></pre>
+</li>
+</ul>
+<hr>
+<blockquote>
+<p>参考：</p>
+<p><a target="_blank" rel="noopener" href="https://liam.page/2017/09/21/local-search-engine-in-Hexo-site/">https://liam.page/2017/09/21/local-search-engine-in-Hexo-site/</a></p>
+<p><a target="_blank" rel="noopener" href="https://littleboy97.gitee.io/_A/Html/hexo%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2.html">https://littleboy97.gitee.io/_A/Html/hexo%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2.html</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1ny4y1w7yn/?spm_id_from=333.337.search-card.all.click&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1ny4y1w7yn/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p>
+<p><a target="_blank" rel="noopener" href="https://zhgtt666.github.io/2020/07/24/Hexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E6%9C%AC%E5%9C%B0%E6%90%9C%E7%B4%A2/">https://zhgtt666.github.io/2020/07/24/Hexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E6%9C%AC%E5%9C%B0%E6%90%9C%E7%B4%A2/</a></p>
+</blockquote>
+<h1 id="专业词汇"><a href="#专业词汇" class="headerlink" title="专业词汇"></a>专业词汇</h1><p><strong>hexo-generator-search:</strong></p>
+<p>HaHack 参考 Christian Fei 的 <a target="_blank" rel="noopener" href="https://github.com/christian-fei/Simple-Jekyll-Search">Simple Jekyll Search</a> 实现了名为 <code>hexo-generator-search</code> 的生成器。安装该生成器之后，在执行 <code>hexo generate</code> 的过程中，会按照配置生成一个<code>XML</code>或者<code>JSON</code> 文件，用于保存全站的文档数据。这个 XML 文件只是简单地做了数据的结构化存储，而完全没有考虑分词、倒排等问题。然后通过JS代码去匹配这个文件的内容，从而达到搜索的目的</p>
+<p>使用这个插件，你可以在你的 Hexo 博客中生成一个搜索索引，然后在博客中添加一个搜索框，让用户通过输入关键字来搜索博客文章。</p>
+<hr>
+<p><strong>倒排索引（Inverted Index）</strong>是一种常用于信息检索的数据结构。它将文档集合中的每个单词映射到包含该单词的文档列表，从而允许根据单词来快速检索相关的文档。</p>
+<p>通常，倒排索引由两部分组成：词项（Terms）和倒排列表（Inverted Lists）。</p>
+<ol>
+<li><strong>词项（Terms）</strong>：词项是文档集合中的单词或者词组。在倒排索引中，每个词项都会被映射到一个或多个文档。</li>
+<li><strong>倒排列表（Inverted Lists）</strong>：倒排列表是词项到文档的映射。它记录了每个词项在哪些文档中出现过，以及每个文档中出现的位置信息。倒排列表通常包含文档 ID 和位置信息等内容。</li>
+</ol>
+<p>倒排索引的优点在于它可以快速地进行全文搜索和相关性排序。当用户输入一个查询词时，系统可以直接查找倒排索引，找到包含该词的文档列表，并且根据相关性对文档进行排序，从而返回最相关的结果给用户。这种检索方式通常比简单的线性搜索效率更高。</p>
+<p>倒排索引常用于搜索引擎和文档检索系统中，例如谷歌、百度等搜索引擎就使用了倒排索引来快速地索引和检索网页。</p>
+<hr>
+<p>**jQuery **</p>
+<p>是一个流行的 JavaScript 库，用于简化客户端（浏览器端）的 HTML 文档遍历、操作和事件处理,jQuery 提供了一组简洁而强大的 API，使得 JavaScript 开发者能够以更简单和更高效的方式处理各种客户端任务。</p>
+<hr>
+<p><strong>.json文件：</strong></p>
+<p> JavaScript 对象表示法（JSON）的文件扩展名。常用于配置文件、数据交换以及 Web 开发中的 API 通信等方面。用文本编辑器打开。 </p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2024/03/20/%E3%80%8A%E6%9D%83%E5%88%A9%E7%9A%84%E6%B8%B8%E6%88%8F%E3%80%8B%E5%85%A8%E5%AD%A3%E8%B5%84%E6%BA%90%EF%BC%88%E5%8E%9F%E7%9B%98%EF%BC%89/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="BrandonYan">
+      <meta itemprop="description" content="一个脑子不够，那就再加一个。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="External-Brain">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2024/03/20/%E3%80%8A%E6%9D%83%E5%88%A9%E7%9A%84%E6%B8%B8%E6%88%8F%E3%80%8B%E5%85%A8%E5%AD%A3%E8%B5%84%E6%BA%90%EF%BC%88%E5%8E%9F%E7%9B%98%EF%BC%89/" class="post-title-link" itemprop="url">《权利的游戏》全季资源（原盘）</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2024-03-20 16:50:05 / 修改时间：17:05:31" itemprop="dateCreated datePublished" datetime="2024-03-20T16:50:05+08:00">2024-03-20</time>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>516</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>2 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <ul>
+<li><h1 id="第1季："><a href="#第1季：" class="headerlink" title="第1季："></a><strong>第1季：</strong></h1></li>
+</ul>
+<p>①Game.of.Thrones.S01.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT【295.9GB】<br><a href="magnet:?xt=urn:btih:MBNY6HAAGJUCYSBGZL3I3M33GYIZTMW6">magnet:?xt&#x3D;urn:btih:MBNY6HAAGJUCYSBGZL3I3M33GYIZTMW6</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p>
+<p>②Game.of.Thrones.S01.2160p.BluRay.HEVC.TrueHD.7.1.Atmos-HDBEE【330.9GB】<br><a href="magnet:?xt=urn:btih:Z6UN4Q2GUURZC4QXQKE34FKMXPX3MKR4">magnet:?xt&#x3D;urn:btih:Z6UN4Q2GUURZC4QXQKE34FKMXPX3MKR4</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p>
+<ul>
+<li><h1 id="第2季"><a href="#第2季" class="headerlink" title="第2季"></a>第2季</h1></li>
+</ul>
+<p>①Game.of.Thrones.S02.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT 【290.88 GB】<br><a href="magnet:?xt=urn:btih:40a105b5d8a60f0312f273fdd8198c4f5098e74c">magnet:?xt&#x3D;urn:btih:40a105b5d8a60f0312f273fdd8198c4f5098e74c</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p>
+<p>②Game.of.Thrones.S02.2160p.BluRay.HEVC.TrueHD.7.1.Atmos-FULLSiZE 【330.56 GB】<br><a href="magnet:?xt=urn:btih:7300c4e95343e9978b62f0a89e00ce82380ea582">magnet:?xt&#x3D;urn:btih:7300c4e95343e9978b62f0a89e00ce82380ea582</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p>
+<ul>
+<li><h1 id="第3季"><a href="#第3季" class="headerlink" title="第3季"></a>第3季</h1></li>
+</ul>
+<p>①Game.of.Thrones.S03.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT 【290.75 GB】<br><a href="magnet:?xt=urn:btih:ae00026eb7306d7c1243578477817ff781abac4d">magnet:?xt&#x3D;urn:btih:ae00026eb7306d7c1243578477817ff781abac4d</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p>
+<p>②Game.of.Thrones.S03.2160p.BluRay.HEVC.TrueHD.7.1.Atmos-FULLSiZE 【329.42 GB】<br><a href="magnet:?xt=urn:btih:2542cf2bd4b03fd06e235060b2360afa8a00fe85">magnet:?xt&#x3D;urn:btih:2542cf2bd4b03fd06e235060b2360afa8a00fe85</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p>
+<ul>
+<li><h1 id="第4季"><a href="#第4季" class="headerlink" title="第4季"></a>第4季</h1></li>
+</ul>
+<p>①Game.of.Thrones.S04.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT 【289.66 GB】<br><a href="magnet:?xt=urn:btih:af7cd28f1a921aece459a7fc678a67251d003913">magnet:?xt&#x3D;urn:btih:af7cd28f1a921aece459a7fc678a67251d003913</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p>
+<p>②Game.of.Thrones.S04.2160p.BluRay.HEVC.TrueHD.7.1.Atmos-FULLSiZE 【327.50 GB】<br><a href="magnet:?xt=urn:btih:3d26817690300ee2d717b9ee29a823eaa60cbbc0">magnet:?xt&#x3D;urn:btih:3d26817690300ee2d717b9ee29a823eaa60cbbc0</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p>
+<ul>
+<li><h1 id="第5季"><a href="#第5季" class="headerlink" title="第5季"></a>第5季</h1></li>
+</ul>
+<p>①Game.of.Thrones.S05.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT 【282.39 GB】<br><a href="magnet:?xt=urn:btih:ad0ed5d54d655ff90311f2714d8cc0c331f007d3">magnet:?xt&#x3D;urn:btih:ad0ed5d54d655ff90311f2714d8cc0c331f007d3</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p>
+<p>②Game.of.Thrones.S05.2160p.BluRay.HEVC.TrueHD.7.1.Atmos-FULLSiZE 【318.89 GB】<br><a href="magnet:?xt=urn:btih:bc1589a9e93c873a4e53275e06dd1d3b7db30e5a">magnet:?xt&#x3D;urn:btih:bc1589a9e93c873a4e53275e06dd1d3b7db30e5a</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p>
+<ul>
+<li><h1 id="第6季"><a href="#第6季" class="headerlink" title="第6季"></a>第6季</h1></li>
+</ul>
+<p>①Game.of.Thrones.S06.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT 【279.53 GB】<br><a href="magnet:?xt=urn:btih:5af67f6d969aaf66c0ef44842dc225f55b6abae7">magnet:?xt&#x3D;urn:btih:5af67f6d969aaf66c0ef44842dc225f55b6abae7</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p>
+<p>②Game.of.Thrones.S06.2160p.BluRay.HEVC.TrueHD.7.1.Atmos-FULLSiZE 【315.19 GB】<br><a href="magnet:?xt=urn:btih:1bffaeb221bed5099f621bf97727ac223441b2e8">magnet:?xt&#x3D;urn:btih:1bffaeb221bed5099f621bf97727ac223441b2e8</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p>
+<ul>
+<li><h1 id="第7季"><a href="#第7季" class="headerlink" title="第7季"></a>第7季</h1></li>
+</ul>
+<p>①Game.of.Thrones.S07.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT 【214.89 GB】<br><a href="magnet:?xt=urn:btih:032a537acde467fb255e676df03d8e726ce0858d">magnet:?xt&#x3D;urn:btih:032a537acde467fb255e676df03d8e726ce0858d</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p>
+<p>②Game.of.Thrones.S07.2160p.BluRay.HEVC.TrueHD.7.1.Atmos-FULLSiZE 【236.70 GB】<br><a href="magnet:?xt=urn:btih:85336db1508a6b4fb6064783965958e6261be1ce">magnet:?xt&#x3D;urn:btih:85336db1508a6b4fb6064783965958e6261be1ce</a><br>复制磁力链接后打开 迅雷、utorrent、Bitcomet等进行下载！</p>
+<ul>
+<li><h1 id="第8季"><a href="#第8季" class="headerlink" title="第8季"></a>第8季</h1></li>
+</ul>
+<p>①Game.of.Thrones.S08.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT【225.8GB 】<br><a href="magnet:?xt=urn:btih:L2H7RN7Z2KA4J2FMND7RFTGKRYVVZDKX">magnet:?xt&#x3D;urn:btih:L2H7RN7Z2KA4J2FMND7RFTGKRYVVZDKX</a><br>复制磁力链接到迅雷、115、utorrent、Bitcomet等进行下载</p>
+<p>②Game.of.Thrones.S08.2160p.BluRay.HEVC.TrueHD.7.1.Atmos-MIXED【259.9GB】<br><a href="magnet:?xt=urn:btih:XAQ24D7XVXZ6IMBXFXGVG7PA5M5OH73G">magnet:?xt&#x3D;urn:btih:XAQ24D7XVXZ6IMBXFXGVG7PA5M5OH73G</a><br>复制磁力链接到迅雷、115、utorrent、Bitcomet等进行下载</p>
+<blockquote>
+<p>转载自：<a target="_blank" rel="noopener" href="https://javaclass.top/2022/03/08/%E7%BE%8E%E5%89%A7-%E6%9D%83%E5%88%A9%E7%9A%84%E6%B8%B8%E6%88%8F-1-8-%E5%AD%A3/">https://javaclass.top/2022/03/08/%E7%BE%8E%E5%89%A7-%E6%9D%83%E5%88%A9%E7%9A%84%E6%B8%B8%E6%88%8F-1-8-%E5%AD%A3/</a></p>
+</blockquote>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2024/03/14/VR%E6%8A%98%E8%85%BE%E6%97%A5%E8%AE%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="BrandonYan">
+      <meta itemprop="description" content="一个脑子不够，那就再加一个。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="External-Brain">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2024/03/14/VR%E6%8A%98%E8%85%BE%E6%97%A5%E8%AE%B0/" class="post-title-link" itemprop="url">VR折腾日记</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2024-03-14 12:39:54" itemprop="dateCreated datePublished" datetime="2024-03-14T12:39:54+08:00">2024-03-14</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2024-03-21 12:37:06" itemprop="dateModified" datetime="2024-03-21T12:37:06+08:00">2024-03-21</time>
+              </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>973</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>4 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="一、基本信息"><a href="#一、基本信息" class="headerlink" title="一、基本信息"></a>一、基本信息</h1><p>设备：Quest 2</p>
+<p>单眼分辨率为1920×1832</p>
+<p>PC配置：</p>
+<p>i5-12400 六核</p>
+<p>微星 B660 迫击炮 <code>MAG B660M MORTAR WIFI DDR4(MS-7D42)(英特尔 B660 芯片组)</code></p>
+<p>64GB DDR4 3600MHz</p>
+<p>NVIDIA GeForce RTX 2060(12GB）</p>
+<p>2T固态（铠侠）</p>
+<p>​	</p>
+<h1 id="二、专业术语"><a href="#二、专业术语" class="headerlink" title="二、专业术语"></a>二、专业术语</h1><ul>
+<li><p>ASW：即Asynchronous SpaceWarp，是一种补帧技术，可以将帧率锁定在45帧并补帧到90帧。（OculusDebugTool中可以调整，待测试）</p>
+</li>
+<li><p>桶形失真：桶形失真是一种常见的光学失真现象，VR设备通常会使用球面或非球面透镜来放大图像并将其投影到用户眼睛前方的显示屏上。然而，由于透镜和屏幕之间的几何形状不同，导致了在图像边缘处出现了失真。这种失真表现为图像中心处的放大程度较大，而图像边缘处的放大程度较小，从而导致了桶形状的变形效果。</p>
+</li>
+</ul>
+<h1 id="三、串流"><a href="#三、串流" class="headerlink" title="三、串流"></a>三、串流</h1><p>有三种无线串流方式：</p>
+<p>virtual desktop（VD）、airlink 、 steam link</p>
+<p>（VD比较稳定）</p>
+<h2 id="VD测试"><a href="#VD测试" class="headerlink" title="VD测试"></a>VD测试</h2><p>连接稳定性比airlink好，而且可以看到帧率延迟等数据，适合调试使用。</p>
+<p>最佳画质设置：</p>
+<p>编码选择H264+ ，码率拉满400Mbps。</p>
+<p>vd画质选择Ultra档位，（使用满quest的分辨率。）</p>
+<p>steam vr渲染分辨率选择：3072*3216（使用满quest的分辨率。）</p>
+<p><code>为什么满分辨率是3k左右：因为透镜原因quest2你直接设置成quest原生的物理分辨率是无法做到点对点的，涉及到一个桶装失真的概念 类似一个弧形屏幕你拍平他可视面积就大了，而你如果以一个弧形屏幕正视那个比例分辨率去渲染一个平面帧，贴合到弧形上是不够的，所以需要更大的平面，1.425倍来修正这样才能完全发挥物理分辨率</code></p>
+<blockquote>
+<p>参考视频：<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1ke411U7YR/?spm_id_from=333.337.search-card.all.click&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1ke411U7YR/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p>
+</blockquote>
+<h2 id="airlink测试"><a href="#airlink测试" class="headerlink" title="airlink测试"></a>airlink测试</h2><p>H264，400Mbps，总体清晰，稍微卡顿</p>
+<p>H264 ，200Mbps，模糊</p>
+<p>H264,500Mbps，总体清晰</p>
+<p>H265,400Mbps，bug，画面撕裂卡顿</p>
+<p>H265,300Mbps，Bug，画面撕裂卡顿 </p>
+<p>H265,200Mbps，总体清晰，稍微卡顿</p>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1ke411U7YR/?spm_id_from=333.337.search-card.all.click&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1ke411U7YR/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p>
+</blockquote>
+<h1 id="四、问题与解决方法"><a href="#四、问题与解决方法" class="headerlink" title="四、问题与解决方法"></a>四、问题与解决方法</h1><ul>
+<li><p>能进商店，但是下载不了软件和游戏。	<code>打开全局模式 （跟udp没有关系）     </code></p>
+</li>
+<li><p>进入stamvr游戏后手柄丢失，不能控制。  <code>连个游戏手柄，或者用鼠标键盘等。</code></p>
+</li>
+<li><p>串流卡顿、模糊。	<code>使用VD更稳定</code></p>
+</li>
+<li><p>VD可以搜索到PC，但是连接不上.<code>切换下两个设备的科学上网的模式，属于网络问题。</code></p>
+</li>
+<li><p>VD串流到电脑桌面后，电脑桌面分辨率改变了。<code>关闭VD设置界面的使用最优分辨率（SETTINGS——use optimal resolution）</code></p>
+</li>
+</ul>
+<hr>
+<h1 id="五、游戏测试"><a href="#五、游戏测试" class="headerlink" title="五、游戏测试"></a>五、游戏测试</h1><h2 id="ACC神力科莎竞速"><a href="#ACC神力科莎竞速" class="headerlink" title="ACC神力科莎竞速"></a>ACC神力科莎竞速</h2><p>显卡占用极高，非常吃性能，画质差，而且VR帧数限制在45帧不知道为什么？</p>
+<h2 id="欧卡"><a href="#欧卡" class="headerlink" title="欧卡"></a>欧卡</h2><p>需要在steam中开启VR模式</p>
+<p>具体操作：<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Xu4y1b7Nh/?spm_id_from=333.337.search-card.all.click&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1Xu4y1b7Nh/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p>
+<p>测试：</p>
+<p>ultra，3k渲染分辨率</p>
+<p>​	游戏全低特效预设：90帧</p>
+<p>​	游戏高特效预设：30帧</p>
+<p>BUG：</p>
+<ul>
+<li>卡在等待中，或者只有声音没有VR画面。<code>按F11重置视角即可</code></li>
+<li>vr中检测不到排挡。</li>
+</ul>
+<h2 id="尘埃拉力赛2-0"><a href="#尘埃拉力赛2-0" class="headerlink" title="尘埃拉力赛2.0"></a>尘埃拉力赛2.0</h2><p>显卡CPU占用都不够高，显卡占用50%左右，可能是优化不行。画面树木等东西会闪烁</p>
+<p>游戏画质设置中等，vd ultra档,H264+,400Mbps,帧率大概是70-90帧之间，好晕一局都跑不下来。  </p>
+<h2 id="刀剑与魔法（Blade-and-Sorcery"><a href="#刀剑与魔法（Blade-and-Sorcery" class="headerlink" title="刀剑与魔法（Blade and Sorcery"></a>刀剑与魔法（Blade and Sorcery</h2><blockquote>
+<p>Blade and Sorcery Graphics Comparison - Quest 2 vs PC VR </p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Eq4y1r7oC/?spm_id_from=333.337.search-card.all.click&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1Eq4y1r7oC/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p>
+<p>看完对比还是买steam版本吧,steam版本材质光影都好很多</p>
+</blockquote>
+<h2 id="节奏光剑"><a href="#节奏光剑" class="headerlink" title="节奏光剑"></a>节奏光剑</h2><p>一体机版：随时能玩没有延迟（因为是音游）</p>
+<p>Steam版：画质更好，mod更丰富</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2024/03/11/ChatGPT/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="BrandonYan">
+      <meta itemprop="description" content="一个脑子不够，那就再加一个。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="External-Brain">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2024/03/11/ChatGPT/" class="post-title-link" itemprop="url">ChatGPT</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2024-03-11 14:30:14" itemprop="dateCreated datePublished" datetime="2024-03-11T14:30:14+08:00">2024-03-11</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2024-06-02 12:51:59" itemprop="dateModified" datetime="2024-06-02T12:51:59+08:00">2024-06-02</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/AI/" itemprop="url" rel="index"><span itemprop="name">AI</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>410</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h1><p>ChatGPT  官方网站：<a target="_blank" rel="noopener" href="https://openai.com/chatgpt">https://openai.com/chatgpt</a></p>
+<p>GPT Token：GPT官方卖给企业和公司的单次使用票</p>
+<p>Chat GPT镜像网站：使用GPT Token制作的网站，功能一样，个人数据会被镜像网站截留，正版有数据加密。</p>
+<h1 id="前置准备："><a href="#前置准备：" class="headerlink" title="前置准备："></a>前置准备：</h1><p>​	魔法上网：<code>不可以用gfwlist模式，用白名单或者全局模式</code>。</p>
+<p>​	外国手机号:<code>现在不用了,没有绑定手机号的，可以使用全部免费功能，但不包括API</code></p>
+<p>​	外国邮箱:<code>gmai、outlook</code></p>
+<p>​	</p>
+<h1 id="注册流程"><a href="#注册流程" class="headerlink" title="注册流程"></a>注册流程</h1><p>现在简化了，不需要外国手机号了，我用gmail邮箱就可以直接注册。</p>
+<h1 id="GPT3-5"><a href="#GPT3-5" class="headerlink" title="GPT3.5"></a>GPT3.5</h1><p>文字对话AI</p>
+<p>模型信息截止到2022年1月</p>
+<h1 id="GPT-4"><a href="#GPT-4" class="headerlink" title="GPT 4"></a>GPT 4</h1><p><code>需要付费升级,个人版本每月20美元</code></p>
+<p>文字对话AI</p>
+<p>更新的信息</p>
+<p>语言理解能力更强</p>
+<p>可以使用DALL·E模型<code>文字生成图片</code></p>
+<h1 id="BUG"><a href="#BUG" class="headerlink" title="BUG"></a>BUG</h1><h3 id="无法发送文字了"><a href="#无法发送文字了" class="headerlink" title="无法发送文字了"></a>无法发送文字了</h3><p>解决方案：</p>
+<p>​	1、语言切回英文</p>
+<p>​	2、F12——Application——cookies——clear chatgpt网址的cookies</p>
+<hr>
+<h3 id="无法正常访问，显示Unable-to-load-site"><a href="#无法正常访问，显示Unable-to-load-site" class="headerlink" title="无法正常访问，显示Unable to load site"></a>无法正常访问，显示<code>Unable to load site</code></h3><p>解决方案：</p>
+<ol>
+<li><p>浏览器设置关闭使用安全DNS【安全dns会走浏览器指定的加密dns，路由插件劫持不到解析】</p>
+</li>
+<li><p>路由器科学上网插件 - fancyss<code>由于chatgpt更换了域名，这个插件还未更新，所以无法正常访问chatgpt，若硬要用这个方法访问，请参照以下方法</code></p>
+<p>附加功能-udp代理控制-开启<code>会导致网络卡顿，建议暂时使用V2rayN等软件进行科学上网&#39;</code></p>
+</li>
+</ol>
+<p>​	3.机场节点被封禁，请咨询机场客服。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2024/03/08/%E6%BC%B3%E5%B7%9E%E5%B8%82%E8%8A%97%E5%9F%8E%E5%8C%BA%E7%BB%93%E5%A9%9A%E9%A2%86%E8%AF%81%E6%94%BB%E7%95%A5/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="BrandonYan">
+      <meta itemprop="description" content="一个脑子不够，那就再加一个。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="External-Brain">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2024/03/08/%E6%BC%B3%E5%B7%9E%E5%B8%82%E8%8A%97%E5%9F%8E%E5%8C%BA%E7%BB%93%E5%A9%9A%E9%A2%86%E8%AF%81%E6%94%BB%E7%95%A5/" class="post-title-link" itemprop="url">漳州市芗城区结婚领证攻略</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2024-03-08 21:28:32 / 修改时间：21:28:57" itemprop="dateCreated datePublished" datetime="2024-03-08T21:28:32+08:00">2024-03-08</time>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>165</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>机构：芗城区婚姻登记服务中心</p>
+<p>地址：始兴北路15号9（古城内）</p>
+<p>工作时间：周一到周五 8:00-12:00，夏14:30-17:30;冬15:00-18:00</p>
+<p>咨询电话：0596-2072396</p>
+<p>1 :不需要预约❌<br>2 :不需要复印件啥都不用❌<br>3 :不需要婚检❌<br>4:不需要在户口所在地办，可以跨区办理，哪里方便就在哪里办❌<br>重点：<br>1️⃣：带好双方户口本+身份证‼️（核对：身份证地址和户口本第一页地址要一样，户口本本人那页一定要盖章)<br>2️⃣：三张2寸的证件照‼️（可以提前拍好带过去）</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2024/03/08/%E3%80%8A%E5%AF%B9%E9%A9%AC%E5%B2%9B%E4%B9%8B%E9%AD%82%E3%80%8B%E6%B8%B8%E6%88%8F%E7%AE%80%E8%AF%84/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -881,582 +1553,6 @@
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-%E6%94%BF%E4%BC%81%E5%AE%A3%E4%BC%A0/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="BrandonYan">
-      <meta itemprop="description" content="一个脑子不够，那就再加一个。">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="External-Brain">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-%E6%94%BF%E4%BC%81%E5%AE%A3%E4%BC%A0/" class="post-title-link" itemprop="url">《作品集》_政企宣传</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2024-02-18 06:02:35 / 修改时间：06:28:49" itemprop="dateCreated datePublished" datetime="2024-02-18T06:02:35+08:00">2024-02-18</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E4%BD%9C%E5%93%81%E9%9B%86/" itemprop="url" rel="index"><span itemprop="name">作品集</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>141</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="远洋福建交付品牌篇"><a href="#远洋福建交付品牌篇" class="headerlink" title="远洋福建交付品牌篇"></a>远洋福建交付品牌篇</h2><iframe src="https://player.xinpianchang.com/?aid=12889499&amp;mid=Xl5M7nV5BAm7kKEg" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-
-<h2 id="厦门建发城投何垄项目回顾"><a href="#厦门建发城投何垄项目回顾" class="headerlink" title="厦门建发城投何垄项目回顾"></a>厦门建发城投何垄项目回顾</h2><iframe src="https://player.xinpianchang.com/?aid=12886228&amp;mid=XzVJwDnNEOOQD0EZ" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-
-<h2 id="福州建发璞云品牌深耕"><a href="#福州建发璞云品牌深耕" class="headerlink" title="福州建发璞云品牌深耕"></a>福州建发璞云品牌深耕</h2><iframe src="https://player.xinpianchang.com/?aid=12889626&amp;mid=DA96QenGMK67j5N0" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-
-<h2 id="福建中海12周年品牌片"><a href="#福建中海12周年品牌片" class="headerlink" title="福建中海12周年品牌片"></a>福建中海12周年品牌片</h2><iframe src="https://player.xinpianchang.com/?aid=12889603&amp;mid=Xl5M7nV5BWj7kKEg" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-<h2 id="泉州建发品牌调性视频"><a href="#泉州建发品牌调性视频" class="headerlink" title="泉州建发品牌调性视频"></a>泉州建发品牌调性视频</h2><iframe src="https://player.xinpianchang.com/?aid=12888522&amp;mid=rVo9wyZDkNy4l5PG" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-%E6%B4%BB%E5%8A%A8/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="BrandonYan">
-      <meta itemprop="description" content="一个脑子不够，那就再加一个。">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="External-Brain">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-%E6%B4%BB%E5%8A%A8/" class="post-title-link" itemprop="url">《作品集》_活动</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2024-02-18 06:02:04 / 修改时间：06:29:35" itemprop="dateCreated datePublished" datetime="2024-02-18T06:02:04+08:00">2024-02-18</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E4%BD%9C%E5%93%81%E9%9B%86/" itemprop="url" rel="index"><span itemprop="name">作品集</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>55</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="保利国贸天琴活动二期"><a href="#保利国贸天琴活动二期" class="headerlink" title="保利国贸天琴活动二期"></a>保利国贸天琴活动二期</h2><iframe src="https://player.xinpianchang.com/?aid=12888549&amp;mid=Mk6B4xPrk0L49LAP" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-
-
-
-<h2 id="保利国贸天琴活动15s"><a href="#保利国贸天琴活动15s" class="headerlink" title="保利国贸天琴活动15s"></a>保利国贸天琴活动<strong>15s</strong></h2><iframe src="https://player.xinpianchang.com/?aid=12888529&amp;mid=0VAm7Oq509r4DRnW" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-TVC%E5%B9%BF%E5%91%8A/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="BrandonYan">
-      <meta itemprop="description" content="一个脑子不够，那就再加一个。">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="External-Brain">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-TVC%E5%B9%BF%E5%91%8A/" class="post-title-link" itemprop="url">《作品集》_TVC广告</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2024-02-18 06:01:38 / 修改时间：06:21:31" itemprop="dateCreated datePublished" datetime="2024-02-18T06:01:38+08:00">2024-02-18</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E4%BD%9C%E5%93%81%E9%9B%86/" itemprop="url" rel="index"><span itemprop="name">作品集</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>401</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="福州建发缦云"><a href="#福州建发缦云" class="headerlink" title="福州建发缦云"></a>福州建发缦云</h2><iframe src="https://player.xinpianchang.com/?aid=12889609&amp;mid=O5vZQV1BbM34DEMW" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-
-
-
-<h2 id="《焕“新”攻略·咫尺万象篇》"><a href="#《焕“新”攻略·咫尺万象篇》" class="headerlink" title="《焕“新”攻略·咫尺万象篇》"></a>《焕“新”攻略·咫尺万象篇》</h2><iframe src="https://player.xinpianchang.com/?aid=12885545&amp;mid=dkzZQK8kAnZ7vNVe" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>v
-
-
-
-<h2 id="金地618营销季钞能金房节系列病毒视频1-鱼与熊掌"><a href="#金地618营销季钞能金房节系列病毒视频1-鱼与熊掌" class="headerlink" title="金地618营销季钞能金房节系列病毒视频1_鱼与熊掌"></a>金地618营销季钞能金房节系列病毒视频1_鱼与熊掌</h2><iframe src="https://player.xinpianchang.com/?aid=12887617&amp;mid=yM1l43vzDrlwod2V" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-<h2 id="金地618营销季钞能金房节系列病毒视频2-相亲篇"><a href="#金地618营销季钞能金房节系列病毒视频2-相亲篇" class="headerlink" title="金地618营销季钞能金房节系列病毒视频2_相亲篇"></a>金地618营销季钞能金房节系列病毒视频2_相亲篇</h2><iframe src="https://player.xinpianchang.com/?aid=12887637&amp;mid=DA96QenGP9x7j5N0" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-
-<h2 id="金地618营销季钞能金房节系列病毒视频3-健身篇"><a href="#金地618营销季钞能金房节系列病毒视频3-健身篇" class="headerlink" title="金地618营销季钞能金房节系列病毒视频3_健身篇"></a>金地618营销季钞能金房节系列病毒视频3_健身篇</h2><iframe src="https://player.xinpianchang.com/?aid=12887651&amp;mid=36Jm4a8y0RNwyjzB" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-
-
-
-
-
-<h2 id="漳州碧湖城市广场白领演绎"><a href="#漳州碧湖城市广场白领演绎" class="headerlink" title="漳州碧湖城市广场白领演绎"></a>漳州碧湖城市广场白领演绎</h2><iframe src="https://player.xinpianchang.com/?aid=12890703&amp;mid=rVo9wyZDWq04l5PG" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-<h2 id="碧湖城市广场多巴胺"><a href="#碧湖城市广场多巴胺" class="headerlink" title="碧湖城市广场多巴胺"></a>碧湖城市广场多巴胺</h2><iframe src="https://player.xinpianchang.com/?aid=12889527&amp;mid=DA0XwZgDxXb4droB" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-
-
-
-
-
-<h2 id="漳州碧湖城市广场TVC-1餐饮篇"><a href="#漳州碧湖城市广场TVC-1餐饮篇" class="headerlink" title="漳州碧湖城市广场TVC_1餐饮篇"></a>漳州碧湖城市广场TVC_1餐饮篇</h2><iframe src="https://player.xinpianchang.com/?aid=12887831&amp;mid=0vMbw1RAagz4eJ1p" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-<h2 id="漳州碧湖城市广场TVC-2宴请篇"><a href="#漳州碧湖城市广场TVC-2宴请篇" class="headerlink" title="漳州碧湖城市广场TVC_2宴请篇"></a>漳州碧湖城市广场TVC_2宴请篇</h2><iframe src="https://player.xinpianchang.com/?aid=12887847&amp;mid=d0Nq7MzvagqwO2Vj" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-
-
-
-
-
-<h2 id="漳州碧湖城市广场TVC-3购物篇"><a href="#漳州碧湖城市广场TVC-3购物篇" class="headerlink" title="漳州碧湖城市广场TVC_3购物篇"></a>漳州碧湖城市广场TVC_3购物篇</h2><iframe src="https://player.xinpianchang.com/?aid=12888487&amp;mid=qd9g4r1RJ6Ewv86Z" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-
-
-
-<h2 id="国贸沁源生活场景演绎第一话：相遇"><a href="#国贸沁源生活场景演绎第一话：相遇" class="headerlink" title="国贸沁源生活场景演绎第一话：相遇"></a>国贸沁源生活场景演绎第一话：相遇</h2><iframe src="https://player.xinpianchang.com/?aid=12889668&amp;mid=xv5YwjZkevnw60PX" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-
-<h2 id="漳州吾悦变装"><a href="#漳州吾悦变装" class="headerlink" title="漳州吾悦变装"></a>漳州吾悦变装</h2><iframe src="https://player.xinpianchang.com/?aid=12886192&amp;mid=0vMbw1RAKVO4eJ1p" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-
-
-
-<h2 id="漳州吾悦变装（旗袍篇）"><a href="#漳州吾悦变装（旗袍篇）" class="headerlink" title="漳州吾悦变装（旗袍篇）"></a>漳州吾悦变装（旗袍篇）</h2><iframe src="https://player.xinpianchang.com/?aid=12886160&amp;mid=Mk6B4xPrMNJ49LAP" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-%E5%85%A5%E5%B8%82%E7%AF%87/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="BrandonYan">
-      <meta itemprop="description" content="一个脑子不够，那就再加一个。">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="External-Brain">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-%E5%85%A5%E5%B8%82%E7%AF%87/" class="post-title-link" itemprop="url">《作品集》_入市篇</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2024-02-18 06:00:54 / 修改时间：06:05:29" itemprop="dateCreated datePublished" datetime="2024-02-18T06:00:54+08:00">2024-02-18</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E4%BD%9C%E5%93%81%E9%9B%86/" itemprop="url" rel="index"><span itemprop="name">作品集</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>306</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="宁德天行时代地标旗舰入市"><a href="#宁德天行时代地标旗舰入市" class="headerlink" title="宁德天行时代地标旗舰入市"></a>宁德天行时代地标旗舰入市</h2><iframe src="https://player.xinpianchang.com/?aid=12889735&amp;mid=gyDjwogA2BYwxv1q" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-
-<h2 id="泉州安溪央玺-版本1"><a href="#泉州安溪央玺-版本1" class="headerlink" title="泉州安溪央玺_版本1"></a>泉州安溪央玺_版本1</h2><iframe src="https://player.xinpianchang.com/?aid=12889758&amp;mid=8pvbQYWrKgPw306X" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-
-<h2 id="泉州安溪央玺概念入市-版本2"><a href="#泉州安溪央玺概念入市-版本2" class="headerlink" title="泉州安溪央玺概念入市_版本2"></a>泉州安溪央玺概念入市_版本2</h2><iframe src="https://player.xinpianchang.com/?aid=12889797&amp;mid=oe3ZwvyOD6p7JVvz" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-<h2 id="南安建发朗云入市-实景版"><a href="#南安建发朗云入市-实景版" class="headerlink" title="南安建发朗云入市__实景版_"></a>南安建发朗云入市__实景版_</h2><iframe src="https://player.xinpianchang.com/?aid=12889724&amp;mid=XzVJwDnNyVmQD0EZ" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-<h2 id="无锡建发玺云入市"><a href="#无锡建发玺云入市" class="headerlink" title="无锡建发玺云入市"></a><strong>无锡建发玺云入市</strong></h2><iframe src="https://player.xinpianchang.com/?aid=12890677&amp;mid=MzkmwJ1pbyv7xjXp" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-<h2 id="石狮建发璞玥东方入市"><a href="#石狮建发璞玥东方入市" class="headerlink" title="石狮建发璞玥东方入市"></a>石狮建发璞玥东方入市</h2><iframe src="https://player.xinpianchang.com/?aid=12889836&amp;mid=yOBl4znW0dY4aMg0" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-<h2 id="七星湾TOD·璞盛入市-赛博朋克"><a href="#七星湾TOD·璞盛入市-赛博朋克" class="headerlink" title="七星湾TOD·璞盛入市_赛博朋克"></a>七星湾TOD·璞盛入市_赛博朋克</h2><iframe src="https://player.xinpianchang.com/?aid=12889745&amp;mid=0lYnQmWK2oLw62j1" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-<h2 id="金山最好的时代"><a href="#金山最好的时代" class="headerlink" title="金山最好的时代"></a>金山最好的时代</h2><iframe src="https://player.xinpianchang.com/?aid=12889701&amp;mid=0VAm7Oq5bPq4DRnW" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-<h2 id="海沧TOD入市"><a href="#海沧TOD入市" class="headerlink" title="海沧TOD入市"></a>海沧TOD入市</h2><iframe src="https://player.xinpianchang.com/?aid=12889683&amp;mid=enXV4BmyYmVwBEmM" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-<h2 id="福州建发上海西入市"><a href="#福州建发上海西入市" class="headerlink" title="福州建发上海西入市"></a>福州建发上海西入市</h2><iframe src="https://player.xinpianchang.com/?aid=12889650&amp;mid=POpZQXYmLR27Er5a" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-<h2 id="安溪建发入市-安溪焕新出发"><a href="#安溪建发入市-安溪焕新出发" class="headerlink" title="安溪建发入市-安溪焕新出发"></a>安溪建发入市-安溪焕新出发</h2><iframe src="https://player.xinpianchang.com/?aid=12886141&amp;mid=ro1V7E1d9rd7dXAM" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-%E4%BA%BA%E7%89%A9%E8%AE%BF%E8%B0%88/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="BrandonYan">
-      <meta itemprop="description" content="一个脑子不够，那就再加一个。">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="External-Brain">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/02/18/%E3%80%8A%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8B-%E4%BA%BA%E7%89%A9%E8%AE%BF%E8%B0%88/" class="post-title-link" itemprop="url">《作品集》_人物访谈</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2024-02-18 05:56:12 / 修改时间：06:27:37" itemprop="dateCreated datePublished" datetime="2024-02-18T05:56:12+08:00">2024-02-18</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E4%BD%9C%E5%93%81%E9%9B%86/" itemprop="url" rel="index"><span itemprop="name">作品集</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>346</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="建发和著-齐驸人物采访"><a href="#建发和著-齐驸人物采访" class="headerlink" title="建发和著_齐驸人物采访"></a>建发和著_齐驸人物采访</h2><iframe src="https://player.xinpianchang.com/?aid=12889691&amp;mid=XzVJwDnNynXQD0EZ" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-
-
-
-<h2 id="台州建发缦云设计师"><a href="#台州建发缦云设计师" class="headerlink" title="台州建发缦云设计师"></a>台州建发缦云设计师</h2><iframe src="https://player.xinpianchang.com/?aid=12890561&amp;mid=MzkmwJ1pbNG7xjXp" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<h2 id="中海人物说"><a href="#中海人物说" class="headerlink" title="中海人物说"></a>中海人物说</h2><iframe src="https://player.xinpianchang.com/?aid=12890785&amp;mid=E6WlQgZoMq14gdJz" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-
-<h2 id="联发君樾西湖设计师2"><a href="#联发君樾西湖设计师2" class="headerlink" title="联发君樾西湖设计师2"></a>联发君樾西湖设计师2</h2><iframe src="https://player.xinpianchang.com/?aid=12889715&amp;mid=0VAm7Oq5bYA4DRnW" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-<h2 id="轨道TOD人物采访"><a href="#轨道TOD人物采访" class="headerlink" title="轨道TOD人物采访"></a>轨道TOD人物采访</h2><iframe src="https://player.xinpianchang.com/?aid=12889666&amp;mid=MzkmwJ1pxvl7xjXp" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-<h2 id="保利国贸天琴湿地公园人物采访系列二"><a href="#保利国贸天琴湿地公园人物采访系列二" class="headerlink" title="保利国贸天琴湿地公园人物采访系列二"></a>保利国贸天琴湿地公园人物采访系列二</h2><iframe src="https://player.xinpianchang.com/?aid=12889523&amp;mid=DGPB72zq0k57drm5" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-<h2 id="碧湖城市广场-湾筵主理人采访"><a href="#碧湖城市广场-湾筵主理人采访" class="headerlink" title="碧湖城市广场_湾筵主理人采访"></a>碧湖城市广场_湾筵主理人采访</h2><iframe src="https://player.xinpianchang.com/?aid=12889505&amp;mid=DA96QenGMDR7j5N0" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-
-<h2 id="建发西湖泊月人物采访"><a href="#建发西湖泊月人物采访" class="headerlink" title="建发西湖泊月人物采访"></a>建发西湖泊月人物采访</h2><iframe src="https://player.xinpianchang.com/?aid=12889490&amp;mid=O5vZQV1Bb5A4DEMW" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-<h2 id="厦门和悦东方人物访谈（工程篇）"><a href="#厦门和悦东方人物访谈（工程篇）" class="headerlink" title="厦门和悦东方人物访谈（工程篇）"></a>厦门和悦东方人物访谈（工程篇）</h2><iframe src="https://player.xinpianchang.com/?aid=12887819&amp;mid=1xNm498m3ONwEBVK" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-
-
-
-<h2 id="厦门保利和悦东方（物业）人物访谈"><a href="#厦门保利和悦东方（物业）人物访谈" class="headerlink" title="厦门保利和悦东方（物业）人物访谈"></a>厦门保利和悦东方（物业）人物访谈</h2><iframe src="https://player.xinpianchang.com/?aid=12887780&amp;mid=qd9g4r1RORAwv86Z" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-<h2 id="厦门保利设计师-毕路德"><a href="#厦门保利设计师-毕路德" class="headerlink" title="厦门保利设计师_毕路德"></a>厦门保利设计师_毕路德</h2><iframe src="https://player.xinpianchang.com/?aid=12887700&amp;mid=yM1l43vzD92wod2V" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-
-<h2 id="厦门保利设计师采访-赵新宇"><a href="#厦门保利设计师采访-赵新宇" class="headerlink" title="厦门保利设计师采访_赵新宇"></a>厦门保利设计师采访_赵新宇</h2><iframe src="https://player.xinpianchang.com/?aid=12887673&amp;mid=Mnp8wW9OlV8QK0lG" allowfullscreen="" allow="fullscreen" frameborder="0" style="border: none;"></iframe>
-
-
-
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
 
   
   <nav class="pagination">
@@ -1526,20 +1622,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">73</span>
+          <span class="site-state-item-count">78</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">19</span>
+        <span class="site-state-item-count">21</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">32</span>
+        <span class="site-state-item-count">37</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -1575,19 +1671,19 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="站点总字数">38k</span>
+    <span title="站点总字数">40k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">2:18</span>
+    <span title="站点阅读时长">2:26</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共36.4k字</span>
+  <span class="post-count">博客全站共38.7k字</span>
 </div>
         
 
