@@ -229,7 +229,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2024-02-16 02:03:16" itemprop="dateModified" datetime="2024-02-16T02:03:16+08:00">2024-02-16</time>
+                <time title="修改时间：2025-06-08 02:50:50" itemprop="dateModified" datetime="2025-06-08T02:50:50+08:00">2025-06-08</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -247,14 +247,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>9.4k</span>
+              <span>10k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>34 分钟</span>
+              <span>36 分钟</span>
             </span>
 
         </div>
@@ -555,6 +555,26 @@
 </ul>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat /sys/class/mtd/mtd6/bad_blocks</span><br></pre></td></tr></table></figure>
 
+
+
+
+
+<h2 id="五、官改更换梅林改固件"><a href="#五、官改更换梅林改固件" class="headerlink" title="五、官改更换梅林改固件"></a>五、官改更换梅林改固件</h2><h4 id="官改固件-→-改版梅林固件："><a href="#官改固件-→-改版梅林固件：" class="headerlink" title="官改固件 → 改版梅林固件："></a>官改固件 → 改版梅林固件：</h4><blockquote>
+<ul>
+<li>官改固件和原版梅林固件&#x2F;改版梅林固件在一些默认配置上有所不同，虽然刷机后不用恢复出厂设置也能正常工作，但是建议有时间朋友刷机完成后双清一次路由双清后全部手动配置，不要用以前的备份配置。</li>
+<li>目前某些情况下，官改固件刷改版梅林固件后，出现jffs2_scripts无法勾选（勾选后应用还是会变成未勾选），那就必须进行恢复出厂设置！</li>
+<li>固件双清不仅会清除路由器所有配置，还会删除JFFS分区得所有内容，包括软件中心，如果你希望在官改固件刷到改版梅林固件后，软件中心和所有插件得到保留，你可以使用USB2JFFS插件，用USB磁盘来替代JFFS分区。刷机前在USB2JFFS插件内点击卸载 → 然后刷机 → 双清路由器 → 进入到新系统并完成软件中心初始化后 → 安装USB2JFFS插件 → 点击挂载 → 重启路由器。</li>
+</ul>
+</blockquote>
+<ol>
+<li>在<code>官改固件</code>固件升级页面下直接上传.w 后缀的<code>改版梅林固件</code>文件；</li>
+<li>成功上传固件后，路由器会自动重启，此时刷机完成；</li>
+<li>刷机完成后对路由器进行一次<code>双清</code>，并全部手动配置路由器；</li>
+<li>双清完成后进入路由器web后台，在【系统管理 】–【 系统设置】内勾选：<code>Format JFFS partition at next boot</code> 和 <code>Enable JFFS custom scripts and configs</code> 然后点击<code>应用本页面设置</code>，成功后点击顶部<code>重启</code>按钮重启路由器；</li>
+<li>重启后进入web后台时先设置路由器，将路由器连上网络，然后进入软件中心，如果软件中心一片空白，不要着急，先软重启（使用顶部重启按钮）一次路由器即可出现软件中心，如果软件中心仍然空白，参见FAQ：Q4的解决办法。</li>
+<li>如果进入软件中心后正常，将软件中心更新到最新版本（如果有）后即完成全部刷机，之后你可以对路由器固件进行其它喜好的设置，或者在软件中心安装插件等操作。</li>
+</ol>
+<h2 id="六、科学上网插件"><a href="#六、科学上网插件" class="headerlink" title="六、科学上网插件"></a>六、科学上网插件</h2><h3 id="1、Merlin-Clash"><a href="#1、Merlin-Clash" class="headerlink" title="1、Merlin Clash"></a>1、Merlin Clash</h3><p><a target="_blank" rel="noopener" href="https://mcreadme.gitbook.io/mc">https://mcreadme.gitbook.io/mc</a></p>
 
       
     </div>
@@ -1323,14 +1343,14 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">2:49</span>
+    <span title="站点阅读时长">2:52</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共47k字</span>
+  <span class="post-count">博客全站共45.9k字</span>
 </div>
         
 
