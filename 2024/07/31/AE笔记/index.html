@@ -35,16 +35,16 @@
 <meta property="og:site_name" content="External-Brain">
 <meta property="og:description" content="以前的工作笔记，慢慢更新上来  AfterEffect一、AE学习方向 https:&#x2F;&#x2F;zhuanlan.zhihu.com&#x2F;p&#x2F;32115614  AE最重要的三部分是：MG动画、合成、视觉效果。 视觉效果就是很多人追求的东西，说白了主要就这两个，一个是粒子，一个是光，但是里面要学大量的插件。 二、AE基础AE延长关键帧：全选关键帧，按住ALT，拉动最后一个关键帧 图形锚点居中：Ctrl+Al">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/2024/07/31/AE%E7%AC%94%E8%AE%B0/wps1.jpg">
-<meta property="og:image" content="http://example.com/2024/07/31/AE%E7%AC%94%E8%AE%B0/wps2.jpg">
-<meta property="og:image" content="http://example.com/2024/07/31/AE%E7%AC%94%E8%AE%B0/wps5.jpg">
-<meta property="og:image" content="http://example.com/2024/07/31/AE%E7%AC%94%E8%AE%B0/wps6.jpg">
+<meta property="og:image" content="https://exbrainpic.top/PicGo/wps1.jpg">
+<meta property="og:image" content="https://exbrainpic.top/PicGo/wps2.jpg">
+<meta property="og:image" content="https://exbrainpic.top/PicGo/wps5.jpg">
+<meta property="og:image" content="https://exbrainpic.top/PicGo/wps6.jpg">
 <meta property="article:published_time" content="2024-07-31T11:18:10.000Z">
-<meta property="article:modified_time" content="2024-12-16T10:05:33.711Z">
+<meta property="article:modified_time" content="2025-06-11T14:29:05.479Z">
 <meta property="article:author" content="BrandonYan">
 <meta property="article:tag" content="Ae">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/2024/07/31/AE%E7%AC%94%E8%AE%B0/wps1.jpg">
+<meta name="twitter:image" content="https://exbrainpic.top/PicGo/wps1.jpg">
 
 <link rel="canonical" href="http://example.com/2024/07/31/AE%E7%AC%94%E8%AE%B0/">
 
@@ -237,7 +237,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2024-12-16 18:05:33" itemprop="dateModified" datetime="2024-12-16T18:05:33+08:00">2024-12-16</time>
+                <time title="修改时间：2025-06-11 22:29:05" itemprop="dateModified" datetime="2025-06-11T22:29:05+08:00">2025-06-11</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -314,25 +314,25 @@
 <h3 id="AE表达式："><a href="#AE表达式：" class="headerlink" title="AE表达式："></a>AE表达式：</h3><p>添加表达式：alt+点击小秒表</p>
 <h4 id="Wiggle："><a href="#Wiggle：" class="headerlink" title="Wiggle："></a>Wiggle：</h4><p>抖动表达式，适用于<strong>位置缩放不透明度</strong></p>
 <p>wiggle（freq，amp）<br>（frequency频率，amplitude振幅）</p>
-<p> <img src="/2024/07/31/AE%E7%AC%94%E8%AE%B0/wps1.jpg" alt="img"></p>
+<p><img src="https://exbrainpic.top/PicGo/wps1.jpg"></p>
 <h4 id="Time："><a href="#Time：" class="headerlink" title="Time："></a>Time：</h4><p>表示时间，以秒为单位，time<em>n &#x3D;时间（秒数）</em>n （若应用于旋转属性，则n表示角度）。打关键帧的地方都可用。</p>
 <blockquote>
 <p> 注意：time只能赋予一维属性的数据。(位置属性可进行单独尺寸的分离，从而可单独设置X或Y上的time)。</p>
 </blockquote>
-<p><img src="/2024/07/31/AE%E7%AC%94%E8%AE%B0/wps2.jpg" alt="img"> </p>
+<p><img src="https://exbrainpic.top/PicGo/wps2.jpg"></p>
 <p> <strong>举例：</strong></p>
 <p>​	若在旋转属性上设置time表达式为time*60，则图层每秒旋转60°</p>
 <p>​	若在旋转属性上设置time表达式为time&#x3D;60，则旋转属性固定为60°</p>
 <p>​	若若在旋转属性上设置time表达式为time*60*time,则风扇会越转越快（time表示当前时间，会不断增加）</p>
 <p>​	若在源文本上设置time表达式为(time*5).toFixed(0)，则数字每秒递增5，并且不保留小数；</p>
 <p>​	控制停止数值增长</p>
-<p><img src="/2024/07/31/AE%E7%AC%94%E8%AE%B0/wps5.jpg" alt="img"> </p>
+<p><img src="https://exbrainpic.top/PicGo/wps5.jpg"></p>
 <p>​	<em><strong>*滑块控制控制小数办法（value表示当前值）*</strong></em></p>
 <blockquote>
 <p> effect(“滑块控制”)(“滑块”).value.toFixed(2)</p>
 </blockquote>
 <p>​	Wiggle和time结合</p>
-<p><img src="/2024/07/31/AE%E7%AC%94%E8%AE%B0/wps6.jpg" alt="img"></p>
+<p><img src="https://exbrainpic.top/PicGo/wps6.jpg"></p>
 <blockquote>
 <p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Pg411h7tH/?spm_id_from=333.337.top_right_bar_window_history.content.click&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1Pg411h7tH/?spm_id_from=333.337.top_right_bar_window_history.content.click&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p>
 </blockquote>
@@ -564,14 +564,14 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">2:52</span>
+    <span title="站点阅读时长">2:50</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共45.9k字</span>
+  <span class="post-count">博客全站共47k字</span>
 </div>
         
 
