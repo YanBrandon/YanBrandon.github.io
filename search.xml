@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Pr如何制作双语字幕</title>
+      <link href="/2025/06/18/Pr%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9C%E5%8F%8C%E8%AF%AD%E5%AD%97%E5%B9%95/"/>
+      <url>/2025/06/18/Pr%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9C%E5%8F%8C%E8%AF%AD%E5%AD%97%E5%B9%95/</url>
+      
+        <content type="html"><![CDATA[<p><code>由于pr副标题字幕只能显示单轨道，给我们制作双语字幕带来了巨大的麻烦</code></p><p>pr2021版制作方法：</p><blockquote><p><a href="https://www.bilibili.com/video/BV1pu41157Vp/?spm_id_from=333.337.search-card.all.click&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1pu41157Vp/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p></blockquote><p>剪映生成字幕——导出srt文件——进入以下网站翻译字幕——校对后输出中英文srt字幕——导入pr</p><p><a href="https://jianwai.youdao.com/%E3%80%90%E5%85%8D%E8%B4%B9%EF%BC%8C%E4%B8%80%E5%A4%A9%E5%85%AD%E6%AC%A1%E3%80%91">https://jianwai.youdao.com/【免费，一天六次】</a></p><p>可以直接输出双语，但无法中英文批量分开调整</p><p>pr2025版 ：副标题字幕可以直接转换成常规轨道字幕，达成中英文轨道同时显示</p><blockquote><p><a href="https://www.bilibili.com/video/BV1poiSYyEXS/?spm_id_from=333.337.search-card.all.click&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1poiSYyEXS/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p></blockquote><p>全选某一字幕轨道——图形和标题——将字幕升级为图形，即可同时显示</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 影视后期技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Pr </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>KODI播放视频偏色怎么解决？</title>
       <link href="/2025/03/26/KODI%E6%92%AD%E6%94%BE%E8%A7%86%E9%A2%91%E5%81%8F%E8%89%B2%E6%80%8E%E4%B9%88%E8%A7%A3%E5%86%B3%EF%BC%9F/"/>
       <url>/2025/03/26/KODI%E6%92%AD%E6%94%BE%E8%A7%86%E9%A2%91%E5%81%8F%E8%89%B2%E6%80%8E%E4%B9%88%E8%A7%A3%E5%86%B3%EF%BC%9F/</url>
