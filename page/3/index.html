@@ -198,6 +198,272 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2024/08/10/%E6%98%BE%E7%A4%BA%E5%99%A8%E6%A0%A1%E8%89%B2%E6%8A%80%E6%9C%AF/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="BrandonYan">
+      <meta itemprop="description" content="一个脑子不够，那就再加一个。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="External-Brain">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2024/08/10/%E6%98%BE%E7%A4%BA%E5%99%A8%E6%A0%A1%E8%89%B2%E6%8A%80%E6%9C%AF/" class="post-title-link" itemprop="url">显示器校色技术</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2024-08-10 21:16:52" itemprop="dateCreated datePublished" datetime="2024-08-10T21:16:52+08:00">2024-08-10</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2024-10-15 20:45:18" itemprop="dateModified" datetime="2024-10-15T20:45:18+08:00">2024-10-15</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%BD%B1%E8%A7%86%E5%90%8E%E6%9C%9F%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">影视后期技术</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>1.6k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>6 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <blockquote>
+<p>满打满算也对百来台显示器进行过校色了，是时候整理下知识了。</p>
+</blockquote>
+<h1 id="为什么显示器需要校色？"><a href="#为什么显示器需要校色？" class="headerlink" title="为什么显示器需要校色？"></a>为什么显示器需要校色？</h1><p>“怎么手机和显示器颜色不一样？”</p>
+<p>“怎么两台显示器颜色不一样？”</p>
+<p>“甲方说颜色不对，你重新调一版”</p>
+<p>为了避免以上问题，在严肃创作中，统一颜色标准是十分有必要的。</p>
+<p>而各种屏幕的工艺、调教不同，所以显示器出厂颜色很难统一，具体体现在偏色、对比度过高、饱和度过高、亮度不准确等，需要后天使用专业的校色仪进行校色。</p>
+<h1 id="一、校色需要什么设备？"><a href="#一、校色需要什么设备？" class="headerlink" title="一、校色需要什么设备？"></a>一、校色需要什么设备？</h1><p>校色仪</p>
+<h3 id="品牌选择"><a href="#品牌选择" class="headerlink" title="品牌选择"></a>品牌选择</h3><p>常用的两个厂家：爱色丽、红蜘蛛</p>
+<p>由于爱色丽校色仪可以直接将校色文件（.icc）写入操作系统中，属于硬件校色（存疑）,而红蜘蛛每次开机都需要打开软件并保持常驻后台才能校准屏幕，属于软件校色。因此我一般选择爱色丽校色仪进行校色。</p>
+<h3 id="爱色丽型号："><a href="#爱色丽型号：" class="headerlink" title="爱色丽型号："></a>爱色丽型号：</h3><ul>
+<li>Colorchecker Display Pro</li>
+<li>Colorchecker Display PlusHL：支持最新的MiniLED或者XDR，检测最高亮度可达10000cd检测（pro是3000）,能支持超高刷新。</li>
+</ul>
+<h1 id="二、校色流程"><a href="#二、校色流程" class="headerlink" title="二、校色流程"></a>二、校色流程</h1><h2 id="校色前注意事项"><a href="#校色前注意事项" class="headerlink" title="校色前注意事项"></a>校色前注意事项</h2><ol>
+<li><p>校色后会生成校色文件,文件的信息与显卡,显示器,系统,系统版本,绑定,所以校色完成后,如果更换显卡或者显示器则需要重新校色.</p>
+</li>
+<li><p>不同品牌不同批次显示器的材质,工艺不同,因此校色完有轻微差距是正常现象,如有强迫症可以购买同一批次的高端显示器.更贵的显示器一般色准也会更好,校色效果也会更好.检测是否校色正确应该用彩色图片对比,不可用纯白色,也是因为这个原因.</p>
+</li>
+</ol>
+<p>调色前要确定这3步：</p>
+<ol>
+<li><p>显卡显示器恢复默认值，显卡在桌面空白处鼠标右键可以看到快捷入口(NVIDIA控制面板,所有选项都重置为默认,每个选项重置都要点击保存,3D需要重置两次)。</p>
+</li>
+<li><p>系统中显卡里没任何ICC（本是空白）</p>
+</li>
+<li><p>和颜色有关的软件，比如华硕奥创，护眼，虑蓝光等，有改变颜色或色温的软件要卸载。</p>
+</li>
+</ol>
+<h3 id="校色仪无法识别"><a href="#校色仪无法识别" class="headerlink" title="校色仪无法识别"></a>校色仪无法识别</h3><ul>
+<li>卸载红蜘蛛驱动:<ul>
+<li>如果用过红蜘蛛校色仪,需要先卸载红蜘蛛的驱动,爱色丽校色仪才可以识别</li>
+</ul>
+</li>
+<li>Xrite Device Service服务未开启: <ul>
+<li>按住WIN键+R键，打开运行，在出来的命令窗口中输入“services.msc”打开服务策略组，往下拉找到Xrite Device Service服务，手动把它启动</li>
+</ul>
+</li>
+</ul>
+<h2 id="Windows-10-台式电脑"><a href="#Windows-10-台式电脑" class="headerlink" title="Windows 10 台式电脑"></a>Windows 10 台式电脑</h2><ol>
+<li><p>打开显示器30分钟以上(以前的一些屏幕材质需要运行30分钟后才能稳定)</p>
+</li>
+<li><p>恢复显卡出厂值（笔记本和苹果是不需要），安装最新显卡驱动。</p>
+</li>
+<li><p>恢复显示器出厂值（显示器菜单上）</p>
+</li>
+<li><p>然后插上U盘，安装calibrite profiler软件，安装完之后，打开软件，插入调色仪等待识别后，选择【高级】。</p>
+</li>
+</ol>
+<p>lg27ul550(sRGB98%+IPS) 材质背投:白光LED，ICC版本2，伽马【srgb】，色片【高级211】(显卡是Quadro等专业卡配合广色域显示器则需要选择ICC版本4，颜色大)</p>
+<ol start="5">
+<li><p>开始测试，选择亮度与rgb测试，根据提示调整显示器设置【亮度老化后过不了120cd的亮度检测就要降低到100或者80】</p>
+</li>
+<li><p>给生成的icc文件取名，并检查色域和曲线。【校色文件起名不能出现中文,会变乱码.】</p>
+</li>
+</ol>
+<h2 id="Mac笔记本电脑"><a href="#Mac笔记本电脑" class="headerlink" title="Mac笔记本电脑"></a>Mac笔记本电脑</h2><ol>
+<li>打开设备30分钟</li>
+<li>进入【偏好设置】–【显示器】（需去掉色彩还原，环境光的勾选）—【颜色】—选普通RGB描述。(M1只能选P3-500&#x2F;600nits)</li>
+<li>安装01文件夹的软件，如不能打开，则安装02文件夹软件</li>
+<li>打开软件插入调色仪，等到绿色勾后，绿色勾上方选【高级】左边变化，左上角第一个【色彩管理】进去校色。</li>
+<li>材质白光LED(看屏幕材质)，D65，sRGB(或者P3,看具体型号),本机—–ICC版本4（其他不用动）—–颜色（P3选【大】，2019年之前选【中】——进入校色，只勾亮度，调亮度。</li>
+</ol>
+<blockquote>
+<p>校色完成后要记录标准亮度数据</p>
+</blockquote>
+<h1 id="三、校色完成后专业软件设置"><a href="#三、校色完成后专业软件设置" class="headerlink" title="三、校色完成后专业软件设置"></a>三、校色完成后专业软件设置</h1><blockquote>
+<p>【WIN中设置&amp;PS、AI、ID、LR软件的指向】<br>视频教程-B站<br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Sz4y1t7Lh/">https://www.bilibili.com/video/BV1Sz4y1t7Lh/</a></p>
+<p>头条号<br><a target="_blank" rel="noopener" href="https://www.ixigua.com/7234066170662355488">https://www.ixigua.com/7234066170662355488</a></p>
+</blockquote>
+<h1 id="校色文件位置"><a href="#校色文件位置" class="headerlink" title="校色文件位置"></a>校色文件位置</h1><p>主要用于备份ICC文件，以免重装后丢失</p>
+<h3 id="苹果ICC文件调出"><a href="#苹果ICC文件调出" class="headerlink" title="苹果ICC文件调出"></a>苹果ICC文件调出</h3><blockquote>
+<p>m1之后的锁定，找不出来</p>
+</blockquote>
+<ul>
+<li><p>【方法1】在 Finder 按 “shift＋command＋G”，输入：~&#x2F;Library(资源库）&#x2F;ColorSync&#x2F;Profiles，确认“前往”  </p>
+</li>
+<li><p>【方法2】系统设置-显示器-打开描述文件，然后会调用ColorSync工具，在ColorSync工具中保存这个配置文件就ok</p>
+</li>
+</ul>
+<h1 id="四、重装系统后重新加载校色文件流程"><a href="#四、重装系统后重新加载校色文件流程" class="headerlink" title="四、重装系统后重新加载校色文件流程"></a>四、重装系统后重新加载校色文件流程</h1><ol>
+<li>桌面-右键-显示设置-显示-高级显示设置-显示器1的适配器属性-颜色管理-颜色管理-选择自己的显示器设备-使用我对此设备的设置-添加-浏览-选择自己的icc校色文件</li>
+<li>桌面-右键-显示设置-显示-高级显示设置-显示器1的适配器属性-颜色管理-颜色管理-高级-设备配置文件(<code>这里是指WIN自带看图的时候用哪个ICC，如果是双屏，因为只能用1个icc，另一个屏幕就会不对，下载Br就可以解决</code>)-选择自己对应屏幕的icc校色文件-更改系统默认值-打勾使用Windows显示器校准</li>
+</ol>
+<h1 id="五-已经校色设备重新校色流程"><a href="#五-已经校色设备重新校色流程" class="headerlink" title="五.已经校色设备重新校色流程"></a>五.已经校色设备重新校色流程</h1><p>桌面-右键-显示设置-显示-高级显示设置-显示器1的适配器属性-颜色管理-颜色管理-选择自己的显示器设备-删除所有的icc文件配置文件(则会自动指向默认的配置文件)</p>
+<h1 id="六-其他事项"><a href="#六-其他事项" class="headerlink" title="六.其他事项"></a>六.其他事项</h1><blockquote>
+<p>注：校色时间约15min一台</p>
+</blockquote>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2024/08/10/SONY4%E4%B8%AA%E5%AE%98%E6%96%B9Lut%E8%AF%A6%E8%A7%A3/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="BrandonYan">
+      <meta itemprop="description" content="一个脑子不够，那就再加一个。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="External-Brain">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2024/08/10/SONY4%E4%B8%AA%E5%AE%98%E6%96%B9Lut%E8%AF%A6%E8%A7%A3/" class="post-title-link" itemprop="url">SONY4个官方Lut详解</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2024-08-10 21:07:59 / 修改时间：21:13:26" itemprop="dateCreated datePublished" datetime="2024-08-10T21:07:59+08:00">2024-08-10</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%BD%B1%E8%A7%86%E5%90%8E%E6%9C%9F%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">影视后期技术</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>153</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <blockquote>
+<p>本篇仅针对Slog3</p>
+</blockquote>
+<p>官方Slog3还原Lut下载地址：</p>
+<p><a target="_blank" rel="noopener" href="https://www.sony.com/electronics/support/software/00263050">https://www.sony.com/electronics/support/software/00263050</a></p>
+<p>下载解压后得到：</p>
+<p><img src="/SONY4%E4%B8%AA%E5%AE%98%E6%96%B9Lut%E8%AF%A6%E8%A7%A3/image-20240810211145175.png" alt="image-20240810211145175"></p>
+<p>按从上到下顺序<br>1 直接还原成广播级709，适合加载后完全不调色<br>2 具有一定调色空间的709，也就是还原了709的对应颜色关系，但还保留一定的调色空间<br>3 颜色对应关系参考阿莱，比2的调色空间略大<br>4 颜色空间对应为709，亮度曲线保留，适合需要完全掌控曲线调节的用户</p>
+<p>一般使用2，即typeA版本</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2024/08/10/%E6%95%B0%E5%AD%97%E5%AA%92%E4%BD%93%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -657,7 +923,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2025-06-11 22:29:05" itemprop="dateModified" datetime="2025-06-11T22:29:05+08:00">2025-06-11</time>
+                <time title="修改时间：2025-07-12 01:02:48" itemprop="dateModified" datetime="2025-07-12T01:02:48+08:00">2025-07-12</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -819,7 +1085,11 @@
 <p>下载链接（不要用上面视频给的，用不了）：<a target="_blank" rel="noopener" href="https://www.lookae.com/overlord-127/">https://www.lookae.com/overlord-127/</a></p>
 </blockquote>
 <h3 id="12个Ae首选项设置，帮你提高30-的电脑性能与工作效率"><a href="#12个Ae首选项设置，帮你提高30-的电脑性能与工作效率" class="headerlink" title="12个Ae首选项设置，帮你提高30%的电脑性能与工作效率"></a>12个Ae首选项设置，帮你提高30%的电脑性能与工作效率</h3><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1a94y1C7vv/?spm_id_from=333.337.search-card.all.click&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1a94y1C7vv/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p>
-<h3 id="AE图层描边蒙版：图层-自动追踪"><a href="#AE图层描边蒙版：图层-自动追踪" class="headerlink" title="AE图层描边蒙版：图层-自动追踪"></a>AE图层描边蒙版：图层-自动追踪</h3><h2 id="四、BUG-解决方案"><a href="#四、BUG-解决方案" class="headerlink" title="四、BUG 解决方案"></a>四、BUG 解决方案</h2><h3 id="遇到失效插件："><a href="#遇到失效插件：" class="headerlink" title="遇到失效插件："></a>遇到失效插件：</h3><p>​		1、清理内存与磁盘缓存</p>
+<h3 id="AE图层描边蒙版：图层-自动追踪"><a href="#AE图层描边蒙版：图层-自动追踪" class="headerlink" title="AE图层描边蒙版：图层-自动追踪"></a>AE图层描边蒙版：图层-自动追踪</h3><h3 id="【Ae分形杂色的妙用】如何制作跳动的手写字体"><a href="#【Ae分形杂色的妙用】如何制作跳动的手写字体" class="headerlink" title="【Ae分形杂色的妙用】如何制作跳动的手写字体"></a>【Ae分形杂色的妙用】如何制作跳动的手写字体</h3><blockquote>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1y64y1R7S8/?spm_id_from=333.337.search-card.all.click&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1y64y1R7S8/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p>
+</blockquote>
+<p><img src="https://exbrainpic.top/PicGo/image-20250712010201383.png" alt="image-20250712010201383"></p>
+<h2 id="四、BUG-解决方案"><a href="#四、BUG-解决方案" class="headerlink" title="四、BUG 解决方案"></a>四、BUG 解决方案</h2><h3 id="遇到失效插件："><a href="#遇到失效插件：" class="headerlink" title="遇到失效插件："></a>遇到失效插件：</h3><p>​		1、清理内存与磁盘缓存</p>
 <p>​		2、断网</p>
 <p>​		3、新建合成，使用纯色层添加失效插件</p>
 <p>​		4、完成</p>
@@ -1033,241 +1303,6 @@
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2024/06/10/Assetto-Corsa%EF%BC%88%E7%A5%9E%E5%8A%9B%E7%A7%91%E8%8E%8E%EF%BC%89%E8%AF%A6%E8%A7%A3/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="BrandonYan">
-      <meta itemprop="description" content="一个脑子不够，那就再加一个。">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="External-Brain">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/06/10/Assetto-Corsa%EF%BC%88%E7%A5%9E%E5%8A%9B%E7%A7%91%E8%8E%8E%EF%BC%89%E8%AF%A6%E8%A7%A3/" class="post-title-link" itemprop="url">Assetto Corsa（神力科莎）详解</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2024-06-10 02:06:47" itemprop="dateCreated datePublished" datetime="2024-06-10T02:06:47+08:00">2024-06-10</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2024-10-15 22:07:09" itemprop="dateModified" datetime="2024-10-15T22:07:09+08:00">2024-10-15</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%A8%A1%E6%8B%9F%E8%B5%9B%E8%BD%A6/" itemprop="url" rel="index"><span itemprop="name">模拟赛车</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>425</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>2 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <blockquote>
-<p>作为模拟赛车的经典游戏，经过无数的大神拓展，整个神力科莎系统十分复杂，本篇仅作为自己的笔记使用。</p>
-</blockquote>
-<h1 id="一、Content-Manager"><a href="#一、Content-Manager" class="headerlink" title="一、Content Manager"></a>一、Content Manager</h1><blockquote>
-<p>Content Manager从下载到卸载 | 2024 神力科莎CM启动器教程 #01</p>
-<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV14k4y1U7q2/?spm_id_from=333.337.search-card.all.click&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV14k4y1U7q2/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p>
-<p>神力科莎】CM启动器 Csp0.2.3 汉化补丁 (中英双语)</p>
-<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1eV411R7eJ/?spm_id_from=333.337.search-card.all.click&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1eV411R7eJ/?spm_id_from=333.337.search-card.all.click&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p>
-</blockquote>
-<h1 id="词汇注解："><a href="#词汇注解：" class="headerlink" title="词汇注解："></a>词汇注解：</h1><h2 id="专业词汇："><a href="#专业词汇：" class="headerlink" title="专业词汇："></a>专业词汇：</h2><p>FWD(<strong>FRONT-WHEEL DRIVE</strong>，前轮驱动)、</p>
-<p>RWD(<strong>REAR-WHEEL DRIVE</strong>，后轮驱动)、</p>
-<p>4WD(四轮驱动，分时四驱，有分动器，需要手动切换两驱和四驱)</p>
-<p>AWD(全轮驱动，全时四驱)</p>
-<blockquote>
-<p> 不同种类四驱的区别</p>
-<p> <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1QW411y72A/?t=9.53498&spm_id_from=333.1350.jump_directly&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1QW411y72A/?t=9.53498&amp;spm_id_from=333.1350.jump_directly&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p>
-</blockquote>
-<p>Volkswagen，缩写VW ，大众汽车</p>
-<p> <em>BHP</em>，Brake Horse Power，制动马力<code>考虑了汽车轮胎与道路之间的摩擦后的汽车马力。</code></p>
-<p>HP, Horse Power,马力</p>
-<p><em>SEAT LEON</em>，西雅特里昂，大众子品牌的一款两厢车</p>
-<p>Škoda Octavia，<strong>斯柯达明锐</strong>，大众子品牌的一款两厢车</p>
-<p>PS，Pferde（马） Starke（力），公制马力（德语）</p>
-<p><strong>turbocharged</strong>，引擎或车辆配备涡轮增压器的</p>
-<p>litre,度量单位,升,&#x3D;liter</p>
-<p>four-cylinder,四缸</p>
-<p>available performance pack，可用性能包</p>
-<p>haldex traction，智能四轮全时四驱系统</p>
-<p>《<strong>出赛准备</strong>》(<strong>Assetto Corsa</strong>)，神力科莎</p>
-<p>rallycross，汽车拉力赛</p>
-<p>EEUU ， “Estados Unidos” 的缩写，也就是美国的西班牙语缩写。</p>
-<h2 id="其他词汇："><a href="#其他词汇：" class="headerlink" title="其他词汇："></a>其他词汇：</h2><p>debuted,亮相</p>
-<p>its home country，本土</p>
-<p>in the guise of，伪装成，披着…的外衣</p>
-<p>radical，激进的</p>
-<p>significant，显著的</p>
-<p>modular，模块化的</p>
-<p>utilised to，被用于</p>
-<p>approximate，大概的</p>
-<p>restriction,（受）限制（状态）</p>
-<p>Pacific coast，太平洋海岸</p>
-<h2 id="插件下载地址"><a href="#插件下载地址" class="headerlink" title="插件下载地址"></a>插件下载地址</h2><p><a target="_blank" rel="noopener" href="https://www.overtake.gg/">https://www.overtake.gg/</a></p>
-<h1 id="管理各种模组"><a href="#管理各种模组" class="headerlink" title="管理各种模组"></a>管理各种模组</h1><p>CM-内容</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2024/06/09/%E6%BC%82%E7%A7%BB%E8%AF%A6%E8%A7%A3/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="BrandonYan">
-      <meta itemprop="description" content="一个脑子不够，那就再加一个。">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="External-Brain">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/06/09/%E6%BC%82%E7%A7%BB%E8%AF%A6%E8%A7%A3/" class="post-title-link" itemprop="url">漂移详解</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2024-06-09 12:48:00" itemprop="dateCreated datePublished" datetime="2024-06-09T12:48:00+08:00">2024-06-09</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2024-06-12 22:49:01" itemprop="dateModified" datetime="2024-06-12T22:49:01+08:00">2024-06-12</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%A8%A1%E6%8B%9F%E8%B5%9B%E8%BD%A6/" itemprop="url" rel="index"><span itemprop="name">模拟赛车</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>179</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <blockquote>
-<p>学完咱也去送豆腐</p>
-</blockquote>
-<p>漂移是甩尾衍生出的一种驾驶方式。</p>
-<h1 id="前置步骤"><a href="#前置步骤" class="headerlink" title="前置步骤"></a>前置步骤</h1><p>选择一辆后驱或者四驱车，关闭辅助和TC。</p>
-<h1 id="步骤："><a href="#步骤：" class="headerlink" title="步骤："></a>步骤：</h1><p>打方向起飘-后轮失去抓地力-反打方向并稍微收油-维持合适的油门和方向保持漂移姿态-收油结束漂移</p>
-<h2 id="起飘"><a href="#起飘" class="headerlink" title="起飘"></a>起飘</h2><ul>
-<li>动力起飘</li>
-<li>弹离合起飘</li>
-<li>手刹起飘</li>
-</ul>
-<h2 id="反打收油"><a href="#反打收油" class="headerlink" title="反打收油"></a>反打收油</h2><p>感觉开始侧倾后快速反打并稍微收油<code>不收油会spin，收油太多后轮恢复抓地力又会停止漂移</code></p>
-<blockquote>
-<p>参考资料：</p>
-<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1hP4y1A7Rt/?t=6.711354&spm_id_from=333.1350.jump_directly&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1hP4y1A7Rt/?t=6.711354&amp;spm_id_from=333.1350.jump_directly&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p>
-<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1hF411J7zc/?spm_id_from=333.788.recommend_more_video.2&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV1hF411J7zc/?spm_id_from=333.788.recommend_more_video.2&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p>
-<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV15f4y1V78R?p=2&vd_source=a07c82c6cb97fb4f6f2e96c58468f044">https://www.bilibili.com/video/BV15f4y1V78R?p=2&amp;vd_source=a07c82c6cb97fb4f6f2e96c58468f044</a></p>
-</blockquote>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
 
   
   <nav class="pagination">
@@ -1337,7 +1372,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">88</span>
+          <span class="site-state-item-count">90</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -1391,14 +1426,14 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">2:50</span>
+    <span title="站点阅读时长">2:51</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共46.1k字</span>
+  <span class="post-count">博客全站共46.3k字</span>
 </div>
         
 
